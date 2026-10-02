@@ -1,0 +1,80 @@
+@if (view(); as v) {
+  <section class="explorer">
+    <div class="explorer-head">
+      <app-breadcrumb [crumbs]="v.crumbs" />
+      <app-year-picker [years]="summary()?.years ?? []" [selected]="selectedYear()" base="/despesas" />
+    </div>
+
+    <header class="explorer-title">
+      <span class="eyebrow">DESPESAS · EXERCÍCIO {{ selectedYear() }}</span>
+      <h1>{{ v.title }}
+        @switch (v.mode) {
+          @case ('function') { <app-info term="funcao" /> }
+          @case ('nature') { <app-info term="natureza-despesa" /> }
+        }
+      </h1>
+      <p class="big">{{ v.stages.paid | money }} <small>pagos</small></p>
+      @switch (v.mode) {
+        @case ('function') { <p class="muted">{{ v.stages.paid | pct: finance()!.expenses.paid }} de tudo o que o município pagou no ano</p> }
+        @case ('nature') { <p class="muted">{{ v.stages.paid | pct: finance()!.expenses.natures.paid }} de toda a despesa por tipo de gasto</p> }
+      }
+    </header>
+
+    <app-stages [value]="v.stages" />
+    <p class="muted">A diferença entre empenhado e pago fica para o ano seguinte como restos a pagar <app-info term="restos-a-pagar" />.</p>
+
+    @switch (v.mode) {
+      @case ('root') {
+        <div class="panels">
+          <article class="panel">
+            <h3>Por área de governo <app-info term="funcao" /></h3>
+            <p class="hint">Em que o dinheiro foi gasto: saúde, educação, urbanismo… Clique para ver as subáreas.</p>
+            <app-bar-list [rows]="v.rows" />
+          </article>
+          <article class="panel">
+            <h3>Por tipo de gasto <app-info term="natureza-despesa" /></h3>
+            <p class="hint">O que foi pago: salários, serviços de empresas, materiais, obras… Clique para detalhar.</p>
+            <app-bar-list [rows]="natureRows()" />
+            @if (intraTotal() > 0) {
+              <p class="hint">Inclui {{ intraTotal() | money }} pagos entre órgãos da própria Prefeitura, como a contribuição ao regime próprio de previdência <app-info term="intraorcamentaria" />.</p>
+            }
+          </article>
+        </div>
+      }
+      @case ('function') {
+        <article class="panel">
+          <h3>Subáreas <app-info term="subfuncao" /></h3>
+          <p class="hint">Valor pago em cada subárea de {{ v.title }}.</p>
+          <app-bar-list [rows]="v.rows" />
+        </article>
+        @if (linkedAmendments().length) {
+          <article class="panel">
+            <h3>Emendas destinadas a esta área <app-info term="confianca-vinculo" /></h3>
+            <p class="hint">Emendas Pix cujo plano de trabalho, declarado pela Prefeitura, indica {{ v.title }}. Siga o caminho do dinheiro de cada uma.</p>
+            <ul class="link-list">
+              @for (a of linkedAmendments(); track a.id) {
+                <li><a [routerLink]="['/emendas', a.id]"><strong>{{ a.purpose }}</strong><span>{{ a.parliamentarian }} · {{ a.values.transferred | money }} repassados</span><b aria-hidden="true">›</b></a></li>
+              }
+            </ul>
+          </article>
+        }
+        <p class="notice">Próximo nível — programas, contratos e fornecedores — depende dos dados do portal municipal, que ainda não foram integrados.</p>
+      }
+      @case ('nature') {
+        <article class="panel">
+          @if (v.rows.length) {
+            <h3>Do que é formado este gasto</h3>
+            <p class="hint">Linhas com <b>›</b> têm mais detalhes.</p>
+            <app-bar-list [rows]="v.rows" />
+          } @else {
+            <h3>Nível mais detalhado</h3>
+            <p class="hint">Este é o menor nível publicado no balanço anual. Fornecedores e notas de empenho dependem dos dados do portal municipal, que ainda não foram integrados.</p>
+          }
+        </article>
+      }
+    }
+    <p class="source">Fonte: <a href="https://siconfi.tesouro.gov.br" target="_blank" rel="noopener">SICONFI</a>, DCA Anexos I-E e I-D <app-info term="dca" /> · <a [href]="v.mode === 'nature' ? finance()!.expenses.natures.sourceUrl : finance()!.expenses.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+  </section>
+} @else {
+  <section class="explorer"><p class="muted">Carregando despesas…</p></section>
+}

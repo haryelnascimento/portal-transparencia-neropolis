@@ -1,0 +1,48 @@
+@if (view(); as v) {
+  <section class="explorer">
+    <div class="explorer-head">
+      <app-breadcrumb [crumbs]="v.crumbs" />
+      <app-year-picker [years]="summary()?.years ?? []" [selected]="selectedYear()" base="/receitas" />
+    </div>
+
+    @if (notFound()) {
+      <p class="notice">Esta linha de receita não existe em {{ selectedYear() }}. A classificação nacional das receitas mudou em 2022 — escolha outro nível abaixo.</p>
+    }
+
+    <header class="explorer-title">
+      <span class="eyebrow">RECEITAS · EXERCÍCIO {{ selectedYear() }}</span>
+      <h1>{{ v.title }} @if (v.term) { <app-info [term]="v.term" /> }</h1>
+      <p class="big">{{ v.value | money }}</p>
+      @if (v.parentValue) {
+        <p class="muted">@if (v.parentValue !== finance()!.revenues.gross) { {{ v.value | pct: v.parentValue }} do nível anterior · }{{ v.value | pct: finance()!.revenues.gross }} de toda a receita do município</p>
+      }
+      @if (v.code) { <p class="muted code">Código de natureza {{ v.code }} <app-info term="natureza-receita" /></p> }
+    </header>
+
+    @if (!v.code && !origem()) {
+      <article class="panel">
+        <h3>Por origem <app-info term="origem" /></h3>
+        <p class="hint">Clique em uma origem para ver de quais impostos e repasses ela é formada.</p>
+        <app-bar-list [rows]="originRows()" />
+      </article>
+    }
+
+    <article class="panel">
+      @if (rows().length) {
+        <h3>{{ v.code || origem() ? 'Do que é formado este valor' : 'Por categoria' }}</h3>
+        <p class="hint">Linhas com <b>›</b> têm mais detalhes. Passe o mouse para ver a participação.</p>
+        <app-bar-list [rows]="rows()" />
+      } @else {
+        <h3>Nível mais detalhado</h3>
+        <p class="hint">Este é o menor nível publicado pelo Tesouro Nacional para esta receita. Para saber em que o dinheiro foi gasto, veja as <a [routerLink]="['/despesas', selectedYear()]">despesas do município</a>.</p>
+      }
+    </article>
+
+    @if (!v.code && !origem()) {
+      <p class="muted">Deduções da receita <app-info term="deducoes" />: {{ finance()!.revenues.deductions | money }} · Receita líquida: {{ finance()!.revenues.net | money }}</p>
+    }
+    <p class="source">Fonte: <a href="https://siconfi.tesouro.gov.br" target="_blank" rel="noopener">SICONFI</a> <app-info term="siconfi" />, DCA Anexo I-C <app-info term="dca" /> · <a [href]="finance()!.revenues.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+  </section>
+} @else {
+  <section class="explorer"><p class="muted">Carregando receitas…</p></section>
+}

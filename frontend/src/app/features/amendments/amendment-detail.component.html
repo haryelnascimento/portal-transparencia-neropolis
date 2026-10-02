@@ -1,0 +1,101 @@
+@if (amendment(); as a) {
+  <section class="explorer">
+    <app-breadcrumb [crumbs]="[{ label: 'Emendas parlamentares', link: ['/emendas'] }, { label: a.purpose }]" />
+    <header class="explorer-title">
+      <span class="eyebrow">EMENDA PIX · {{ a.year }} <app-info term="transferencia-especial" /></span>
+      <h1 class="h1-long">{{ a.purpose }}</h1>
+      <p class="big">{{ a.values.transferred | money }} <small>repassados de {{ a.values.planned | money }}</small></p>
+      <p class="muted">Indicada por {{ a.parliamentarian }} · área indicada na emenda: {{ a.area }} · plano de ação {{ a.code }} <app-info term="plano-acao" /></p>
+    </header>
+
+    <ol class="trail" aria-label="Caminho do dinheiro">
+      <li>
+        <span class="step">1</span>
+        <div>
+          <h3>Indicação <app-info term="emenda-parlamentar" /></h3>
+          <p>{{ a.parliamentarian }} destinou {{ a.values.planned | money }} a Nerópolis pela emenda nº {{ a.amendmentNumber }}.</p>
+          <dl class="facts">
+            <div><dt>Custeio <app-info term="custeio-investimento" /></dt><dd>{{ a.costing | money }}</dd></div>
+            <div><dt>Investimento</dt><dd>{{ a.investment | money }}</dd></div>
+            <div><dt>Órgão federal</dt><dd>{{ a.agency }}</dd></div>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <span class="step">2</span>
+        <div>
+          <h3>Empenho pela União <app-info term="empenho" /></h3>
+          @for (e of a.commitments; track e.number) {
+            <p><time>{{ e.date | date: 'dd/MM/yyyy' : 'UTC' }}</time> · nota {{ e.number }} · {{ e.amount | money }}@if (e.category) { · {{ e.category.toLowerCase() }} }</p>
+          } @empty { <p class="muted">Ainda não empenhada.</p> }
+        </div>
+      </li>
+      <li>
+        <span class="step">3</span>
+        <div>
+          <h3>Repasse ao município <app-info term="ordem-bancaria" /></h3>
+          @for (p of a.payments; track p.order) {
+            <p><time>{{ p.date | date: 'dd/MM/yyyy' : 'UTC' }}</time> · ordem bancária {{ p.order }} · <strong>{{ p.amount | money }}</strong></p>
+          } @empty { <p class="muted">Nenhum repasse registrado.</p> }
+        </div>
+      </li>
+      <li>
+        <span class="step">4</span>
+        <div>
+          <h3>Entrada no orçamento da Prefeitura <app-info term="plano-trabalho" /></h3>
+          @if (a.workPlan; as wp) {
+            <p>Plano de trabalho {{ wp.status.toLowerCase() }} · execução de {{ wp.start | date: 'dd/MM/yyyy' : 'UTC' }} a {{ wp.end | date: 'dd/MM/yyyy' : 'UTC' }} ({{ wp.months }} meses).</p>
+            @for (block of wp.budget; track $index) {
+              <dl class="facts budget">
+                @for (field of budgetLabels; track field[0]) {
+                  @if (block[field[0]]; as item) {
+                    <div><dt>{{ field[1] }}</dt><dd>
+                      @if (field[0] === 'function' && a.links.function) {
+                        <a [routerLink]="['/despesas', summary()?.latestYear]" [queryParams]="{ funcao: a.links.function.code }">{{ item.name }} ›</a>
+                      } @else { {{ item.name }} }
+                    </dd></div>
+                  }
+                }
+              </dl>
+            } @empty { <p class="muted">A Prefeitura ainda não informou a classificação orçamentária.</p> }
+            @if (a.links.function && a.links.function.name !== a.area) {
+              <p class="notice">A emenda foi indicada para a área <strong>{{ a.area }}</strong>, mas a Prefeitura a classificou no orçamento municipal como <strong>{{ a.links.function.name }}</strong>.</p>
+            }
+            @if (a.links.function) {
+              <p class="hint">Veja quanto o município gastou em <a [routerLink]="['/despesas', summary()?.latestYear]" [queryParams]="{ funcao: a.links.function.code }">{{ a.links.function.name }}</a> no total <app-info term="confianca-vinculo" />.</p>
+            }
+          } @else { <p class="muted">Plano de trabalho não enviado.</p> }
+        </div>
+      </li>
+      <li>
+        <span class="step">5</span>
+        <div>
+          <h3>O que será entregue <app-info term="metas" /></h3>
+          @for (g of a.goals; track $index) {
+            <p><strong>{{ g.name }}:</strong> {{ g.description }} — {{ g.quantity }} {{ g.unit }} · {{ g.amount | money }}@if (g.ownResources) { + {{ g.ownResources | money }} de recursos próprios }@if (g.months) { · prazo de {{ g.months }} meses }</p>
+          } @empty { <p class="muted">Metas não informadas.</p> }
+        </div>
+      </li>
+      <li>
+        <span class="step">6</span>
+        <div>
+          <h3>Prestação de contas <app-info term="relatorio-gestao" /></h3>
+          @if (a.managementReport; as r) {
+            <p>Relatório {{ r.type.toLowerCase() }} — <span class="status" [class.pending]="a.values.reportedExecuted === null"><i></i>{{ r.status.toLowerCase() }}</span> (atualizado em {{ r.date | date: 'dd/MM/yyyy' : 'UTC' }}).</p>
+            @if (a.values.reportedExecuted !== null) {
+              <p>Executado declarado: <strong>{{ a.values.reportedExecuted | money }}</strong> ({{ a.values.reportedExecuted | pct: a.values.transferred }} do repassado).</p>
+            } @else {
+              <p class="muted">O valor executado só é exibido quando o relatório é entregue.</p>
+            }
+          } @else { <p class="muted">Nenhum relatório de gestão enviado.</p> }
+        </div>
+      </li>
+    </ol>
+    <p class="source">Fonte: Transferegov <app-info term="transferegov" /> · <a [href]="a.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+  </section>
+} @else {
+  <section class="explorer">
+    <app-breadcrumb [crumbs]="[{ label: 'Emendas parlamentares', link: ['/emendas'] }, { label: 'Emenda' }]" />
+    <p class="muted">{{ loaded() ? 'Emenda não encontrada.' : 'Carregando…' }} <a routerLink="/emendas">Ver todas as emendas</a></p>
+  </section>
+}
