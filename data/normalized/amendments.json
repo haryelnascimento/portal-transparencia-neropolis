@@ -21,6 +21,130 @@
       "status": "Em elaboração",
       "date": "2026-06-30"
     },
+    "costing": 90000.0,
+    "investment": 210000.0,
+    "workPlan": {
+      "status": "Concluído",
+      "start": "2024-12-13",
+      "end": "2026-12-13",
+      "months": 24,
+      "budget": [
+        {
+          "organ": {
+            "code": "000010",
+            "name": "Prefeitura Municipal de Nerópolis"
+          },
+          "unit": {
+            "code": "000045",
+            "name": "Sec Municipal de Ciência, Tecnologia e Inovação"
+          },
+          "function": {
+            "code": "000014",
+            "name": "Direitos da Cidadania"
+          },
+          "subfunction": {
+            "code": "000181",
+            "name": "Policiamento"
+          },
+          "program": {
+            "code": "004046",
+            "name": "Programa Cidade Segura"
+          },
+          "action": {
+            "code": "2.257",
+            "name": "Monitoramento Eletrônico Ruas e Avenidas das Cidade"
+          },
+          "element": {
+            "code": "449052",
+            "name": "Equipamento e Material Permanente"
+          },
+          "fundingSource": {
+            "code": "1.80.000",
+            "name": "Emenda P.I Transferência Especial"
+          }
+        },
+        {
+          "organ": {
+            "code": "000010",
+            "name": "Prefeitura Municipal de Nerópolis"
+          },
+          "unit": {
+            "code": "000045",
+            "name": "Sec Municipal de Ciência, Tecnologia e Inovação"
+          },
+          "function": {
+            "code": "000014",
+            "name": "Direitos da Cidadania"
+          },
+          "subfunction": {
+            "code": "000181",
+            "name": "Policiamento"
+          },
+          "program": {
+            "code": "004046",
+            "name": "Programa Cidade Segura"
+          },
+          "action": {
+            "code": "2.257",
+            "name": "Monitoramento Eletrônico Ruas e Avenidas das Cidade"
+          },
+          "element": {
+            "code": "339039",
+            "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+          },
+          "fundingSource": {
+            "code": "1.80.000",
+            "name": "Emenda P.I Transferência Especial"
+          }
+        }
+      ]
+    },
+    "goals": [
+      {
+        "name": "Meta 1",
+        "description": "Instalação de sistema de Videomonitoramento no município.",
+        "unit": "UN",
+        "quantity": 1.0,
+        "months": 24,
+        "amount": 300000.0,
+        "ownResources": 0.0
+      }
+    ],
+    "commitments": [
+      {
+        "number": "2024NE009537",
+        "date": "2024-06-26",
+        "amount": 90000.0,
+        "category": "Custeio",
+        "status": "Enviado"
+      },
+      {
+        "number": "2024NE009538",
+        "date": "2024-06-26",
+        "amount": 210000.0,
+        "category": "Investimento",
+        "status": "Enviado"
+      }
+    ],
+    "payments": [
+      {
+        "order": "2024OB011148",
+        "document": "2024TF011082",
+        "date": "2024-12-13",
+        "amount": 90000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      },
+      {
+        "order": "2024OB011140",
+        "document": "2024TF011083",
+        "date": "2024-12-13",
+        "amount": 210000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      }
+    ],
+    "links": {
+      "function": null
+    },
     "timeline": [
       {
         "date": "2024-06-26",
@@ -82,6 +206,82 @@
       "status": "Em elaboração",
       "date": "2026-06-30"
     },
+    "costing": 50000.0,
+    "investment": 0.0,
+    "workPlan": {
+      "status": "Concluído",
+      "start": "2024-07-03",
+      "end": "2025-01-03",
+      "months": 6,
+      "budget": [
+        {
+          "organ": {
+            "code": "000019",
+            "name": "Fundo Municipal de Meio Ambiente"
+          },
+          "unit": {
+            "code": "000001",
+            "name": "Fundo Municipal de Meio Ambiente"
+          },
+          "function": {
+            "code": "000018",
+            "name": "Gestão Ambiental"
+          },
+          "subfunction": {
+            "code": "000541",
+            "name": "Preservação e Conservação Ambiental"
+          },
+          "program": {
+            "code": "004000",
+            "name": "Gestão de Apoio Administrativo"
+          },
+          "action": {
+            "code": "2.319",
+            "name": "Manutenção e Custeio Sec. Meio Ambiente"
+          },
+          "element": {
+            "code": "339039",
+            "name": "Outros serviços de terceiros - Pessoa Jurídica"
+          },
+          "fundingSource": {
+            "code": "1.80.000",
+            "name": "Emenda P.I Transferência Especial"
+          }
+        }
+      ]
+    },
+    "goals": [
+      {
+        "name": "Meta 1",
+        "description": "Palestras de preservação e conservação ambiental para estudantes e plantio e doação de mudas nativas.",
+        "unit": "UN",
+        "quantity": 1.0,
+        "months": 6,
+        "amount": 50000.0,
+        "ownResources": 0.0
+      }
+    ],
+    "commitments": [
+      {
+        "number": "2024NE008435",
+        "date": "2024-06-26",
+        "amount": 50000.0,
+        "category": "Custeio",
+        "status": "Enviado"
+      }
+    ],
+    "payments": [
+      {
+        "order": "2024OB004630",
+        "document": "2024TF004504",
+        "date": "2024-07-03",
+        "amount": 50000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      }
+    ],
+    "links": {
+      "function": null
+    },
     "timeline": [
       {
         "date": "2024-06-26",
@@ -132,6 +332,82 @@
       "type": "Parcial",
       "status": "Em elaboração",
       "date": "2026-06-30"
+    },
+    "costing": 0.0,
+    "investment": 400000.0,
+    "workPlan": {
+      "status": "Concluído",
+      "start": "2024-12-13",
+      "end": "2026-12-13",
+      "months": 24,
+      "budget": [
+        {
+          "organ": {
+            "code": "000010",
+            "name": "Prefeitura Municipal de Nerópolis"
+          },
+          "unit": {
+            "code": "000051",
+            "name": "Secretaria Municipal de Infraestrutura"
+          },
+          "function": {
+            "code": "000051",
+            "name": "Urbanismo"
+          },
+          "subfunction": {
+            "code": "000451",
+            "name": "Infra-Estrutura Urbana"
+          },
+          "program": {
+            "code": "004017",
+            "name": "Prog. Urban. E Melhorias Vias e Espaços Públicos"
+          },
+          "action": {
+            "code": "2.374",
+            "name": "Reforma, Ampliação. Manutenção de Prédios Públicos"
+          },
+          "element": {
+            "code": "449051",
+            "name": "Obras e Instalações"
+          },
+          "fundingSource": {
+            "code": "1.80.000",
+            "name": "Emenda P.I Transferência Especial"
+          }
+        }
+      ]
+    },
+    "goals": [
+      {
+        "name": "Meta 1",
+        "description": "Adequação e reforma de prédio público para instalação da garagem municipal.",
+        "unit": "UN",
+        "quantity": 1.0,
+        "months": 24,
+        "amount": 400000.0,
+        "ownResources": 0.0
+      }
+    ],
+    "commitments": [
+      {
+        "number": "2024NE009540",
+        "date": "2024-06-26",
+        "amount": 400000.0,
+        "category": "Investimento",
+        "status": "Enviado"
+      }
+    ],
+    "payments": [
+      {
+        "order": "2024OB012252",
+        "document": "2024TF011085",
+        "date": "2024-12-13",
+        "amount": 400000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      }
+    ],
+    "links": {
+      "function": null
     },
     "timeline": [
       {
@@ -184,6 +460,82 @@
       "status": "Em elaboração",
       "date": "2026-06-30"
     },
+    "costing": 0.0,
+    "investment": 3500000.0,
+    "workPlan": {
+      "status": "Concluído",
+      "start": "2024-12-12",
+      "end": "2027-12-12",
+      "months": 36,
+      "budget": [
+        {
+          "organ": {
+            "code": "000010",
+            "name": "Prefeitura Municipal de Nerópolis"
+          },
+          "unit": {
+            "code": "000046",
+            "name": "Sec Municipal de Educação, Cultura e Esporte"
+          },
+          "function": {
+            "code": "000027",
+            "name": "Desporto e Lazer"
+          },
+          "subfunction": {
+            "code": "000812",
+            "name": "Desporto Comunitário"
+          },
+          "program": {
+            "code": "004025",
+            "name": "Prog. Incenti. ao Esporte Amador e ao Lazer"
+          },
+          "action": {
+            "code": "1.158",
+            "name": "Construir um Centro Esportivo"
+          },
+          "element": {
+            "code": "449051",
+            "name": "Obras e Instalações"
+          },
+          "fundingSource": {
+            "code": "1.80.000",
+            "name": "Emenda P.I Transferência Especial"
+          }
+        }
+      ]
+    },
+    "goals": [
+      {
+        "name": "Meta 1",
+        "description": "Revitalização do lago municipal de Nerópolis",
+        "unit": "UN",
+        "quantity": 1.0,
+        "months": 36,
+        "amount": 3500000.0,
+        "ownResources": 0.0
+      }
+    ],
+    "commitments": [
+      {
+        "number": "2024NE009534",
+        "date": "2024-06-26",
+        "amount": 3500000.0,
+        "category": "Investimento",
+        "status": "Enviado"
+      }
+    ],
+    "payments": [
+      {
+        "order": "2024OB007382",
+        "document": "2024TF011080",
+        "date": "2024-12-12",
+        "amount": 3500000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      }
+    ],
+    "links": {
+      "function": null
+    },
     "timeline": [
       {
         "date": "2024-06-26",
@@ -231,6 +583,47 @@
       "reportedExecuted": null
     },
     "managementReport": null,
+    "costing": 0.0,
+    "investment": 199000.0,
+    "workPlan": {
+      "status": "Aprovado",
+      "start": "2026-06-22",
+      "end": "2029-06-22",
+      "months": 36,
+      "budget": []
+    },
+    "goals": [
+      {
+        "name": "Meta 1",
+        "description": "Aquisição de mobiliário, equipamentos eletrônicos e eletrodomésticos",
+        "unit": "UN",
+        "quantity": 76.0,
+        "months": 36,
+        "amount": 199000.0,
+        "ownResources": 0.0
+      }
+    ],
+    "commitments": [
+      {
+        "number": "2026NE008461",
+        "date": "2026-06-19",
+        "amount": 199000.0,
+        "category": "Investimento",
+        "status": "Enviado"
+      }
+    ],
+    "payments": [
+      {
+        "order": "2026OB005894",
+        "document": "2026TF004378",
+        "date": "2026-06-22",
+        "amount": 199000.0,
+        "status": "OB Enviada à instituição bancária para pagamento"
+      }
+    ],
+    "links": {
+      "function": null
+    },
     "timeline": [
       {
         "date": "2026-06-19",

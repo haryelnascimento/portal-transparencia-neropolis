@@ -8,26 +8,44 @@
       {
         "key": "union",
         "label": "União",
+        "codes": [
+          "1.7.1.0.00.0.0",
+          "2.4.1.0.00.0.0"
+        ],
         "value": 90348230.52
       },
       {
         "key": "state",
         "label": "Estado de Goiás",
+        "codes": [
+          "1.7.2.0.00.0.0",
+          "2.4.2.0.00.0.0"
+        ],
         "value": 76281847.82
       },
       {
         "key": "fundeb",
         "label": "FUNDEB",
+        "codes": [
+          "1.7.5.0.00.0.0"
+        ],
         "value": 24866490.41
       },
       {
         "key": "own",
         "label": "Arrecadação própria",
+        "codes": [
+          "1.1.0.0.00.0.0",
+          "1.2.0.0.00.0.0",
+          "1.3.0.0.00.0.0",
+          "1.9.0.0.00.0.0"
+        ],
         "value": 64191111.55
       },
       {
         "key": "other",
         "label": "Outras receitas",
+        "codes": [],
         "value": 56946.23
       }
     ],
@@ -36,67 +54,780 @@
         "key": "fpm",
         "label": "FPM (federal)",
         "origin": "union",
+        "codes": [
+          "1.7.1.1.51.0.0"
+        ],
         "value": 48684022.77
       },
       {
         "key": "icms",
         "label": "ICMS (cota-parte)",
         "origin": "state",
+        "codes": [
+          "1.7.2.1.50.0.0"
+        ],
         "value": 47714578.2
       },
       {
         "key": "sus-union",
         "label": "SUS — União",
         "origin": "union",
+        "codes": [
+          "1.7.1.3.00.0.0"
+        ],
         "value": 33395013.12
       },
       {
         "key": "fundeb",
         "label": "FUNDEB",
         "origin": "fundeb",
+        "codes": [
+          "1.7.5.0.00.0.0"
+        ],
         "value": 24866490.41
       },
       {
         "key": "sus-state",
         "label": "SUS — Estado",
         "origin": "state",
+        "codes": [
+          "1.7.2.3.00.0.0"
+        ],
         "value": 19442193.66
       },
       {
         "key": "iss",
         "label": "ISS",
         "origin": "own",
+        "codes": [
+          "1.1.1.4.51.0.0"
+        ],
         "value": 14176089.14
       },
       {
         "key": "iptu",
         "label": "IPTU",
         "origin": "own",
+        "codes": [
+          "1.1.1.2.50.0.0"
+        ],
         "value": 8067536.72
       },
       {
         "key": "irrf",
         "label": "IR retido na fonte",
         "origin": "own",
+        "codes": [
+          "1.1.1.3.03.0.0"
+        ],
         "value": 7657475.25
       },
       {
         "key": "ipva",
         "label": "IPVA (cota-parte)",
         "origin": "state",
+        "codes": [
+          "1.7.2.1.51.0.0"
+        ],
         "value": 5513545.97
       },
       {
         "key": "itbi",
         "label": "ITBI",
         "origin": "own",
+        "codes": [
+          "1.1.1.2.53.0.0"
+        ],
         "value": 2817217.04
       },
       {
         "key": "fnde",
         "label": "FNDE (educação)",
         "origin": "union",
+        "codes": [
+          "1.7.1.4.00.0.0"
+        ],
         "value": 2431362.63
+      }
+    ],
+    "tree": [
+      {
+        "code": "1.0.0.0.00.0.0",
+        "name": "Receitas Correntes",
+        "value": 254476380.27,
+        "parent": null
+      },
+      {
+        "code": "1.1.0.0.00.0.0",
+        "name": "Impostos, Taxas e Contribuições de Melhoria",
+        "value": 34775553.74,
+        "parent": "1.0.0.0.00.0.0"
+      },
+      {
+        "code": "1.1.1.0.00.0.0",
+        "name": "Impostos",
+        "value": 32718318.15,
+        "parent": "1.1.0.0.00.0.0"
+      },
+      {
+        "code": "1.1.1.2.00.0.0",
+        "name": "Impostos sobre o Patrimônio",
+        "value": 10884753.76,
+        "parent": "1.1.1.0.00.0.0"
+      },
+      {
+        "code": "1.1.1.2.50.0.0",
+        "name": "Imposto sobre a Propriedade Predial e Territorial Urbana",
+        "value": 8067536.72,
+        "parent": "1.1.1.2.00.0.0"
+      },
+      {
+        "code": "1.1.1.2.53.0.0",
+        "name": "Impostos sobre Transmissão \"Inter Vivos\" de Bens Imóveis e de Direitos Reais sobre Imóveis",
+        "value": 2817217.04,
+        "parent": "1.1.1.2.00.0.0"
+      },
+      {
+        "code": "1.1.1.3.00.0.0",
+        "name": "Impostos sobre a Renda e Proventos de Qualquer Natureza",
+        "value": 7657475.25,
+        "parent": "1.1.1.0.00.0.0"
+      },
+      {
+        "code": "1.1.1.3.03.0.0",
+        "name": "Imposto sobre a Renda - Retido na Fonte",
+        "value": 7657475.25,
+        "parent": "1.1.1.3.00.0.0"
+      },
+      {
+        "code": "1.1.1.3.03.1.0",
+        "name": "Imposto sobre a Renda - Retido na Fonte - Trabalho",
+        "value": 7657475.25,
+        "parent": "1.1.1.3.03.0.0"
+      },
+      {
+        "code": "1.1.1.4.00.0.0",
+        "name": "Impostos sobre a Produção e Circulação de Mercadorias e Serviços",
+        "value": 14176089.14,
+        "parent": "1.1.1.0.00.0.0"
+      },
+      {
+        "code": "1.1.1.4.51.0.0",
+        "name": "Impostos sobre Serviços",
+        "value": 14176089.14,
+        "parent": "1.1.1.4.00.0.0"
+      },
+      {
+        "code": "1.1.1.4.51.1.0",
+        "name": "Imposto sobre Serviços de Qualquer Natureza - ISSQN",
+        "value": 14176089.14,
+        "parent": "1.1.1.4.51.0.0"
+      },
+      {
+        "code": "1.1.2.0.00.0.0",
+        "name": "Taxas",
+        "value": 2057235.59,
+        "parent": "1.1.0.0.00.0.0"
+      },
+      {
+        "code": "1.1.2.1.00.0.0",
+        "name": "Taxas pelo Exercício do Poder de Polícia",
+        "value": 978908.14,
+        "parent": "1.1.2.0.00.0.0"
+      },
+      {
+        "code": "1.1.2.1.01.0.0",
+        "name": "Taxas de Inspeção, Controle e Fiscalização",
+        "value": 840392.8,
+        "parent": "1.1.2.1.00.0.0"
+      },
+      {
+        "code": "1.1.2.1.04.0.0",
+        "name": "Taxa de Controle e Fiscalização Ambiental",
+        "value": 93469.48,
+        "parent": "1.1.2.1.00.0.0"
+      },
+      {
+        "code": "1.1.2.1.50.0.0",
+        "name": "Taxa de Fiscalização de Vigilância Sanitária",
+        "value": 45045.86,
+        "parent": "1.1.2.1.00.0.0"
+      },
+      {
+        "code": "1.1.2.2.00.0.0",
+        "name": "Taxas pela Prestação de Serviços",
+        "value": 1078327.45,
+        "parent": "1.1.2.0.00.0.0"
+      },
+      {
+        "code": "1.1.2.2.01.0.0",
+        "name": "Taxas pela Prestação de Serviços em Geral",
+        "value": 1078327.45,
+        "parent": "1.1.2.2.00.0.0"
+      },
+      {
+        "code": "1.2.0.0.00.0.0",
+        "name": "Contribuições",
+        "value": 18981147.02,
+        "parent": "1.0.0.0.00.0.0"
+      },
+      {
+        "code": "1.2.1.0.00.0.0",
+        "name": "Contribuições Sociais",
+        "value": 16366479.76,
+        "parent": "1.2.0.0.00.0.0"
+      },
+      {
+        "code": "1.2.1.5.00.0.0",
+        "name": "Contribuições para Regimes Próprios de Previdência e Sistema de Proteção Social",
+        "value": 16366479.76,
+        "parent": "1.2.1.0.00.0.0"
+      },
+      {
+        "code": "1.2.1.5.01.0.0",
+        "name": "Contribuição do Servidor Civil",
+        "value": 5637868.13,
+        "parent": "1.2.1.5.00.0.0"
+      },
+      {
+        "code": "1.2.1.5.01.1.0",
+        "name": "Contribuição do Servidor Civil Ativo",
+        "value": 5544116.29,
+        "parent": "1.2.1.5.01.0.0"
+      },
+      {
+        "code": "1.2.1.5.01.2.0",
+        "name": "Contribuição do Servidor Civil Inativo",
+        "value": 93751.84,
+        "parent": "1.2.1.5.01.0.0"
+      },
+      {
+        "code": "1.2.1.5.02.0.0",
+        "name": "Contribuição Patronal - Servidor Civil",
+        "value": 10728611.63,
+        "parent": "1.2.1.5.00.0.0"
+      },
+      {
+        "code": "1.2.1.5.02.1.0",
+        "name": "Contribuição Patronal - Servidor Civil Ativo",
+        "value": 10728611.63,
+        "parent": "1.2.1.5.02.0.0"
+      },
+      {
+        "code": "1.2.4.0.00.0.0",
+        "name": "Contribuição para o Custeio do Serviço de Iluminação Pública",
+        "value": 2614667.26,
+        "parent": "1.2.0.0.00.0.0"
+      },
+      {
+        "code": "1.3.0.0.00.0.0",
+        "name": "Receita Patrimonial",
+        "value": 9925846.56,
+        "parent": "1.0.0.0.00.0.0"
+      },
+      {
+        "code": "1.3.2.0.00.0.0",
+        "name": "Valores Mobiliários",
+        "value": 9925846.56,
+        "parent": "1.3.0.0.00.0.0"
+      },
+      {
+        "code": "1.3.2.1.00.0.0",
+        "name": "Juros e Correções Monetárias",
+        "value": 9925846.56,
+        "parent": "1.3.2.0.00.0.0"
+      },
+      {
+        "code": "1.3.2.1.01.0.0",
+        "name": "Remuneração de Depósitos Bancários",
+        "value": 2661918.45,
+        "parent": "1.3.2.1.00.0.0"
+      },
+      {
+        "code": "1.3.2.1.04.0.0",
+        "name": "Remuneração dos Recursos do Regime Próprio de Previdência Social - RPPS",
+        "value": 7263928.11,
+        "parent": "1.3.2.1.00.0.0"
+      },
+      {
+        "code": "1.7.0.0.00.0.0",
+        "name": "Transferências Correntes",
+        "value": 190285268.72,
+        "parent": "1.0.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.0.00.0.0",
+        "name": "Transferências da União e de suas Entidades",
+        "value": 90104984.26,
+        "parent": "1.7.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.1.00.0.0",
+        "name": "Transferências Decorrentes de Participação na Receita da União",
+        "value": 48761534.38,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.1.51.0.0",
+        "name": "Cota-Parte do Fundo de Participação dos Municípios - FPM",
+        "value": 48684022.77,
+        "parent": "1.7.1.1.00.0.0"
+      },
+      {
+        "code": "1.7.1.1.51.1.0",
+        "name": "Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+        "value": 43340875.27,
+        "parent": "1.7.1.1.51.0.0"
+      },
+      {
+        "code": "1.7.1.1.51.2.0",
+        "name": "Cota-Parte do Fundo de Participação dos Municípios - Cotas Extraordinárias",
+        "value": 5343147.5,
+        "parent": "1.7.1.1.51.0.0"
+      },
+      {
+        "code": "1.7.1.1.52.0.0",
+        "name": "Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+        "value": 77511.61,
+        "parent": "1.7.1.1.00.0.0"
+      },
+      {
+        "code": "1.7.1.2.00.0.0",
+        "name": "Transferências das Compensações Financeiras pela Exploração de Recursos Naturais",
+        "value": 885085.01,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.2.51.0.0",
+        "name": "Cota-parte da Compensação Financeira pela Exploração de Recursos Minerais - CFEM",
+        "value": 49192.76,
+        "parent": "1.7.1.2.00.0.0"
+      },
+      {
+        "code": "1.7.1.2.52.0.0",
+        "name": "Cota-parte da Compensação Financeira pela Produção de Petróleo",
+        "value": 835892.25,
+        "parent": "1.7.1.2.00.0.0"
+      },
+      {
+        "code": "1.7.1.2.52.4.0",
+        "name": "Cota-Parte do Fundo Especial do Petróleo – FEP",
+        "value": 835892.25,
+        "parent": "1.7.1.2.52.0.0"
+      },
+      {
+        "code": "1.7.1.3.00.0.0",
+        "name": "Transferências de Recursos do Sistema Único de Saúde – SUS",
+        "value": 33395013.12,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.0.0",
+        "name": "Transferências de Recursos do Sistema Único de Saúde – SUS – Repasses Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+        "value": 33395013.12,
+        "parent": "1.7.1.3.00.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.1.0",
+        "name": "Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Atenção Primária",
+        "value": 7236090.61,
+        "parent": "1.7.1.3.50.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.2.0",
+        "name": "Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Atenção Especializada",
+        "value": 19308293.81,
+        "parent": "1.7.1.3.50.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.3.0",
+        "name": "Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Vigilância em Saúde",
+        "value": 851191.04,
+        "parent": "1.7.1.3.50.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.4.0",
+        "name": "Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Assistência Farmacêutica",
+        "value": 289035.6,
+        "parent": "1.7.1.3.50.0.0"
+      },
+      {
+        "code": "1.7.1.3.50.5.0",
+        "name": "Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Gestão do SUS",
+        "value": 5710402.06,
+        "parent": "1.7.1.3.50.0.0"
+      },
+      {
+        "code": "1.7.1.4.00.0.0",
+        "name": "Transferências de Recursos do Fundo Nacional do Desenvolvimento da Educação – FNDE–",
+        "value": 2431362.63,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.4.50.0.0",
+        "name": "Transferências do Salário-Educação",
+        "value": 1960702.63,
+        "parent": "1.7.1.4.00.0.0"
+      },
+      {
+        "code": "1.7.1.4.52.0.0",
+        "name": "Transferências referentes ao Programa Nacional de Alimentação Escolar – PNAE",
+        "value": 470660.0,
+        "parent": "1.7.1.4.00.0.0"
+      },
+      {
+        "code": "1.7.1.5.00.0.0",
+        "name": "Transferências de Recursos de Complementação da União ao Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação – FUNDEB",
+        "value": 2093628.38,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.6.00.0.0",
+        "name": "Transferências de Recursos do Fundo Nacional de Assistência Social – FNAS",
+        "value": 415756.66,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.9.00.0.0",
+        "name": "Outras Transferências de Recursos da União e de suas Entidades",
+        "value": 2122604.08,
+        "parent": "1.7.1.0.00.0.0"
+      },
+      {
+        "code": "1.7.1.9.57.0.0",
+        "name": "Transferência Especial da União",
+        "value": 500000.0,
+        "parent": "1.7.1.9.00.0.0"
+      },
+      {
+        "code": "1.7.1.9.58.0.0",
+        "name": "Transferência Obrigatória Decorrente da Lei Complementar nº 176/2020",
+        "value": 372604.08,
+        "parent": "1.7.1.9.00.0.0"
+      },
+      {
+        "code": "1.7.1.9.99.0.0",
+        "name": "Outras Transferências de Recursos da União e de suas Entidades",
+        "value": 1250000.0,
+        "parent": "1.7.1.9.00.0.0"
+      },
+      {
+        "code": "1.7.2.0.00.0.0",
+        "name": "Transferências dos Estados e do Distrito Federal e de suas Entidades",
+        "value": 75256847.82,
+        "parent": "1.7.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.2.1.00.0.0",
+        "name": "Participação na Receita dos Estados e Distrito Federal",
+        "value": 53610997.87,
+        "parent": "1.7.2.0.00.0.0"
+      },
+      {
+        "code": "1.7.2.1.50.0.0",
+        "name": "Cota-Parte do ICMS",
+        "value": 47714578.2,
+        "parent": "1.7.2.1.00.0.0"
+      },
+      {
+        "code": "1.7.2.1.51.0.0",
+        "name": "Cota-Parte do IPVA",
+        "value": 5513545.97,
+        "parent": "1.7.2.1.00.0.0"
+      },
+      {
+        "code": "1.7.2.1.52.0.0",
+        "name": "Cota-Parte do IPI - Municípios",
+        "value": 323188.71,
+        "parent": "1.7.2.1.00.0.0"
+      },
+      {
+        "code": "1.7.2.1.53.0.0",
+        "name": "Cota-Parte da Contribuição de Intervenção no Domínio Econômico",
+        "value": 59684.99,
+        "parent": "1.7.2.1.00.0.0"
+      },
+      {
+        "code": "1.7.2.3.00.0.0",
+        "name": "Transferências de Recursos do Sistema Único de Saúde – SUS",
+        "value": 19442193.66,
+        "parent": "1.7.2.0.00.0.0"
+      },
+      {
+        "code": "1.7.2.4.00.0.0",
+        "name": "Transferências de Convênios dos Estados e DF e de Suas Entidades",
+        "value": 1389145.54,
+        "parent": "1.7.2.0.00.0.0"
+      },
+      {
+        "code": "1.7.2.4.51.0.0",
+        "name": "Transferências de Convênios dos Estados Destinadas a Programas de Educação",
+        "value": 1238240.0,
+        "parent": "1.7.2.4.00.0.0"
+      },
+      {
+        "code": "1.7.2.4.99.0.0",
+        "name": "Outras Transferências de Convênios dos Estados e DF e de Suas Entidades",
+        "value": 150905.54,
+        "parent": "1.7.2.4.00.0.0"
+      },
+      {
+        "code": "1.7.2.9.00.0.0",
+        "name": "Outras Transferências dos Estados e Distrito Federal",
+        "value": 814510.75,
+        "parent": "1.7.2.0.00.0.0"
+      },
+      {
+        "code": "1.7.2.9.51.0.0",
+        "name": "Transferências de Estados destinadas à Assistência Social",
+        "value": 177721.0,
+        "parent": "1.7.2.9.00.0.0"
+      },
+      {
+        "code": "1.7.2.9.99.0.0",
+        "name": "Outras Transferências dos Estados e DF",
+        "value": 636789.75,
+        "parent": "1.7.2.9.00.0.0"
+      },
+      {
+        "code": "1.7.4.0.00.0.0",
+        "name": "Transferências de Instituições Privadas",
+        "value": 32029.71,
+        "parent": "1.7.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.4.1.00.0.0",
+        "name": "Transferências de Instituições Privadas",
+        "value": 32029.71,
+        "parent": "1.7.4.0.00.0.0"
+      },
+      {
+        "code": "1.7.4.1.01.0.0",
+        "name": "Transferências de Instituições Privadas para Órgãos e Entidades da União",
+        "value": 32029.71,
+        "parent": "1.7.4.1.00.0.0"
+      },
+      {
+        "code": "1.7.5.0.00.0.0",
+        "name": "Transferências de Outras Instituições Públicas",
+        "value": 24866490.41,
+        "parent": "1.7.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.5.1.00.0.0",
+        "name": "Transferências de Recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação - FUNDEB",
+        "value": 24866490.41,
+        "parent": "1.7.5.0.00.0.0"
+      },
+      {
+        "code": "1.7.9.0.00.0.0",
+        "name": "Demais Transferências Correntes",
+        "value": 24916.52,
+        "parent": "1.7.0.0.00.0.0"
+      },
+      {
+        "code": "1.7.9.1.00.0.0",
+        "name": "Transferências de Pessoas Físicas",
+        "value": 24916.52,
+        "parent": "1.7.9.0.00.0.0"
+      },
+      {
+        "code": "1.7.9.1.01.0.0",
+        "name": "Transferências de Pessoas Físicas para Órgãos e Entidades da União",
+        "value": 22904.37,
+        "parent": "1.7.9.1.00.0.0"
+      },
+      {
+        "code": "1.7.9.1.99.0.0",
+        "name": "Outras Transferências de Pessoas Físicas",
+        "value": 2012.15,
+        "parent": "1.7.9.1.00.0.0"
+      },
+      {
+        "code": "1.9.0.0.00.0.0",
+        "name": "Outras Receitas Correntes",
+        "value": 508564.23,
+        "parent": "1.0.0.0.00.0.0"
+      },
+      {
+        "code": "1.9.1.0.00.0.0",
+        "name": "Multas Administrativas, Contratuais e Judiciais",
+        "value": 39643.59,
+        "parent": "1.9.0.0.00.0.0"
+      },
+      {
+        "code": "1.9.1.1.00.0.0",
+        "name": "Multas Administrativas, Contratuais e Judiciais",
+        "value": 39643.59,
+        "parent": "1.9.1.0.00.0.0"
+      },
+      {
+        "code": "1.9.1.1.01.0.0",
+        "name": "Multas Previstas em Legislação Específica",
+        "value": 20468.29,
+        "parent": "1.9.1.1.00.0.0"
+      },
+      {
+        "code": "1.9.1.1.06.0.0",
+        "name": "Multas por Danos Ambientais",
+        "value": 19175.3,
+        "parent": "1.9.1.1.00.0.0"
+      },
+      {
+        "code": "1.9.1.1.06.1.0",
+        "name": "Multas Administrativas por Danos Ambientais",
+        "value": 19175.3,
+        "parent": "1.9.1.1.06.0.0"
+      },
+      {
+        "code": "1.9.2.0.00.0.0",
+        "name": "Indenizações, Restituições e Ressarcimentos",
+        "value": 274014.19,
+        "parent": "1.9.0.0.00.0.0"
+      },
+      {
+        "code": "1.9.2.1.00.0.0",
+        "name": "Indenizações",
+        "value": 1050.0,
+        "parent": "1.9.2.0.00.0.0"
+      },
+      {
+        "code": "1.9.2.1.99.0.0",
+        "name": "Outras Indenizações",
+        "value": 1050.0,
+        "parent": "1.9.2.1.00.0.0"
+      },
+      {
+        "code": "1.9.2.2.00.0.0",
+        "name": "Restituições",
+        "value": 272964.19,
+        "parent": "1.9.2.0.00.0.0"
+      },
+      {
+        "code": "1.9.2.2.99.0.0",
+        "name": "Outras Restituições",
+        "value": 272964.19,
+        "parent": "1.9.2.2.00.0.0"
+      },
+      {
+        "code": "1.9.9.0.00.0.0",
+        "name": "Demais Receitas Correntes",
+        "value": 194906.45,
+        "parent": "1.9.0.0.00.0.0"
+      },
+      {
+        "code": "1.9.9.9.00.0.0",
+        "name": "Outras Receitas Correntes",
+        "value": 194906.45,
+        "parent": "1.9.9.0.00.0.0"
+      },
+      {
+        "code": "1.9.9.9.03.0.0",
+        "name": "Compensações Financeiras entre os Regimes de Previdência",
+        "value": 172406.05,
+        "parent": "1.9.9.9.00.0.0"
+      },
+      {
+        "code": "1.9.9.9.12.0.0",
+        "name": "Encargos Legais pela Inscrição em Dívida Ativa e Receitas de Ônus de Sucumbência",
+        "value": 22500.4,
+        "parent": "1.9.9.9.00.0.0"
+      },
+      {
+        "code": "1.9.9.9.12.2.0",
+        "name": "Ônus de Sucumbência",
+        "value": 22500.4,
+        "parent": "1.9.9.9.12.0.0"
+      },
+      {
+        "code": "2.0.0.0.00.0.0",
+        "name": "Receitas de Capital",
+        "value": 1268246.26,
+        "parent": null
+      },
+      {
+        "code": "2.4.0.0.00.0.0",
+        "name": "Transferências de Capital",
+        "value": 1268246.26,
+        "parent": "2.0.0.0.00.0.0"
+      },
+      {
+        "code": "2.4.1.0.00.0.0",
+        "name": "Transferências da União e de suas Entidades",
+        "value": 243246.26,
+        "parent": "2.4.0.0.00.0.0"
+      },
+      {
+        "code": "2.4.1.1.00.0.0",
+        "name": "Transferências de Recursos do Sistema Único de Saúde - SUS",
+        "value": 45654.23,
+        "parent": "2.4.1.0.00.0.0"
+      },
+      {
+        "code": "2.4.1.1.51.0.0",
+        "name": "Transferências de Recursos do Sistema Único de Saúde – SUS - Fundo a Fundo - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+        "value": 45654.23,
+        "parent": "2.4.1.1.00.0.0"
+      },
+      {
+        "code": "2.4.1.1.51.3.0",
+        "name": "Transferências de Recursos do Bloco de Estruturação da Rede de Serviços Públicos de Saúde - Assistência Farmacêutica",
+        "value": 45654.23,
+        "parent": "2.4.1.1.51.0.0"
+      },
+      {
+        "code": "2.4.1.4.00.0.0",
+        "name": "Transferências de Convênios da União e de suas Entidades",
+        "value": 97635.03,
+        "parent": "2.4.1.0.00.0.0"
+      },
+      {
+        "code": "2.4.1.4.51.0.0",
+        "name": "Transferências de Convênios da União destinadas a Programas de Educação",
+        "value": 97635.03,
+        "parent": "2.4.1.4.00.0.0"
+      },
+      {
+        "code": "2.4.1.9.00.0.0",
+        "name": "Outras Transferências de Recursos da União e de suas Entidades",
+        "value": 99957.0,
+        "parent": "2.4.1.0.00.0.0"
+      },
+      {
+        "code": "2.4.1.9.99.0.0",
+        "name": "Outras Transferências De Recursos da União e de suas Entidades",
+        "value": 99957.0,
+        "parent": "2.4.1.9.00.0.0"
+      },
+      {
+        "code": "2.4.2.0.00.0.0",
+        "name": "Transferências dos Estados e do Distrito Federal e de suas Entidades",
+        "value": 1025000.0,
+        "parent": "2.4.0.0.00.0.0"
+      },
+      {
+        "code": "2.4.2.2.00.0.0",
+        "name": "Transferências de Convênios dos Estados e DF e de Suas Entidades",
+        "value": 425000.0,
+        "parent": "2.4.2.0.00.0.0"
+      },
+      {
+        "code": "2.4.2.2.99.0.0",
+        "name": "Outras Transferências de Convênios dos Estados e DF e de Suas Entidades",
+        "value": 425000.0,
+        "parent": "2.4.2.2.00.0.0"
+      },
+      {
+        "code": "2.4.2.9.00.0.0",
+        "name": "Outras Transferências de Recursos dos Estados",
+        "value": 600000.0,
+        "parent": "2.4.2.0.00.0.0"
+      },
+      {
+        "code": "2.4.2.9.99.0.0",
+        "name": "Outras Transferências de Recursos dos Estados",
+        "value": 600000.0,
+        "parent": "2.4.2.9.00.0.0"
       }
     ],
     "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo%20I-C&id_ente=5214507"
@@ -111,143 +842,960 @@
         "name": "Saúde",
         "committed": 94221550.85,
         "liquidated": 91381082.68,
-        "paid": 90291220.38
+        "paid": 90291220.38,
+        "subfunctions": [
+          {
+            "code": "302",
+            "name": "Assistência Hospitalar e Ambulatorial",
+            "committed": 57955278.45,
+            "liquidated": 55969132.4,
+            "paid": 55046477.59
+          },
+          {
+            "code": "301",
+            "name": "Atenção Básica",
+            "committed": 18634123.54,
+            "liquidated": 18066506.21,
+            "paid": 17979588.99
+          },
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 14408237.87,
+            "liquidated": 14122149.16,
+            "paid": 14042297.76
+          },
+          {
+            "code": "305",
+            "name": "Vigilância Epidemiológica",
+            "committed": 1555689.29,
+            "liquidated": 1555189.29,
+            "paid": 1554897.61
+          },
+          {
+            "code": "303",
+            "name": "Suporte Profilático e Terapêutico",
+            "committed": 920520.3,
+            "liquidated": 920404.22,
+            "paid": 920404.19
+          },
+          {
+            "code": "outras",
+            "name": "Demais Subfunções",
+            "committed": 565078.79,
+            "liquidated": 565078.79,
+            "paid": 565078.79
+          },
+          {
+            "code": "304",
+            "name": "Vigilância Sanitária",
+            "committed": 182622.61,
+            "liquidated": 182622.61,
+            "paid": 182475.45
+          }
+        ]
       },
       {
         "code": "12",
         "name": "Educação",
         "committed": 41445423.14,
         "liquidated": 40903374.75,
-        "paid": 40853377.07
+        "paid": 40853377.07,
+        "subfunctions": [
+          {
+            "code": "361",
+            "name": "Ensino Fundamental",
+            "committed": 35275623.19,
+            "liquidated": 34906792.46,
+            "paid": 34859806.79
+          },
+          {
+            "code": "365",
+            "name": "Educação Infantil",
+            "committed": 4792143.2,
+            "liquidated": 4618925.54,
+            "paid": 4615913.53
+          },
+          {
+            "code": "outras",
+            "name": "Demais Subfunções",
+            "committed": 1377569.39,
+            "liquidated": 1377569.39,
+            "paid": 1377569.39
+          },
+          {
+            "code": "366",
+            "name": "Educação de Jovens e Adultos",
+            "committed": 87.36,
+            "liquidated": 87.36,
+            "paid": 87.36
+          }
+        ]
       },
       {
         "code": "09",
         "name": "Previdência Social",
         "committed": 17279860.23,
         "liquidated": 17241754.17,
-        "paid": 17161569.19
+        "paid": 17161569.19,
+        "subfunctions": [
+          {
+            "code": "272",
+            "name": "Previdência do Regime Estatutário",
+            "committed": 14342086.82,
+            "liquidated": 14342086.82,
+            "paid": 14342086.82
+          },
+          {
+            "code": "274",
+            "name": "Previdência Especial",
+            "committed": 1107061.52,
+            "liquidated": 1107061.52,
+            "paid": 1107061.52
+          },
+          {
+            "code": "271",
+            "name": "Previdência Básica",
+            "committed": 1159593.82,
+            "liquidated": 1159593.82,
+            "paid": 1090510.82
+          },
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 671118.07,
+            "liquidated": 633012.01,
+            "paid": 621910.03
+          }
+        ]
       },
       {
         "code": "04",
         "name": "Administração",
         "committed": 14253129.77,
         "liquidated": 13619065.09,
-        "paid": 13436474.02
+        "paid": 13436474.02,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 8138413.45,
+            "liquidated": 7522776.77,
+            "paid": 7373749.25
+          },
+          {
+            "code": "outras",
+            "name": "Demais Subfunções",
+            "committed": 3324967.93,
+            "liquidated": 3324967.93,
+            "paid": 3324967.93
+          },
+          {
+            "code": "129",
+            "name": "Administração de Receitas",
+            "committed": 2210549.9,
+            "liquidated": 2210485.9,
+            "paid": 2193301.35
+          },
+          {
+            "code": "124",
+            "name": "Controle Interno",
+            "committed": 540024.88,
+            "liquidated": 531660.88,
+            "paid": 515513.71
+          },
+          {
+            "code": "128",
+            "name": "Formação de Recursos Humanos",
+            "committed": 26925.9,
+            "liquidated": 26925.9,
+            "paid": 26925.9
+          },
+          {
+            "code": "123",
+            "name": "Administração Financeira",
+            "committed": 12247.71,
+            "liquidated": 2247.71,
+            "paid": 2015.88
+          }
+        ]
       },
       {
         "code": "15",
         "name": "Urbanismo",
         "committed": 15490360.12,
         "liquidated": 13806068.33,
-        "paid": 13184128.42
+        "paid": 13184128.42,
+        "subfunctions": [
+          {
+            "code": "452",
+            "name": "Serviços Urbanos",
+            "committed": 7021176.67,
+            "liquidated": 6708312.8,
+            "paid": 6587456.9
+          },
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 6154998.64,
+            "liquidated": 5929257.01,
+            "paid": 5727058.56
+          },
+          {
+            "code": "451",
+            "name": "Infraestrutura Urbana",
+            "committed": 2314184.81,
+            "liquidated": 1168498.52,
+            "paid": 869612.96
+          }
+        ]
       },
       {
         "code": "01",
         "name": "Legislativa",
         "committed": 8674561.19,
         "liquidated": 8674561.19,
-        "paid": 8674561.19
+        "paid": 8674561.19,
+        "subfunctions": [
+          {
+            "code": "031",
+            "name": "Ação Legislativa",
+            "committed": 8674561.19,
+            "liquidated": 8674561.19,
+            "paid": 8674561.19
+          }
+        ]
       },
       {
         "code": "08",
         "name": "Assistência Social",
         "committed": 5079127.45,
         "liquidated": 4992991.01,
-        "paid": 4984191.01
+        "paid": 4984191.01,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 2333691.26,
+            "liquidated": 2263076.64,
+            "paid": 2257776.64
+          },
+          {
+            "code": "244",
+            "name": "Assistência Comunitária",
+            "committed": 2138286.71,
+            "liquidated": 2122764.89,
+            "paid": 2119264.89
+          },
+          {
+            "code": "241",
+            "name": "Assistência à Pessoa Idosa",
+            "committed": 559251.0,
+            "liquidated": 559251.0,
+            "paid": 559251.0
+          },
+          {
+            "code": "243",
+            "name": "Assistência à Criança e ao Adolescente",
+            "committed": 37967.32,
+            "liquidated": 37967.32,
+            "paid": 37967.32
+          },
+          {
+            "code": "outras",
+            "name": "Demais Subfunções",
+            "committed": 9931.16,
+            "liquidated": 9931.16,
+            "paid": 9931.16
+          }
+        ]
       },
       {
         "code": "18",
         "name": "Gestão Ambiental",
         "committed": 5158990.59,
         "liquidated": 4850776.48,
-        "paid": 4089665.77
+        "paid": 4089665.77,
+        "subfunctions": [
+          {
+            "code": "541",
+            "name": "Preservação e Conservação Ambiental",
+            "committed": 4801968.88,
+            "liquidated": 4493754.77,
+            "paid": 3753305.72
+          },
+          {
+            "code": "542",
+            "name": "Controle Ambiental",
+            "committed": 357021.71,
+            "liquidated": 357021.71,
+            "paid": 336360.05
+          }
+        ]
       },
       {
         "code": "27",
         "name": "Desporto e Lazer",
         "committed": 4292543.29,
         "liquidated": 3871063.88,
-        "paid": 3864991.5
+        "paid": 3864991.5,
+        "subfunctions": [
+          {
+            "code": "812",
+            "name": "Desporto Comunitário",
+            "committed": 2520390.58,
+            "liquidated": 2184020.36,
+            "paid": 2178020.36
+          },
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 1673473.81,
+            "liquidated": 1588364.62,
+            "paid": 1588292.24
+          },
+          {
+            "code": "813",
+            "name": "Lazer",
+            "committed": 98678.9,
+            "liquidated": 98678.9,
+            "paid": 98678.9
+          }
+        ]
       },
       {
         "code": "26",
         "name": "Transporte",
         "committed": 1604031.79,
         "liquidated": 1593939.39,
-        "paid": 1585955.25
+        "paid": 1585955.25,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 1494500.1,
+            "liquidated": 1485407.7,
+            "paid": 1477423.56
+          },
+          {
+            "code": "782",
+            "name": "Transporte Rodoviário",
+            "committed": 109531.69,
+            "liquidated": 108531.69,
+            "paid": 108531.69
+          }
+        ]
       },
       {
         "code": "06",
         "name": "Segurança Pública",
         "committed": 1838892.49,
         "liquidated": 1672960.81,
-        "paid": 1552328.98
+        "paid": 1552328.98,
+        "subfunctions": [
+          {
+            "code": "181",
+            "name": "Policiamento",
+            "committed": 1353899.82,
+            "liquidated": 1353899.82,
+            "paid": 1238752.99
+          },
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 484992.67,
+            "liquidated": 319060.99,
+            "paid": 313575.99
+          }
+        ]
       },
       {
         "code": "11",
         "name": "Trabalho",
         "committed": 1427375.44,
         "liquidated": 1427375.44,
-        "paid": 1427375.44
+        "paid": 1427375.44,
+        "subfunctions": [
+          {
+            "code": "331",
+            "name": "Proteção e Benefícios ao Trabalhador",
+            "committed": 1427375.44,
+            "liquidated": 1427375.44,
+            "paid": 1427375.44
+          }
+        ]
       },
       {
         "code": "20",
         "name": "Agricultura",
         "committed": 1650957.29,
         "liquidated": 1356333.55,
-        "paid": 1356333.55
+        "paid": 1356333.55,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 1295886.1,
+            "liquidated": 1295886.1,
+            "paid": 1295886.1
+          },
+          {
+            "code": "606",
+            "name": "Extensão Rural",
+            "committed": 355071.19,
+            "liquidated": 60447.45,
+            "paid": 60447.45
+          }
+        ]
       },
       {
         "code": "24",
         "name": "Comunicações",
         "committed": 1491019.03,
         "liquidated": 1483188.0,
-        "paid": 1334013.2
+        "paid": 1334013.2,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 1491019.03,
+            "liquidated": 1483188.0,
+            "paid": 1334013.2
+          }
+        ]
       },
       {
         "code": "02",
         "name": "Judiciária",
         "committed": 1206715.93,
         "liquidated": 1166215.93,
-        "paid": 1166215.93
+        "paid": 1166215.93,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 946346.76,
+            "liquidated": 905846.76,
+            "paid": 905846.76
+          },
+          {
+            "code": "061",
+            "name": "Ação Judiciária",
+            "committed": 260369.17,
+            "liquidated": 260369.17,
+            "paid": 260369.17
+          }
+        ]
       },
       {
         "code": "22",
         "name": "Indústria",
         "committed": 249751.28,
         "liquidated": 249751.28,
-        "paid": 249751.28
+        "paid": 249751.28,
+        "subfunctions": [
+          {
+            "code": "122",
+            "name": "Administração Geral",
+            "committed": 249751.28,
+            "liquidated": 249751.28,
+            "paid": 249751.28
+          }
+        ]
       },
       {
         "code": "13",
         "name": "Cultura",
         "committed": 133795.83,
         "liquidated": 133795.83,
-        "paid": 133723.45
+        "paid": 133723.45,
+        "subfunctions": [
+          {
+            "code": "392",
+            "name": "Difusão Cultural",
+            "committed": 133795.83,
+            "liquidated": 133795.83,
+            "paid": 133723.45
+          }
+        ]
       },
       {
         "code": "14",
         "name": "Direitos da Cidadania",
         "committed": 110153.44,
         "liquidated": 110153.44,
-        "paid": 110069.5
+        "paid": 110069.5,
+        "subfunctions": [
+          {
+            "code": "422",
+            "name": "Direitos Individuais, Coletivos e Difusos",
+            "committed": 81276.73,
+            "liquidated": 81276.73,
+            "paid": 81192.79
+          },
+          {
+            "code": "outras",
+            "name": "Demais Subfunções",
+            "committed": 28876.71,
+            "liquidated": 28876.71,
+            "paid": 28876.71
+          }
+        ]
       },
       {
         "code": "05",
         "name": "Defesa Nacional",
         "committed": 109924.9,
         "liquidated": 106756.8,
-        "paid": 106627.45
+        "paid": 106627.45,
+        "subfunctions": [
+          {
+            "code": "153",
+            "name": "Defesa Terrestre",
+            "committed": 109924.9,
+            "liquidated": 106756.8,
+            "paid": 106627.45
+          }
+        ]
       },
       {
         "code": "16",
         "name": "Habitação",
         "committed": 4286.43,
         "liquidated": 4286.43,
-        "paid": 4286.43
+        "paid": 4286.43,
+        "subfunctions": [
+          {
+            "code": "482",
+            "name": "Habitação Urbana",
+            "committed": 4286.43,
+            "liquidated": 4286.43,
+            "paid": 4286.43
+          }
+        ]
       }
     ],
-    "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo%20I-E&id_ente=5214507"
+    "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo%20I-E&id_ente=5214507",
+    "natures": {
+      "tree": [
+        {
+          "code": "3.0.00.00.00.00",
+          "name": "Despesas Correntes",
+          "committed": 223026073.16,
+          "liquidated": 217051071.35,
+          "paid": 214076397.85,
+          "intra": false,
+          "parent": null
+        },
+        {
+          "code": "3.1.00.00.00.00",
+          "name": "Pessoal e Encargos Sociais",
+          "committed": 100100361.6,
+          "liquidated": 100100361.6,
+          "paid": 99335023.5,
+          "intra": false,
+          "parent": "3.0.00.00.00.00"
+        },
+        {
+          "code": "3.1.90.00.00.00",
+          "name": "Aplicações Diretas",
+          "committed": 88510690.48,
+          "liquidated": 88510690.48,
+          "paid": 88441607.48,
+          "intra": false,
+          "parent": "3.1.00.00.00.00"
+        },
+        {
+          "code": "3.1.90.01.00.00",
+          "name": "Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+          "committed": 12172035.01,
+          "liquidated": 12172035.01,
+          "paid": 12172035.01,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.03.00.00",
+          "name": "Pensões do RPPS e do Militar",
+          "committed": 2335460.99,
+          "liquidated": 2335460.99,
+          "paid": 2335460.99,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.04.00.00",
+          "name": "Contratação por Tempo Determinado",
+          "committed": 4246090.4,
+          "liquidated": 4246090.4,
+          "paid": 4246090.4,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil",
+          "committed": 66144656.72,
+          "liquidated": 66144656.72,
+          "paid": 66144656.72,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "name": "Obrigações Patronais",
+          "committed": 3376575.47,
+          "liquidated": 3376575.47,
+          "paid": 3307492.47,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.13.02.00",
+          "name": "Contribuições Previdenciárias - INSS",
+          "committed": 3376575.47,
+          "liquidated": 3376575.47,
+          "paid": 3307492.47,
+          "intra": false,
+          "parent": "3.1.90.13.00.00"
+        },
+        {
+          "code": "3.1.90.16.00.00",
+          "name": "Outras Despesas Variáveis - Pessoal Civil",
+          "committed": 47085.22,
+          "liquidated": 47085.22,
+          "paid": 47085.22,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.91.00.00",
+          "name": "Sentenças Judiciais",
+          "committed": 62074.95,
+          "liquidated": 62074.95,
+          "paid": 62074.95,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.92.00.00",
+          "name": "Despesas de Exercícios Anteriores",
+          "committed": 31139.8,
+          "liquidated": 31139.8,
+          "paid": 31139.8,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.90.94.00.00",
+          "name": "Indenizações e Restituições Trabalhistas",
+          "committed": 95571.92,
+          "liquidated": 95571.92,
+          "paid": 95571.92,
+          "intra": false,
+          "parent": "3.1.90.00.00.00"
+        },
+        {
+          "code": "3.1.91.00.00.00",
+          "name": "Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+          "committed": 11589671.12,
+          "liquidated": 11589671.12,
+          "paid": 10893416.02,
+          "intra": true,
+          "parent": "3.1.00.00.00.00"
+        },
+        {
+          "code": "3.1.91.13.00.00",
+          "name": "Contribuições Patronais",
+          "committed": 11589671.12,
+          "liquidated": 11589671.12,
+          "paid": 10893416.02,
+          "intra": true,
+          "parent": "3.1.91.00.00.00"
+        },
+        {
+          "code": "3.1.91.13.08.00",
+          "name": "Contribuições previdenciárias - RPPS - pessoal ativo - plano previdenciário",
+          "committed": 11589671.12,
+          "liquidated": 11589671.12,
+          "paid": 10893416.02,
+          "intra": true,
+          "parent": "3.1.91.13.00.00"
+        },
+        {
+          "code": "3.3.00.00.00.00",
+          "name": "Outras Despesas Correntes",
+          "committed": 122925711.56,
+          "liquidated": 116950709.75,
+          "paid": 114741374.35,
+          "intra": false,
+          "parent": "3.0.00.00.00.00"
+        },
+        {
+          "code": "3.3.50.00.00.00",
+          "name": "Transferências a Instituições Privadas sem Fins Lucrativos",
+          "committed": 3841632.74,
+          "liquidated": 3247114.0,
+          "paid": 3247114.0,
+          "intra": false,
+          "parent": "3.3.00.00.00.00"
+        },
+        {
+          "code": "3.3.70.00.00.00",
+          "name": "Transferências a Instituições Multigovernamentais",
+          "committed": 108395.42,
+          "liquidated": 108395.42,
+          "paid": 108395.42,
+          "intra": false,
+          "parent": "3.3.00.00.00.00"
+        },
+        {
+          "code": "3.3.90.00.00.00",
+          "name": "Aplicações Diretas",
+          "committed": 118975683.4,
+          "liquidated": 113595200.33,
+          "paid": 111385864.93,
+          "intra": false,
+          "parent": "3.3.00.00.00.00"
+        },
+        {
+          "code": "3.3.90.08.00.00",
+          "name": "Outros Benefícios Assistenciais do servidor e do militar",
+          "committed": 225000.0,
+          "liquidated": 225000.0,
+          "paid": 225000.0,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "name": "Diárias - Civil",
+          "committed": 150435.0,
+          "liquidated": 150435.0,
+          "paid": 150435.0,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.15.00.00",
+          "name": "Diárias - Militar",
+          "committed": 3600.0,
+          "liquidated": 3600.0,
+          "paid": 3600.0,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "name": "Material de Consumo",
+          "committed": 9593737.87,
+          "liquidated": 9177094.61,
+          "paid": 9142134.26,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita",
+          "committed": 4595465.55,
+          "liquidated": 4578982.35,
+          "paid": 4523730.39,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+          "committed": 6310414.38,
+          "liquidated": 5985482.88,
+          "paid": 5846312.74,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "name": "Serviços de Consultoria",
+          "committed": 1001325.96,
+          "liquidated": 862375.96,
+          "paid": 788045.96,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "name": "Outros Serviços de Terceiros - Pessoa Física",
+          "committed": 1734545.19,
+          "liquidated": 1733357.19,
+          "paid": 1730598.1,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica",
+          "committed": 85623485.77,
+          "liquidated": 81900256.3,
+          "paid": 80153830.52,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+          "committed": 1493346.51,
+          "liquidated": 888245.6,
+          "paid": 848852.93,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.41.00.00",
+          "name": "Contribuições",
+          "committed": 1107061.52,
+          "liquidated": 1107061.52,
+          "paid": 1107061.52,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.46.00.00",
+          "name": "Auxílio-Alimentação",
+          "committed": 502000.0,
+          "liquidated": 502000.0,
+          "paid": 502000.0,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "name": "Obrigações Tributárias e Contributivas",
+          "committed": 2310750.98,
+          "liquidated": 2310750.98,
+          "paid": 2306593.31,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.48.00.00",
+          "name": "Outros Auxílios Financeiros a Pessoas Físicas",
+          "committed": 525421.93,
+          "liquidated": 525421.93,
+          "paid": 524921.93,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.91.00.00",
+          "name": "Sentenças Judiciais",
+          "committed": 548242.26,
+          "liquidated": 548242.26,
+          "paid": 548242.26,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.92.00.00",
+          "name": "Despesas de Exercícios Anteriores",
+          "committed": 153956.73,
+          "liquidated": 0.0,
+          "paid": 0.0,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "name": "Indenizações e Restituições",
+          "committed": 3096893.75,
+          "liquidated": 3096893.75,
+          "paid": 2984506.01,
+          "intra": false,
+          "parent": "3.3.90.00.00.00"
+        },
+        {
+          "code": "4.0.00.00.00.00",
+          "name": "Despesas de Capital",
+          "committed": 4286048.44,
+          "liquidated": 3184094.25,
+          "paid": 2383877.18,
+          "intra": false,
+          "parent": null
+        },
+        {
+          "code": "4.4.00.00.00.00",
+          "name": "Investimentos",
+          "committed": 3924309.75,
+          "liquidated": 2822355.56,
+          "paid": 2022138.49,
+          "intra": false,
+          "parent": "4.0.00.00.00.00"
+        },
+        {
+          "code": "4.4.90.00.00.00",
+          "name": "Aplicações Diretas",
+          "committed": 3924309.75,
+          "liquidated": 2822355.56,
+          "paid": 2022138.49,
+          "intra": false,
+          "parent": "4.4.00.00.00.00"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "name": "Obras e Instalações",
+          "committed": 2221303.12,
+          "liquidated": 1842145.34,
+          "paid": 1057706.27,
+          "intra": false,
+          "parent": "4.4.90.00.00.00"
+        },
+        {
+          "code": "4.4.90.51.99.00",
+          "name": "Outras Obras e Instalações",
+          "committed": 2221303.12,
+          "liquidated": 1842145.34,
+          "paid": 1057706.27,
+          "intra": false,
+          "parent": "4.4.90.51.00.00"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "name": "Equipamentos e Material Permanente",
+          "committed": 1703006.63,
+          "liquidated": 980210.22,
+          "paid": 964432.22,
+          "intra": false,
+          "parent": "4.4.90.00.00.00"
+        },
+        {
+          "code": "4.6.00.00.00.00",
+          "name": "Amortização da Dívida",
+          "committed": 361738.69,
+          "liquidated": 361738.69,
+          "paid": 361738.69,
+          "intra": false,
+          "parent": "4.0.00.00.00.00"
+        },
+        {
+          "code": "4.6.90.00.00.00",
+          "name": "Aplicações Diretas",
+          "committed": 361738.69,
+          "liquidated": 361738.69,
+          "paid": 361738.69,
+          "intra": false,
+          "parent": "4.6.00.00.00.00"
+        },
+        {
+          "code": "4.6.90.71.00.00",
+          "name": "Principal da Dívida Contratual Resgatado",
+          "committed": 361738.69,
+          "liquidated": 361738.69,
+          "paid": 361738.69,
+          "intra": false,
+          "parent": "4.6.90.00.00.00"
+        }
+      ],
+      "paid": 216460275.03,
+      "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo%20I-D&id_ente=5214507"
+    }
   },
   "source": {
     "level": "MUNICIPAL",
