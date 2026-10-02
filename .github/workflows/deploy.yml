@@ -2,6 +2,11 @@ name: Publicar portal
 on:
   push:
     branches: [main]
+  # Pushes feitos com GITHUB_TOKEN não disparam outros workflows; por isso o deploy
+  # também escuta a conclusão da atualização diária de dados.
+  workflow_run:
+    workflows: [Atualizar dados]
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,15 +17,17 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - run: npm install
+        with: { node-version: 20, cache: npm, cache-dependency-path: frontend/package-lock.json }
+      - run: npm ci
         working-directory: frontend
       - run: npm run build -- --base-href /${{ github.event.repository.name }}/
         working-directory: frontend
