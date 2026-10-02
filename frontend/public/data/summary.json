@@ -1,0 +1,6 @@
+{
+  "municipality": { "name": "Nerópolis", "state": "GO", "ibgeCode": "5214507" },
+  "updatedAt": "2026-10-02T00:00:00Z",
+  "totals": { "received": 12480000, "committed": 9820000, "liquidated": 7460000, "paid": 6210000 },
+  "counts": { "transfers": 18, "amendments": 7, "agreements": 4, "works": 3, "suppliers": 12 }
+}
