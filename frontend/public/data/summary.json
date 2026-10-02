@@ -1,6 +1,57 @@
 {
-  "municipality": { "name": "Nerópolis", "state": "GO", "ibgeCode": "5214507" },
-  "updatedAt": "2026-10-02T00:00:00Z",
-  "totals": { "received": 12480000, "committed": 9820000, "liquidated": 7460000, "paid": 6210000 },
-  "counts": { "transfers": 18, "amendments": 7, "agreements": 4, "works": 3, "suppliers": 12 }
+  "municipality": {
+    "name": "Nerópolis",
+    "state": "GO",
+    "ibgeCode": "5214507",
+    "cnpj": "01105626000125"
+  },
+  "updatedAt": "2026-10-02T20:33:54Z",
+  "environment": "HOMOLOGACAO",
+  "latestYear": 2025,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "finances": {
+    "revenues": 255744626.53,
+    "origins": [
+      {
+        "key": "union",
+        "label": "União",
+        "value": 90348230.52
+      },
+      {
+        "key": "state",
+        "label": "Estado de Goiás",
+        "value": 76281847.82
+      },
+      {
+        "key": "fundeb",
+        "label": "FUNDEB",
+        "value": 24866490.41
+      },
+      {
+        "key": "own",
+        "label": "Arrecadação própria",
+        "value": 64191111.55
+      },
+      {
+        "key": "other",
+        "label": "Outras receitas",
+        "value": 56946.23
+      }
+    ],
+    "committed": 215722450.48,
+    "liquidated": 208645494.48,
+    "paid": 205566859.01
+  },
+  "amendments": {
+    "count": 5,
+    "planned": 4449000.0,
+    "transferred": 4449000.0
+  }
 }

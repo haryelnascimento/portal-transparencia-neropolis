@@ -1,5 +1,0 @@
-[
-  { "id": "mock-1", "title": "Atenção primária à saúde", "agency": "Ministério da Saúde", "type": "Emenda", "status": "Em execução", "year": 2026, "purpose": "Custeio de serviços da atenção básica", "transferred": 2500000, "paid": 1640000, "sourceUrl": "https://portaldatransparencia.gov.br/transferencias" },
-  { "id": "mock-2", "title": "Infraestrutura urbana", "agency": "Ministério das Cidades", "type": "Convênio", "status": "Em execução", "year": 2026, "purpose": "Pavimentação e drenagem de vias urbanas", "transferred": 1800000, "paid": 890000, "sourceUrl": "https://portaldatransparencia.gov.br/transferencias" },
-  { "id": "mock-3", "title": "Educação básica de qualidade", "agency": "Ministério da Educação", "type": "Transferência", "status": "Concluído", "year": 2026, "purpose": "Aquisição de equipamentos para escolas", "transferred": 920000, "paid": 920000, "sourceUrl": "https://portaldatransparencia.gov.br/transferencias" }
-]

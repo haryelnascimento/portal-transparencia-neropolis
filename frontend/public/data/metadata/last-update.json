@@ -1,1 +1,26 @@
-{ "startedAt": "2026-10-02T00:00:00Z", "finishedAt": "2026-10-02T00:00:01Z", "status": "MOCK", "sources": { "transparencia": "MOCK" } }
+{
+  "startedAt": "2026-10-02T20:33:46Z",
+  "finishedAt": "2026-10-02T20:33:54Z",
+  "status": "SUCCESS",
+  "sources": {
+    "siconfi": {
+      "status": "SUCCESS",
+      "records": 6,
+      "newRecords": 0,
+      "durationSeconds": 4.6,
+      "lastSuccessAt": "2026-10-02T20:33:51Z"
+    },
+    "transferegov": {
+      "status": "SUCCESS",
+      "records": 5,
+      "newRecords": 0,
+      "durationSeconds": 3.3,
+      "lastSuccessAt": "2026-10-02T20:33:54Z"
+    },
+    "transparencia": {
+      "status": "SKIPPED",
+      "message": "TRANSPARENCIA_API_TOKEN não configurado",
+      "lastSuccessAt": null
+    }
+  }
+}

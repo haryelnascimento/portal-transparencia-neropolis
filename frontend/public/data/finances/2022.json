@@ -1,0 +1,256 @@
+{
+  "year": 2022,
+  "revenues": {
+    "gross": 202721950.29,
+    "deductions": 15574269.77,
+    "net": 187147680.52,
+    "origins": [
+      {
+        "key": "union",
+        "label": "União",
+        "value": 67049272.95
+      },
+      {
+        "key": "state",
+        "label": "Estado de Goiás",
+        "value": 67029483.11
+      },
+      {
+        "key": "fundeb",
+        "label": "FUNDEB",
+        "value": 18399453.28
+      },
+      {
+        "key": "own",
+        "label": "Arrecadação própria",
+        "value": 50190434.58
+      },
+      {
+        "key": "other",
+        "label": "Outras receitas",
+        "value": 53306.37
+      }
+    ],
+    "highlights": [
+      {
+        "key": "icms",
+        "label": "ICMS (cota-parte)",
+        "origin": "state",
+        "value": 38621716.09
+      },
+      {
+        "key": "fpm",
+        "label": "FPM (federal)",
+        "origin": "union",
+        "value": 36884620.6
+      },
+      {
+        "key": "sus-union",
+        "label": "SUS — União",
+        "origin": "union",
+        "value": 26359528.03
+      },
+      {
+        "key": "sus-state",
+        "label": "SUS — Estado",
+        "origin": "state",
+        "value": 20952237.75
+      },
+      {
+        "key": "fundeb",
+        "label": "FUNDEB",
+        "origin": "fundeb",
+        "value": 18399453.28
+      },
+      {
+        "key": "iss",
+        "label": "ISS",
+        "origin": "own",
+        "value": 14231676.25
+      },
+      {
+        "key": "iptu",
+        "label": "IPTU",
+        "origin": "own",
+        "value": 5332036.29
+      },
+      {
+        "key": "irrf",
+        "label": "IR retido na fonte",
+        "origin": "own",
+        "value": 4001860.67
+      },
+      {
+        "key": "ipva",
+        "label": "IPVA (cota-parte)",
+        "origin": "state",
+        "value": 3841927.81
+      },
+      {
+        "key": "itbi",
+        "label": "ITBI",
+        "origin": "own",
+        "value": 1634967.89
+      },
+      {
+        "key": "fnde",
+        "label": "FNDE (educação)",
+        "origin": "union",
+        "value": 1186171.16
+      }
+    ],
+    "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2022&no_anexo=DCA-Anexo%20I-C&id_ente=5214507"
+  },
+  "expenses": {
+    "committed": 165897413.64,
+    "liquidated": 157144740.45,
+    "paid": 156722730.98,
+    "functions": [
+      {
+        "code": "10",
+        "name": "Saúde",
+        "committed": 67971053.41,
+        "liquidated": 64486231.31,
+        "paid": 64415302.98
+      },
+      {
+        "code": "12",
+        "name": "Educação",
+        "committed": 34164551.28,
+        "liquidated": 31489640.92,
+        "paid": 31461267.52
+      },
+      {
+        "code": "09",
+        "name": "Previdência Social",
+        "committed": 13602052.61,
+        "liquidated": 13584759.05,
+        "paid": 13584759.05
+      },
+      {
+        "code": "15",
+        "name": "Urbanismo",
+        "committed": 11859780.04,
+        "liquidated": 11357755.59,
+        "paid": 11339329.12
+      },
+      {
+        "code": "04",
+        "name": "Administração",
+        "committed": 10807266.69,
+        "liquidated": 10578588.42,
+        "paid": 10571042.89
+      },
+      {
+        "code": "28",
+        "name": "Encargos Especiais",
+        "committed": 9648241.26,
+        "liquidated": 9297699.54,
+        "paid": 9003372.8
+      },
+      {
+        "code": "01",
+        "name": "Legislativa",
+        "committed": 5041072.96,
+        "liquidated": 5034129.46,
+        "paid": 5034129.46
+      },
+      {
+        "code": "08",
+        "name": "Assistência Social",
+        "committed": 3641298.98,
+        "liquidated": 3284970.69,
+        "paid": 3284970.69
+      },
+      {
+        "code": "18",
+        "name": "Gestão Ambiental",
+        "committed": 2657588.66,
+        "liquidated": 1886327.46,
+        "paid": 1886327.46
+      },
+      {
+        "code": "26",
+        "name": "Transporte",
+        "committed": 1650060.44,
+        "liquidated": 1509405.88,
+        "paid": 1509405.88
+      },
+      {
+        "code": "24",
+        "name": "Comunicações",
+        "committed": 1054540.17,
+        "liquidated": 921738.41,
+        "paid": 919488.41
+      },
+      {
+        "code": "02",
+        "name": "Judiciária",
+        "committed": 660569.6,
+        "liquidated": 660164.64,
+        "paid": 660164.64
+      },
+      {
+        "code": "11",
+        "name": "Trabalho",
+        "committed": 600000.0,
+        "liquidated": 600000.0,
+        "paid": 600000.0
+      },
+      {
+        "code": "27",
+        "name": "Desporto e Lazer",
+        "committed": 540077.08,
+        "liquidated": 501077.08,
+        "paid": 501077.08
+      },
+      {
+        "code": "13",
+        "name": "Cultura",
+        "committed": 491337.19,
+        "liquidated": 491337.19,
+        "paid": 491337.19
+      },
+      {
+        "code": "20",
+        "name": "Agricultura",
+        "committed": 506093.93,
+        "liquidated": 459085.47,
+        "paid": 459085.47
+      },
+      {
+        "code": "22",
+        "name": "Indústria",
+        "committed": 370996.62,
+        "liquidated": 370996.62,
+        "paid": 370996.62
+      },
+      {
+        "code": "14",
+        "name": "Direitos da Cidadania",
+        "committed": 336561.71,
+        "liquidated": 336561.71,
+        "paid": 336561.71
+      },
+      {
+        "code": "06",
+        "name": "Segurança Pública",
+        "committed": 273713.26,
+        "liquidated": 273713.26,
+        "paid": 273554.26
+      },
+      {
+        "code": "05",
+        "name": "Defesa Nacional",
+        "committed": 20557.75,
+        "liquidated": 20557.75,
+        "paid": 20557.75
+      }
+    ],
+    "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca?an_exercicio=2022&no_anexo=DCA-Anexo%20I-E&id_ente=5214507"
+  },
+  "source": {
+    "level": "MUNICIPAL",
+    "system": "SICONFI_DCA"
+  }
+}
