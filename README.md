@@ -22,7 +22,7 @@ O que o portal mostra hoje:
 ## Arquitetura
 
 ```text
-SICONFI + Transferegov (+ Portal da Transparência) → ETL Python → JSON estático → Angular → GitHub Pages
+SICONFI (DCA anual + MSC mensal) + Transferegov (+ Portal da Transparência) → ETL Python → JSON estático → Angular → GitHub Pages
 ```
 
 - `etl/collectors`: acesso isolado às fontes oficiais;

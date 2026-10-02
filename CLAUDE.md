@@ -47,6 +47,13 @@ npx ng build --base-href /portal-transparencia-neropolis/   # igual ao deploy
 - A API troca travessões e aspas por `¿`; `clean_name()` corrige.
 - O exercício só aparece depois que a Prefeitura envia a DCA (até 30/04 do ano seguinte).
 
+**SICONFI MSC** (`.../tt/msc_orcamentaria`, classe 6, `ending_balance`, uma chamada por mês)
+- Sinal pela `natureza_conta`: C soma, D subtrai. Empenhado = contas `6221301`–`07`; liquidado = `03`, `04`, `07`; pago = `04`.
+- Exclua a modalidade 91 (`natureza_despesa[2:4]`) para bater com o total por função da DCA. 2023 a 2025 batem exatamente; 2021 e 2022 não, e a diferença vai em `reconciliation`.
+- 2020 tem pago > liquidado em dezembro: anos inconsistentes são descartados (`consistent()`), não corrigidos.
+- Por fonte, publique só o **pago**: a fonte muda entre empenho e pagamento. Fontes antes de 2022 têm 8 dígitos (codificação antiga) e ficam com `sources: null`.
+- A fonte 706 não é só emenda Pix (inclui outras transferências e rendimentos): não concilie com o Transferegov (ver `docs/correlation-rules.md`).
+
 **Transferegov** (`api.transferegov.gestao.gov.br/transferenciasespeciais/`, PostgREST)
 - Filtros: `col=eq.valor` e `col=in.(a,b)`; na URL, mantenha `.*,()` sem encode (`build_url`).
 - Cadeia de tabelas:
@@ -78,6 +85,7 @@ npx ng build --base-href /portal-transparencia-neropolis/   # igual ao deploy
   - `shared/`: `app-info`, `app-bar-list`, `app-breadcrumb`, `app-stages`, `app-year-picker`;
   - `features/`: uma pasta por área.
 - Rotas por path; no Pages, o fallback é o `404.html` copiado no deploy. Drill-down por query params: `/receitas/:ano?origem=|conta=`, `/despesas/:ano?funcao=|natureza=`, `/emendas/:id`.
+- `/despesas/:ano?fonte=` abre a visão por fonte de recursos (MSC). Seções que dependem da MSC somem quando `execution/{ano}.json` não existe.
 - `childrenOf` pula níveis com um único filho, e `natureChildrenOf` dissolve a modalidade 90 (Aplicações Diretas): cada clique precisa ser uma escolha real.
 - **Termo técnico novo na UI = entrada nova em `core/glossary.ts` + `<app-info term="...">`.** Não coloque `<app-info>` (um botão) dentro de `<a>`.
 - Gráficos: barras horizontais em CSS, série única na cor `--green`, rótulo direto e `title` como tooltip. Percentuais no formato pt-BR (`pct`), nunca `35.3%`.
