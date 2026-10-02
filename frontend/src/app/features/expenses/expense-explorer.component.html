@@ -7,21 +7,38 @@
 
     <header class="explorer-title">
       <span class="eyebrow">DESPESAS · EXERCÍCIO {{ selectedYear() }}</span>
-      <h1>{{ v.title }}
+      <h1 [class.h1-long]="v.mode === 'source'">{{ v.title }}
         @switch (v.mode) {
           @case ('function') { <app-info term="funcao" /> }
           @case ('nature') { <app-info term="natureza-despesa" /> }
+          @case ('source') { <app-info term="fonte-recursos" /> }
         }
       </h1>
-      <p class="big">{{ v.stages.paid | money }} <small>pagos</small></p>
+      @if (v.stages; as stages) {
+        <p class="big">{{ stages.paid | money }} <small>pagos</small></p>
+      } @else if (source(); as s) {
+        <p class="big">{{ s.paid | money }} <small>pagos com recursos desta fonte</small></p>
+      }
       @switch (v.mode) {
-        @case ('function') { <p class="muted">{{ v.stages.paid | pct: finance()!.expenses.paid }} de tudo o que o município pagou no ano</p> }
-        @case ('nature') { <p class="muted">{{ v.stages.paid | pct: finance()!.expenses.natures.paid }} de toda a despesa por tipo de gasto</p> }
+        @case ('function') { <p class="muted">{{ v.stages!.paid | pct: finance()!.expenses.paid }} de tudo o que o município pagou no ano</p> }
+        @case ('nature') { <p class="muted">{{ v.stages!.paid | pct: finance()!.expenses.natures.paid }} de toda a despesa por tipo de gasto</p> }
+        @case ('source') { <p class="muted">{{ source()!.paid | pct: execution()!.paid }} de tudo o que o município pagou no ano · fonte {{ v.code }}@if (source()!.name; as official) { · nome oficial: {{ official }}}</p> }
       }
     </header>
 
-    <app-stages [value]="v.stages" />
-    <p class="muted">A diferença entre empenhado e pago fica para o ano seguinte como restos a pagar <app-info term="restos-a-pagar" />.</p>
+    @if (v.stages; as stages) {
+      <app-stages [value]="stages" />
+      <p class="muted">A diferença entre empenhado e pago fica para o ano seguinte como restos a pagar <app-info term="restos-a-pagar" />.</p>
+    }
+
+    @if (execution() === null && v.mode !== 'nature') {
+      <p class="notice">O detalhamento mês a mês e por fonte de recursos não está disponível para {{ selectedYear() }}: a matriz contábil mensal (MSC) enviada pela Prefeitura não foi encontrada ou traz valores inconsistentes, como pagamentos acima do liquidado <app-info term="msc" />.</p>
+    }
+    @if (execution()?.reconciliation; as r) {
+      @if (!r.matches) {
+        <p class="notice">Neste ano, o relatório mensal (MSC) e o balanço anual (DCA) enviados pela Prefeitura não batem: no valor pago, a MSC soma {{ abs(r.differences.paid) | money }} a {{ r.differences.paid < 0 ? 'menos' : 'mais' }} que a DCA. Os totais vêm da DCA; o detalhamento por mês, por elemento e por fonte vem da MSC <app-info term="msc" />.</p>
+      }
+    }
 
     @switch (v.mode) {
       @case ('root') {
@@ -40,13 +57,64 @@
             }
           </article>
         </div>
+        @if (sourceRows().length) {
+          <article class="panel">
+            <h3>Por fonte de recursos <app-info term="fonte-recursos" /></h3>
+            <p class="hint">De onde veio o dinheiro de cada pagamento: impostos, SUS, FUNDEB, emendas… Clique para ver onde cada fonte foi gasta.</p>
+            <app-bar-list [rows]="sourceRows()" />
+          </article>
+        } @else if (execution() && !execution()!.sources) {
+          <p class="notice">O detalhamento por fonte de recursos começa em 2022, quando a codificação das fontes passou a ser a mesma em todo o país.</p>
+        }
+        @if (timeline().length) {
+          <article class="panel">
+            <h3>Mês a mês</h3>
+            <p class="hint">Quanto o município pagou em cada mês@if (halfPaidMonth(); as m) {; metade do valor do ano já estava paga no fim de {{ m }}}. Passe o mouse sobre um mês para ver o empenhado e o liquidado acumulados.</p>
+            <app-bar-list [rows]="timeline()" />
+          </article>
+        }
       }
       @case ('function') {
-        <article class="panel">
-          <h3>Subáreas <app-info term="subfuncao" /></h3>
-          <p class="hint">Valor pago em cada subárea de {{ v.title }}.</p>
-          <app-bar-list [rows]="v.rows" />
-        </article>
+        <ol class="trail" aria-label="Caminho do dinheiro">
+          @if (sourceRows().length) {
+            <li>
+              <span class="step">1</span>
+              <div>
+                <h3>De onde veio o dinheiro <app-info term="fonte-recursos" /></h3>
+                <p>Fontes de recursos dos pagamentos feitos em {{ v.title }}. Clique para ver onde mais cada fonte foi gasta.</p>
+                <app-bar-list [rows]="sourceRows()" />
+              </div>
+            </li>
+          }
+          @if (timeline().length) {
+            <li>
+              <span class="step">{{ sourceRows().length ? 2 : 1 }}</span>
+              <div>
+                <h3>Quando foi pago</h3>
+                <p>Valor pago em cada mês@if (halfPaidMonth(); as m) {; metade do total do ano já estava paga no fim de {{ m }}}.</p>
+                <app-bar-list [rows]="timeline()" />
+              </div>
+            </li>
+          }
+          <li>
+            <span class="step">{{ (sourceRows().length ? 1 : 0) + (timeline().length ? 1 : 0) + 1 }}</span>
+            <div>
+              <h3>Em que subárea <app-info term="subfuncao" /></h3>
+              <p>Valor pago em cada subárea de {{ v.title }}.</p>
+              <app-bar-list [rows]="v.rows" />
+            </div>
+          </li>
+          @if (elementRows().length) {
+            <li>
+              <span class="step">{{ (sourceRows().length ? 1 : 0) + (timeline().length ? 1 : 0) + 2 }}</span>
+              <div>
+                <h3>Em que foi gasto <app-info term="elemento-despesa" /></h3>
+                <p>O que foi pago em {{ v.title }}: salários, serviços de empresas, materiais, equipamentos…</p>
+                <app-bar-list [rows]="elementRows()" />
+              </div>
+            </li>
+          }
+        </ol>
         @if (linkedAmendments().length) {
           <article class="panel">
             <h3>Emendas destinadas a esta área <app-info term="confianca-vinculo" /></h3>
@@ -58,7 +126,7 @@
             </ul>
           </article>
         }
-        <p class="notice">Próximo nível — programas, contratos e fornecedores — depende dos dados do portal municipal, que ainda não foram integrados.</p>
+        <p class="notice">Próximo nível — contratos e fornecedores — depende de outras bases, que ainda não foram integradas.</p>
       }
       @case ('nature') {
         <article class="panel">
@@ -72,8 +140,62 @@
           }
         </article>
       }
+      @case ('source') {
+        @if (source(); as s) {
+          <ol class="trail" aria-label="Caminho do dinheiro">
+            <li>
+              <span class="step">1</span>
+              <div>
+                <h3>Entrada no caixa</h3>
+                <dl class="facts">
+                  <div><dt>Recebido em {{ selectedYear() }}</dt><dd>{{ s.received | money }}</dd></div>
+                  <div><dt>Pago com recursos do ano</dt><dd>{{ s.paid - s.paidFromPreviousYears | money }}</dd></div>
+                  <div><dt>Pago com saldo de anos anteriores <app-info term="saldo-anos-anteriores" /></dt><dd>{{ s.paidFromPreviousYears | money }}</dd></div>
+                </dl>
+                <p class="hint">Valores declarados pela Prefeitura. O recebido inclui tudo o que ela registrou nesta fonte, como rendimentos de aplicação, já descontadas as deduções da receita.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step">2</span>
+              <div>
+                <h3>Em que área foi pago <app-info term="funcao" /></h3>
+                <app-bar-list [rows]="v.rows" />
+              </div>
+            </li>
+            <li>
+              <span class="step">3</span>
+              <div>
+                <h3>Em que foi gasto <app-info term="elemento-despesa" /></h3>
+                <app-bar-list [rows]="elementRows()" />
+              </div>
+            </li>
+          </ol>
+          @if (specialTransfers(); as t) {
+            <article class="panel">
+              <h3>Emendas Pix <app-info term="confianca-vinculo" /></h3>
+              <p class="hint">Esta é a fonte das transferências especiais da União, as emendas Pix. Em {{ selectedYear() }}, a Prefeitura declarou {{ s.received | money }} recebidos nesta fonte, e os repasses de emendas Pix registrados no Transferegov no mesmo ano somam {{ t.transferred | money }}. Uma fonte pode reunir outras receitas, e a conciliação entre as duas bases ainda está em análise.</p>
+              @if (t.amendments.length) {
+                <ul class="link-list">
+                  @for (a of t.amendments; track a.id) {
+                    <li><a [routerLink]="['/emendas', a.id]"><strong>{{ a.purpose }}</strong><span>{{ a.parliamentarian }} · {{ a.values.transferred | money }} repassados</span><b aria-hidden="true">›</b></a></li>
+                  }
+                </ul>
+              }
+            </article>
+          }
+        }
+      }
     }
-    <p class="source">Fonte: <a href="https://siconfi.tesouro.gov.br" target="_blank" rel="noopener">SICONFI</a>, DCA Anexos I-E e I-D <app-info term="dca" /> · <a [href]="v.mode === 'nature' ? finance()!.expenses.natures.sourceUrl : finance()!.expenses.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+    <p class="source">Fonte: <a href="https://siconfi.tesouro.gov.br" target="_blank" rel="noopener">SICONFI</a>,
+      @if (v.mode !== 'source') {
+        DCA Anexos I-E e I-D <app-info term="dca" /> · <a [href]="v.mode === 'nature' ? finance()!.expenses.natures.sourceUrl : finance()!.expenses.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a>
+      }
+      @if (execution(); as e) {
+        @if (v.mode !== 'nature') {
+          @if (v.mode !== 'source') { · } MSC até {{ months[e.lastMonth - 1] }} <app-info term="msc" /> · <a [href]="e.sourceUrl" target="_blank" rel="noopener">dados mensais ↗</a>
+        }
+      }
+    </p>
   </section>
 } @else {
   <section class="explorer"><p class="muted">Carregando despesas…</p></section>

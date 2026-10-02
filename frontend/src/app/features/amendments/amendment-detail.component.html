@@ -37,6 +37,9 @@
           @for (p of a.payments; track p.order) {
             <p><time>{{ p.date | date: 'dd/MM/yyyy' : 'UTC' }}</time> · ordem bancária {{ p.order }} · <strong>{{ p.amount | money }}</strong></p>
           } @empty { <p class="muted">Nenhum repasse registrado.</p> }
+          @if (paymentYear(); as y) {
+            <p class="hint">O dinheiro das emendas Pix entra no caixa da Prefeitura na fonte Transferência Especial da União. Veja <a [routerLink]="['/despesas', y]" [queryParams]="{ fonte: '706' }">onde a Prefeitura pagou recursos dessa fonte em {{ y }}</a> <app-info term="fonte-recursos" />.</p>
+          }
         </div>
       </li>
       <li>

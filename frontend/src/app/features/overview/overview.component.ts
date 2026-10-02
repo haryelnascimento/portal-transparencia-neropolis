@@ -11,6 +11,7 @@ import { StagesComponent } from '../../shared/stages.component';
 
 const SOURCES: Record<string, { label: string; url: string }> = {
   siconfi: { label: 'SICONFI — Tesouro Nacional', url: 'https://siconfi.tesouro.gov.br' },
+  'siconfi-msc': { label: 'SICONFI — execução mensal (MSC)', url: 'https://siconfi.tesouro.gov.br' },
   transferegov: { label: 'Transferegov — transferências especiais', url: 'https://www.gov.br/transferegov' },
   transparencia: { label: 'Portal da Transparência do Governo Federal', url: 'https://portaldatransparencia.gov.br' },
 };

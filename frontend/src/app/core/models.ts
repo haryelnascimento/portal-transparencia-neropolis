@@ -34,6 +34,27 @@ export interface FinanceYear {
   };
 }
 
+/** Execução mensal da MSC: valores acumulados no ano até o fim de cada mês, sem as despesas intraorçamentárias. */
+export interface MonthStages extends Stages { month: number }
+export interface ElementExpense extends Stages { code: string; name: string }
+export interface PaidItem { code: string; name: string; paid: number }
+/** Fonte de recursos: `name` é o nome oficial da STN e `shortName`, o rótulo curto do portal (ambos `null` fora da tabela nacional). */
+export interface SourceRef { code: string; name: string | null; shortName: string | null }
+export interface FunctionExecution extends Stages { code: string; name: string; months: MonthStages[]; elements: ElementExpense[]; sources: (SourceRef & { paid: number })[] }
+/** Por fonte só há valor pago: a Prefeitura pode trocar a fonte de um gasto entre o empenho e o pagamento. */
+export interface FundingSource extends SourceRef { received: number; paid: number; paidFromPreviousYears: number; functions: PaidItem[]; elements: PaidItem[] }
+export interface ExecutionYear extends Stages {
+  year: number;
+  lastMonth: number;
+  months: MonthStages[];
+  functions: FunctionExecution[];
+  /** `null` antes da codificação nacional de fontes (2022). */
+  sources: FundingSource[] | null;
+  /** Conferência de dezembro com a DCA; `null` quando o ano não está completo ou não há DCA. */
+  reconciliation: { reference: 'DCA'; matches: boolean; differences: Stages } | null;
+  sourceUrl: string;
+}
+
 export interface FinanceHistory { year: number; revenues: number; origins: Record<string, number>; committed: number; paid: number }
 
 export interface BudgetItem { code: string; name: string }

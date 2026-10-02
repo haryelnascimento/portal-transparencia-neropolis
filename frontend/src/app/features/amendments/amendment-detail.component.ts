@@ -26,4 +26,9 @@ export class AmendmentDetailComponent {
   readonly amendment = computed(() => this.amendments()?.find(a => a.id === this.id()) ?? null);
   readonly budgetLabels = BUDGET_LABELS;
   readonly loaded = computed(() => this.amendments() !== undefined);
+  /** Ano do último repasse, se houver detalhamento de despesas desse ano no portal. */
+  readonly paymentYear = computed(() => {
+    const year = Number(this.amendment()?.payments.map(p => p.date).sort().at(-1)?.slice(0, 4));
+    return year && this.summary()?.years.includes(year) ? year : null;
+  });
 }

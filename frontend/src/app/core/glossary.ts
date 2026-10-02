@@ -87,6 +87,19 @@ export const GLOSSARY = {
     short: 'Classifica o que foi comprado ou pago: salários, material de consumo, serviços de empresas, obras, equipamentos etc.',
     more: 'Vai do geral (Despesas Correntes ou de Capital) ao grupo (Pessoal, Outras Despesas Correntes, Investimentos) e ao elemento (ex.: Obras e Instalações).',
   },
+  'elemento-despesa': {
+    group: 'Despesas', term: 'Elemento de despesa',
+    short: 'O nível mais detalhado do tipo de gasto nos balanços públicos: salários, material de consumo, serviços de empresas, obras, equipamentos…',
+  },
+  'fonte-recursos': {
+    group: 'Despesas', term: 'Fonte de recursos',
+    short: 'Etiqueta que o dinheiro recebe ao entrar no caixa da Prefeitura e que acompanha cada pagamento: diz de onde ele veio (impostos, SUS, FUNDEB, emendas…) e em que pode ser usado. É o que permite seguir o dinheiro da entrada até o gasto.',
+    more: 'A codificação é nacional desde 2022 (Portaria STN nº 710/2021). Como a Prefeitura pode trocar a fonte de um gasto entre o empenho e o pagamento, o portal mostra por fonte apenas o valor pago.',
+  },
+  'saldo-anos-anteriores': {
+    group: 'Despesas', term: 'Saldo de anos anteriores',
+    short: 'Dinheiro recebido em anos anteriores que ficou em caixa e foi gasto neste ano. Por isso, numa fonte, o valor pago pode superar o recebido no ano.',
+  },
   'intraorcamentaria': {
     group: 'Despesas', term: 'Despesa intraorçamentária',
     short: 'Pagamento de um órgão do município para outro órgão do próprio município — por exemplo, a Prefeitura recolhendo a contribuição patronal ao seu regime próprio de previdência. Aparece no detalhamento por tipo de gasto, mas não é contado duas vezes no total por área.',
@@ -134,6 +147,11 @@ export const GLOSSARY = {
   'siconfi': {
     group: 'Fontes de dados', term: 'SICONFI',
     short: 'Sistema do Tesouro Nacional que recebe as contas de União, estados e municípios. Os dados são declarados pela própria Prefeitura e podem ser retificados.',
+  },
+  'msc': {
+    group: 'Fontes de dados', term: 'MSC — Matriz de Saldos Contábeis',
+    short: 'Relatório contábil que a Prefeitura envia todo mês ao Tesouro Nacional. Mostra o gasto mês a mês, por tipo de despesa e por fonte de recursos.',
+    more: 'O mês de dezembro é conferido com a DCA. Quando os dois não batem, a diferença é mostrada na página.',
   },
   'transferegov': {
     group: 'Fontes de dados', term: 'Transferegov',

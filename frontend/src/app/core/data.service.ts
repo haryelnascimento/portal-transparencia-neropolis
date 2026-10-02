@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Observable, catchError, of, shareReplay } from 'rxjs';
-import { Amendment, FinanceHistory, FinanceYear, Metadata, Summary } from './models';
+import { Amendment, ExecutionYear, FinanceHistory, FinanceYear, Metadata, Summary } from './models';
 
 /** Lê exclusivamente os JSONs estáticos gerados pelo ETL; o navegador nunca chama APIs governamentais. */
 @Injectable({ providedIn: 'root' })
@@ -12,6 +12,7 @@ export class DataService {
   summary() { return this.get<Summary>('data/summary.json'); }
   history() { return this.get<FinanceHistory[]>('data/finances/index.json'); }
   finance(year: number) { return this.get<FinanceYear>(`data/finances/${year}.json`); }
+  execution(year: number) { return this.get<ExecutionYear>(`data/execution/${year}.json`); }
   amendments() { return this.get<Amendment[]>('data/amendments/index.json'); }
   metadata() { return this.get<Metadata>('data/metadata/last-update.json'); }
 
