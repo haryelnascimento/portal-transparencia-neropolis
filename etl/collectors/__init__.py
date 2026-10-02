@@ -1,0 +1,2 @@
+"""Coletores das fontes públicas."""
+
