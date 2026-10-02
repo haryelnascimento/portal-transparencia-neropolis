@@ -21,6 +21,8 @@ def export_public(public: Path, datasets: dict, metadata: dict) -> None:
         for f in finances
     ])
     write_json(public / "amendments/index.json", amendments)
+    for item in datasets.get("execution") or []:
+        write_json(public / f"execution/{item['year']}.json", item)
     if datasets.get("transfers") is not None:
         write_json(public / "transfers/index.json", datasets["transfers"])
 

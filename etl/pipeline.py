@@ -5,12 +5,12 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Callable
 
-from etl.collectors import siconfi, transferegov, transparencia
+from etl.collectors import siconfi, siconfi_msc, transferegov, transparencia
 from etl.config import ROOT
-from etl.correlators import link_amendments_to_functions
+from etl.correlators import enrich_execution, link_amendments_to_functions
 from etl.exporters import export_public, write_json
-from etl.normalizers import normalize_amendment, normalize_finances, normalize_transfer
-from etl.validators import validate_amendments, validate_finances, validate_transfers
+from etl.normalizers import normalize_amendment, normalize_execution, normalize_finances, normalize_transfer
+from etl.validators import validate_amendments, validate_execution, validate_finances, validate_transfers
 
 PUBLIC = ROOT / "frontend/public/data"
 NORMALIZED = ROOT / "data/normalized"
@@ -29,6 +29,7 @@ class Source:
 
 SOURCES = [
     Source("siconfi", "finances", siconfi.collect, normalize_finances, validate_finances),
+    Source("siconfi-msc", "execution", siconfi_msc.collect, normalize_execution, validate_execution),
     Source("transferegov", "amendments", transferegov.collect, lambda raw: [normalize_amendment(p) for p in raw], validate_amendments),
     Source("transparencia", "transfers", transparencia.collect, lambda raw: [normalize_transfer(r) for r in raw], validate_transfers, "TRANSPARENCIA_API_TOKEN"),
 ]
@@ -77,6 +78,8 @@ def run() -> None:
         raise SystemExit("Nenhuma fonte disponível e não há dados anteriores para publicar")
     if datasets.get("amendments") and datasets.get("finances"):
         link_amendments_to_functions(datasets["amendments"], datasets["finances"])
+    if datasets.get("execution") and datasets.get("finances"):
+        enrich_execution(datasets["execution"], datasets["finances"])
     statuses = {s["status"] for s in sources.values() if s["status"] != "SKIPPED"}
     metadata = {"startedAt": started, "finishedAt": _now(), "status": "SUCCESS" if statuses == {"SUCCESS"} else "PARTIAL", "sources": sources}
     export_public(PUBLIC, datasets, metadata)
