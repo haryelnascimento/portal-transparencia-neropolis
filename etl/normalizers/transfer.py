@@ -14,6 +14,8 @@ def money(value: object) -> float:
     cleaned = re.sub(r"[^\d,.-]", "", str(value))
     if "," in cleaned:
         cleaned = cleaned.replace(".", "").replace(",", ".")
+    elif re.fullmatch(r"-?\d{1,3}(\.\d{3})+", cleaned):
+        cleaned = cleaned.replace(".", "")  # "1.000" e "2.500.000" são separadores de milhar
     try:
         return float(Decimal(cleaned))
     except InvalidOperation as error:

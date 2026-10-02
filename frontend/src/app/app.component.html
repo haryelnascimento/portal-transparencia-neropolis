@@ -1,30 +1,204 @@
-@if (summary$ | async; as summary) {
+<div class="env-banner" role="status">
+  <strong>Versão de homologação</strong>
+  <span>Dados reais coletados de fontes oficiais, ainda em validação. Não substitui o portal oficial da Prefeitura.</span>
+</div>
+
 <header class="topbar">
   <a class="brand" href="#inicio" aria-label="Início"><span class="brand-mark"><i></i><i></i><i></i></span><span>TRANSPARÊNCIA<small>NERÓPOLIS · GO</small></span></a>
-  <nav [class.open]="menuOpen"><a class="active" href="#inicio">Visão geral</a><a href="#recursos">Recursos</a><a href="#execucao">Execução</a><a href="#obras">Obras</a><a href="#sobre">Sobre os dados</a></nav>
-  <button class="search" aria-label="Pesquisar"><span>⌕</span> Pesquisar</button><button class="menu" (click)="menuOpen = !menuOpen" aria-label="Abrir menu">☰</button>
+  <nav [class.open]="menuOpen" (click)="menuOpen = false">
+    <a href="#receitas">Receitas</a>
+    <a href="#despesas">Despesas</a>
+    <a href="#emendas">Emendas</a>
+    <a href="#sobre">Sobre os dados</a>
+  </nav>
+  <button class="menu" (click)="menuOpen = !menuOpen" aria-label="Abrir menu">☰</button>
 </header>
+
 <main id="inicio">
   <section class="hero">
-    <div class="hero-copy"><span class="eyebrow"><i></i> DADOS PÚBLICOS, ACESSÍVEIS A TODOS</span><h1>O dinheiro público de<br><em>Nerópolis, às claras.</em></h1><p>Acompanhe de onde vêm os recursos, quanto foi recebido e como cada real está sendo aplicado no município.</p><div class="hero-actions"><a class="primary" href="#recursos">Explorar recursos <b>→</b></a><a class="secondary" href="#sobre">Como funciona <b>↗</b></a></div></div>
-    <div class="hero-art" aria-hidden="true"><div class="orb"><div class="city">Nerópolis<small>Goiás · Brasil</small></div><div class="pin">●</div></div><span class="tag tag-one">5214507 <small>Código IBGE</small></span><span class="tag tag-two">100% <small>Dados rastreáveis</small></span></div>
-  </section>
-
-  <section class="snapshot" id="recursos">
-    <div class="section-title"><div><span class="eyebrow">PANORAMA DOS RECURSOS</span><h2>Quanto chegou a Nerópolis?</h2></div><p>Valores consolidados das fontes federais disponíveis.</p></div>
-    <div class="cards">
-      <article class="metric featured"><span class="icon">↓</span><small>TOTAL RECEBIDO</small><strong>{{ format(summary.totals.received) }}</strong><footer><span>↗ Recursos transferidos</span><i></i></footer></article>
-      <article class="metric"><span class="icon amber">▤</span><small>EMPENHADO</small><strong>{{ format(summary.totals.committed) }}</strong><footer><span>{{ percentage(summary.totals.committed, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.committed, summary.totals.received)"></i></div></footer></article>
-      <article class="metric"><span class="icon blue">◫</span><small>LIQUIDADO</small><strong>{{ format(summary.totals.liquidated) }}</strong><footer><span>{{ percentage(summary.totals.liquidated, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.liquidated, summary.totals.received)"></i></div></footer></article>
-      <article class="metric"><span class="icon purple">✓</span><small>TOTAL PAGO</small><strong>{{ format(summary.totals.paid) }}</strong><footer><span>{{ percentage(summary.totals.paid, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.paid, summary.totals.received)"></i></div></footer></article>
+    <div class="hero-copy">
+      <span class="eyebrow"><i></i> DADOS PÚBLICOS, ACESSÍVEIS A TODOS</span>
+      <h1>O dinheiro público de<br><em>Nerópolis, às claras.</em></h1>
+      <p>De onde vêm os recursos do município, quanto foi arrecadado e como cada real foi gasto — com o link para a fonte oficial de cada número.</p>
+      <div class="hero-actions"><a class="primary" href="#receitas">Explorar os dados <b>→</b></a><a class="secondary" href="#sobre">De onde vêm os dados <b>↗</b></a></div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orb"><div class="city">Nerópolis<small>Goiás · Brasil</small></div><div class="pin">●</div></div>
+      <span class="tag tag-one">5214507 <small>Código IBGE</small></span>
+      @if (summary()?.years?.length) {
+        <span class="tag tag-two">{{ summary()!.years[0] }}–{{ summary()!.latestYear }} <small>Exercícios publicados</small></span>
+      }
     </div>
   </section>
 
-  <section class="flow" id="execucao"><div class="section-title"><div><span class="eyebrow">DO REPASSE À ENTREGA</span><h2>Acompanhe o caminho do recurso</h2></div><p>Conectamos diferentes bases para você entender toda a jornada.</p></div><div class="steps"><div><b>01</b><span>◎</span><strong>Origem</strong><small>Governo Federal</small></div><i>→</i><div><b>02</b><span>↓</span><strong>Transferência</strong><small>Recurso recebido</small></div><i>→</i><div><b>03</b><span>▤</span><strong>Execução</strong><small>Empenho e pagamento</small></div><i>→</i><div><b>04</b><span>⌂</span><strong>Resultado</strong><small>Obra ou serviço</small></div></div></section>
+  @if (summary() === null) {
+    <section><p class="empty">Não foi possível carregar os dados agora. Tente novamente em instantes.</p></section>
+  }
 
-  <section class="latest" id="obras"><div class="section-title"><div><span class="eyebrow">RECURSOS EM DESTAQUE</span><h2>Movimentações recentes</h2></div><a href="#recursos">Ver todos os recursos →</a></div><div class="table-wrap"><table><thead><tr><th>Recurso / finalidade</th><th>Órgão de origem</th><th>Tipo</th><th>Recebido</th><th>Situação</th><th></th></tr></thead><tbody>@for (item of transfers$ | async; track item.id) {<tr><td><strong>{{ item.title }}</strong><small>{{ item.purpose }}</small></td><td>{{ item.agency }}</td><td><span class="pill">{{ item.type }}</span></td><td><strong>{{ format(item.transferred) }}</strong></td><td><span class="status"><i></i>{{ item.status }}</span></td><td><a [href]="item.sourceUrl" target="_blank" aria-label="Abrir fonte">↗</a></td></tr>}</tbody></table></div></section>
+  @if (finance(); as f) {
+    <section class="snapshot" id="receitas">
+      <div class="section-title">
+        <div><span class="eyebrow">RECEITAS · EXERCÍCIO {{ f.year }}</span><h2>Quanto Nerópolis arrecadou?</h2></div>
+        <div class="years" role="group" aria-label="Exercício">
+          @for (y of summary()?.years ?? []; track y) {
+            <button [class.active]="y === year()" [attr.aria-pressed]="y === year()" (click)="selectYear(y)">{{ y }}</button>
+          }
+        </div>
+      </div>
 
-  <section class="trust" id="sobre"><div><span class="eyebrow light">TRANSPARÊNCIA DE VERDADE</span><h2>Dados com origem.<br>Informação com contexto.</h2></div><p>Todo número exibido pode ser rastreado até sua fonte pública original. O código, o processo de coleta e as transformações também são abertos.</p><ul><li><b>✓</b><span><strong>Fontes oficiais</strong><small>Dados de portais governamentais</small></span></li><li><b>✓</b><span><strong>Atualização periódica</strong><small>Coleta automatizada e auditável</small></span></li><li><b>✓</b><span><strong>Código aberto</strong><small>Metodologia disponível no GitHub</small></span></li></ul></section>
+      <div class="cards">
+        <article class="metric featured">
+          <span class="icon">↓</span><small>RECEITA TOTAL</small><strong>{{ money(f.revenues.gross) }}</strong>
+          <footer><span>Receita bruta realizada no ano</span></footer>
+        </article>
+        @for (o of origins().slice(0, 3); track o.key) {
+          <article class="metric">
+            <small>{{ o.key === 'union' ? 'DA UNIÃO' : o.key === 'state' ? 'DO ESTADO' : o.label.toUpperCase() }}</small>
+            <strong>{{ money(o.value) }}</strong>
+            <footer><span>{{ pct(o.share) }} da receita</span><div class="bar"><i [style.width.%]="o.share"></i></div></footer>
+          </article>
+        }
+      </div>
+
+      <div class="panels">
+        <article class="panel">
+          <h3>De onde veio o dinheiro</h3>
+          <p class="hint">Participação de cada origem na receita de {{ f.year }}.</p>
+          <ul class="hbars">
+            @for (o of origins(); track o.key) {
+              <li [title]="o.label + ': ' + money(o.value) + ' (' + pct(o.share) + ')'">
+                <span class="label">{{ o.label }}</span>
+                <span class="track"><i [style.width.%]="o.share"></i></span>
+                <span class="value">{{ pct(o.share) }}</span>
+              </li>
+            }
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>Principais receitas</h3>
+          <p class="hint">Impostos e repasses de maior valor em {{ f.year }}.</p>
+          <ul class="hbars">
+            @for (b of highlights(); track b.item.key) {
+              <li [title]="b.item.label + ': ' + money(b.value)">
+                <span class="label">{{ b.item.label }}</span>
+                <span class="track"><i [style.width.%]="b.width"></i></span>
+                <span class="value">{{ compact(b.value) }}</span>
+              </li>
+            }
+          </ul>
+        </article>
+      </div>
+      <p class="source">Fonte: Declaração de Contas Anuais (DCA, Anexo I-C) enviada pela Prefeitura ao Tesouro Nacional · <a [href]="f.revenues.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+    </section>
+
+    <section class="flow" id="despesas">
+      <div class="section-title"><div><span class="eyebrow">DESPESAS · EXERCÍCIO {{ f.year }}</span><h2>Como o dinheiro foi gasto?</h2></div><p>Cada despesa passa por três etapas: o empenho reserva o valor, a liquidação confirma a entrega e o pagamento quita o fornecedor.</p></div>
+      <div class="cards three">
+        <article class="metric"><span class="icon amber">▤</span><small>EMPENHADO</small><strong>{{ money(f.expenses.committed) }}</strong><footer><span>Valor reservado no orçamento</span></footer></article>
+        <article class="metric"><span class="icon blue">◫</span><small>LIQUIDADO</small><strong>{{ money(f.expenses.liquidated) }}</strong><footer><span>{{ pct(share(f.expenses.liquidated, f.expenses.committed)) }} do empenhado</span><div class="bar"><i [style.width.%]="share(f.expenses.liquidated, f.expenses.committed)"></i></div></footer></article>
+        <article class="metric"><span class="icon purple">✓</span><small>PAGO</small><strong>{{ money(f.expenses.paid) }}</strong><footer><span>{{ pct(share(f.expenses.paid, f.expenses.committed)) }} do empenhado</span><div class="bar"><i [style.width.%]="share(f.expenses.paid, f.expenses.committed)"></i></div></footer></article>
+      </div>
+      <div class="panels">
+        <article class="panel wide">
+          <h3>Valor pago por área de governo</h3>
+          <p class="hint">As 10 funções com maior despesa paga em {{ f.year }}.</p>
+          <ul class="hbars">
+            @for (b of functions(); track b.item.code) {
+              <li [title]="b.item.name + ': empenhado ' + money(b.item.committed) + ', pago ' + money(b.value)">
+                <span class="label">{{ b.item.name }}</span>
+                <span class="track"><i [style.width.%]="b.width"></i></span>
+                <span class="value">{{ compact(b.value) }} <small>{{ pct(share(b.value, f.expenses.paid)) }}</small></span>
+              </li>
+            }
+          </ul>
+        </article>
+      </div>
+      <p class="source">Fonte: DCA, Anexo I-E (despesas por função) · <a [href]="f.expenses.sourceUrl" target="_blank" rel="noopener">dados originais ↗</a></p>
+    </section>
+  }
+
+  @if (yearly().length) {
+    <section class="latest">
+      <div class="section-title"><div><span class="eyebrow">EVOLUÇÃO</span><h2>Receita ano a ano</h2></div><p>Valores nominais, sem correção pela inflação.</p></div>
+      <article class="panel wide">
+        <ul class="hbars">
+          @for (b of yearly(); track b.item.year) {
+            <li [title]="b.item.year + ': receita ' + money(b.value) + ', pago ' + money(b.item.paid)">
+              <span class="label">{{ b.item.year }}</span>
+              <span class="track"><i [style.width.%]="b.width"></i></span>
+              <span class="value">{{ compact(b.value) }}</span>
+            </li>
+          }
+        </ul>
+      </article>
+    </section>
+  }
+
+  @if (amendments(); as list) {
+    <section class="flow" id="emendas">
+      <div class="section-title"><div><span class="eyebrow">EMENDAS PARLAMENTARES</span><h2>Emendas Pix para Nerópolis</h2></div><p>Transferências especiais: o parlamentar indica, a União repassa direto à conta da Prefeitura e o município presta contas no Transferegov.</p></div>
+      <div class="cards three">
+        <article class="metric"><small>EMENDAS</small><strong>{{ list.length }}</strong><footer><span>Planos de ação desde 2020</span></footer></article>
+        <article class="metric"><small>VALOR INDICADO</small><strong>{{ money(summary()?.amendments?.planned) }}</strong><footer><span>Soma dos planos de ação</span></footer></article>
+        <article class="metric"><small>JÁ REPASSADO</small><strong>{{ money(summary()?.amendments?.transferred) }}</strong><footer><span>Ordens bancárias enviadas ao município</span></footer></article>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Objeto</th><th>Parlamentar</th><th>Área</th><th>Repassado</th><th>Prestação de contas</th><th></th></tr></thead>
+          <tbody>
+            @for (a of list; track a.id) {
+              <tr>
+                <td>
+                  <strong class="purpose" [title]="a.purpose">{{ a.purpose }}</strong>
+                  <details>
+                    <summary>Linha do tempo · emenda {{ a.year }}</summary>
+                    <ol class="timeline">
+                      @for (e of a.timeline; track $index) {
+                        <li><time>{{ e.date | date: 'dd/MM/yyyy' : 'UTC' }}</time><span>{{ e.label }}@if (e.amount !== null) { · {{ money(e.amount) }} }</span></li>
+                      }
+                    </ol>
+                  </details>
+                </td>
+                <td>{{ a.parliamentarian }}</td>
+                <td><span class="pill">{{ a.area }}</span></td>
+                <td><strong>{{ money(a.values.transferred) }}</strong><small>de {{ money(a.values.planned) }}</small></td>
+                <td>
+                  @if (a.managementReport; as r) {
+                    <span class="status" [class.pending]="a.values.reportedExecuted === null"><i></i>Relatório {{ r.type.toLowerCase() }}: {{ r.status.toLowerCase() }}</span>
+                    @if (a.values.reportedExecuted !== null) { <small>Executado declarado: {{ money(a.values.reportedExecuted) }}</small> }
+                  } @else {
+                    <span class="status pending"><i></i>Sem relatório enviado</span>
+                  }
+                </td>
+                <td><a [href]="a.sourceUrl" target="_blank" rel="noopener" aria-label="Abrir dados originais">↗</a></td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="source">Fonte: Transferegov — módulo de transferências especiais (beneficiário CNPJ {{ summary()?.municipality?.cnpj }})</p>
+    </section>
+  }
+
+  <section class="trust" id="sobre">
+    <div><span class="eyebrow light">SOBRE OS DADOS</span><h2>Dados com origem.<br>Informação com contexto.</h2></div>
+    <p>Os números são coletados diariamente das bases oficiais por um processo automatizado e aberto. Cada seção traz o link para os dados originais. Valores declarados pela Prefeitura ao Tesouro podem ser retificados posteriormente.</p>
+    <ul>
+      @for (s of sourceList(); track s.key) {
+        <li>
+          <b [class.warn]="s.status !== 'SUCCESS'">{{ s.status === 'SUCCESS' ? '✓' : s.status === 'FAILED' ? '!' : '…' }}</b>
+          <span>
+            <strong><a [href]="s.url" target="_blank" rel="noopener">{{ s.label }}</a></strong>
+            <small>{{ statusLabel[s.status] }}@if (s.lastSuccessAt) { · coletado em {{ s.lastSuccessAt | date: 'dd/MM/yyyy HH:mm' }} }</small>
+          </span>
+        </li>
+      }
+    </ul>
+  </section>
 </main>
-<footer class="footer"><div class="brand"><span class="brand-mark"><i></i><i></i><i></i></span><span>TRANSPARÊNCIA<small>NERÓPOLIS · GO</small></span></div><p>Um projeto cívico independente. Não possui vínculo oficial com a Prefeitura de Nerópolis.</p><span>Atualizado em {{ summary.updatedAt | date:'dd/MM/yyyy':'UTC' }} · Fontes oficiais ↗</span></footer>
-}
+
+<footer class="footer">
+  <div class="brand"><span class="brand-mark"><i></i><i></i><i></i></span><span>TRANSPARÊNCIA<small>NERÓPOLIS · GO</small></span></div>
+  <p>Projeto cívico independente, sem vínculo oficial com a Prefeitura de Nerópolis. Código e metodologia abertos no <a href="https://github.com/haryelnascimento/portal-transparencia-neropolis" target="_blank" rel="noopener">GitHub ↗</a></p>
+  @if (summary()?.updatedAt) { <span>Atualizado em {{ summary()!.updatedAt | date: 'dd/MM/yyyy' }}</span> }
+</footer>

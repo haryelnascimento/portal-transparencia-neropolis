@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: update-data
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -14,7 +16,7 @@ jobs:
         with: { python-version: '3.12' }
       - name: Testar ETL
         run: python -m unittest discover -s etl/tests
-      - name: Coletar e exportar
+      - name: Coletar, validar e exportar
         env:
           TRANSPARENCIA_API_TOKEN: ${{ secrets.TRANSPARENCIA_API_TOKEN }}
         run: python -m etl
@@ -25,4 +27,3 @@ jobs:
           git add data/normalized frontend/public/data
           git diff --cached --quiet || git commit -m "data: atualização automática $(date -u +%F)"
           git push
-

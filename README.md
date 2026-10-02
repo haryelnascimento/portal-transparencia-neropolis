@@ -1,13 +1,19 @@
 # Portal da Transparência de Nerópolis
 
-Portal cívico independente para tornar rastreáveis e compreensíveis os recursos públicos destinados a **Nerópolis/GO** (IBGE `5214507`). A primeira vertical já conecta a estrutura de coleta federal, normalização, JSON estático e um dashboard Angular responsivo.
+Portal cívico independente para tornar rastreáveis e compreensíveis os recursos públicos de **Nerópolis/GO** (IBGE `5214507`).
 
-> Os dados versionados neste bootstrap são demonstrativos e estão identificados como `MOCK`. Não devem ser interpretados como prestação de contas oficial.
+> **Versão de homologação.** Os dados são reais, coletados do SICONFI (Tesouro Nacional) e do Transferegov, mas ainda estão em validação. Não substituem o portal oficial da Prefeitura.
+
+O que o portal mostra hoje:
+
+- receitas de 2020 em diante por origem (União, Estado, FUNDEB, arrecadação própria) e principais impostos/repasses;
+- despesas empenhadas, liquidadas e pagas, por área de governo;
+- emendas parlamentares Pix destinadas ao município, com linha do tempo do empenho ao repasse e situação da prestação de contas.
 
 ## Arquitetura
 
 ```text
-Portal da Transparência → ETL Python → JSON estático → Angular → GitHub Pages
+SICONFI + Transferegov (+ Portal da Transparência) → ETL Python → JSON estático → Angular → GitHub Pages
 ```
 
 - `etl/collectors`: acesso isolado às fontes oficiais;
@@ -21,7 +27,7 @@ O navegador nunca acessa APIs governamentais nem recebe tokens.
 
 ## Desenvolvimento
 
-Requisitos: Node.js 20+, npm e Python 3.11+.
+Requisitos: Node.js 20+, npm e Python 3.11+ (somente biblioteca padrão).
 
 ```bash
 cd frontend
@@ -35,16 +41,14 @@ Acesse `http://localhost:4200`. Para os testes do ETL:
 python3 -m unittest discover -s etl/tests
 ```
 
-## Coleta real
-
-Configure o token somente no ambiente e execute a pipeline:
+## Coleta
 
 ```bash
-export TRANSPARENCIA_API_TOKEN='...'
-python3 -m etl
+python3 -m etl                      # SICONFI e Transferegov não exigem token
+export TRANSPARENCIA_API_TOKEN='...'  # opcional: habilita o Portal da Transparência
 ```
 
-O coletor envia o código IBGE de Nerópolis à API. Se uma coleta local falhar, os dados públicos anteriores são preservados; em CI, a falha é explícita para impedir a publicação silenciosa de dados inválidos. Consulte [fontes e limitações](docs/data-sources.md).
+Cada fonte é coletada, normalizada e validada isoladamente. Se uma falhar, o ETL mantém a última versão válida dela (`data/normalized/`), atualiza as demais e registra a falha em `metadata/last-update.json`, exibido na seção "Sobre os dados". O workflow diário publica o portal automaticamente ao terminar. Consulte [fontes e limitações](docs/data-sources.md).
 
 ## Aviso
 

@@ -1,0 +1,6966 @@
+{
+ "2021": {
+  "revenues": [
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 146377662.73
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 12305697.17
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 833085.1
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 144849429.75
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 12305697.17
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 833085.1
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.0.0.00.0.0",
+    "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+    "valor": 19911717.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.0.0.00.0.0",
+    "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+    "valor": 2922.21
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.0.00.0.0",
+    "conta": "1.1.1.0.00.0.0 - Impostos",
+    "valor": 17969298.9
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.0.00.0.0",
+    "conta": "1.1.1.0.00.0.0 - Impostos",
+    "valor": 2316.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.00.0.0",
+    "conta": "1.1.1.3.00.0.0 - Impostos sobre a Renda e Proventos de Qualquer Natureza",
+    "valor": 2864786.34
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.03.0.0",
+    "conta": "1.1.1.3.03.0.0 - Imposto sobre a Renda - Retido na Fonte",
+    "valor": 2864786.34
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.03.1.0",
+    "conta": "1.1.1.3.03.1.0 - Imposto sobre a Renda - Retido na Fonte - Trabalho",
+    "valor": 2864786.34
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.00.0.0",
+    "conta": "1.1.1.8.00.0.0 - Impostos Específicos de Estados, DF e Municípios",
+    "valor": 15104512.56
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.8.00.0.0",
+    "conta": "1.1.1.8.00.0.0 - Impostos Específicos de Estados, DF e Municípios",
+    "valor": 2316.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.01.0.0",
+    "conta": "1.1.1.8.01.0.0 - Impostos sobre o Patrimônio para Estados/DF/Municípios",
+    "valor": 6228345.43
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.8.01.0.0",
+    "conta": "1.1.1.8.01.0.0 - Impostos sobre o Patrimônio para Estados/DF/Municípios",
+    "valor": 826.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.01.1.0",
+    "conta": "1.1.1.8.01.1.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+    "valor": 4643546.21
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.8.01.1.0",
+    "conta": "1.1.1.8.01.1.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+    "valor": 826.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.01.4.0",
+    "conta": "1.1.1.8.01.4.0 - Imposto sobre Transmissão ¿Inter Vivos¿ de Bens Imóveis e de Direitos Reais sobre Imóveis",
+    "valor": 1584799.22
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.02.0.0",
+    "conta": "1.1.1.8.02.0.0 - Impostos sobre a Produção, Circulação de Mercadorias e Serviços",
+    "valor": 8876167.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.8.02.0.0",
+    "conta": "1.1.1.8.02.0.0 - Impostos sobre a Produção, Circulação de Mercadorias e Serviços",
+    "valor": 1490
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.8.02.3.0",
+    "conta": "1.1.1.8.02.3.0 - Imposto sobre Serviços de Qualquer Natureza",
+    "valor": 8876167.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.8.02.3.0",
+    "conta": "1.1.1.8.02.3.0 - Imposto sobre Serviços de Qualquer Natureza",
+    "valor": 1490
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.0.00.0.0",
+    "conta": "1.1.2.0.00.0.0 - Taxas",
+    "valor": 1942419.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.0.00.0.0",
+    "conta": "1.1.2.0.00.0.0 - Taxas",
+    "valor": 605.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.00.0.0",
+    "conta": "1.1.2.1.00.0.0 - Taxas pelo Exercício do Poder de Polícia",
+    "valor": 178667.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.02.0.0",
+    "conta": "1.1.2.1.02.0.0 - Taxas de Fiscalização das Telecomunicações",
+    "valor": 35032.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.02.2.0",
+    "conta": "1.1.2.1.02.2.0 - Taxa de Fiscalização de Funcionamento - TFF - Não Proveniente da Utilização de Posições Orbitais",
+    "valor": 35032.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.04.0.0",
+    "conta": "1.1.2.1.04.0.0 - Taxa de Controle e Fiscalização Ambiental",
+    "valor": 143635.11
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.2.00.0.0",
+    "conta": "1.1.2.2.00.0.0 - Taxas pela Prestação de Serviços",
+    "valor": 1709429.12
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.2.01.0.0",
+    "conta": "1.1.2.2.01.0.0 - Taxas pela Prestação de Serviços",
+    "valor": 1709429.12
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.8.00.0.0",
+    "conta": "1.1.2.8.00.0.0 - Taxas - Específicas de Estados, DF e Municípios",
+    "valor": 54322.09
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.8.00.0.0",
+    "conta": "1.1.2.8.00.0.0 - Taxas - Específicas de Estados, DF e Municípios",
+    "valor": 605.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.8.01.0.0",
+    "conta": "1.1.2.8.01.0.0 - Taxas de Inspeção, Controle e Fiscalização",
+    "valor": 54322.09
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.8.01.1.0",
+    "conta": "1.1.2.8.01.1.0 - Taxa de Fiscalização de Vigilância Sanitária",
+    "valor": 54322.09
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.8.02.0.0",
+    "conta": "1.1.2.8.02.0.0 - Taxas pela Prestação de Serviços",
+    "valor": 605.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.8.02.9.0",
+    "conta": "1.1.2.8.02.9.0 - Taxas pela Prestação de Serviços - Outras",
+    "valor": 605.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.0.0.00.0.0",
+    "conta": "1.2.0.0.00.0.0 - Contribuições",
+    "valor": 5602943.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.0.00.0.0",
+    "conta": "1.2.1.0.00.0.0 - Contribuições Sociais",
+    "valor": 3337874.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.8.00.0.0",
+    "conta": "1.2.1.8.00.0.0 - Contribuições Sociais Específicas de Estados, DF e Municípios",
+    "valor": 3337874.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.8.01.0.0",
+    "conta": "1.2.1.8.01.0.0 - Contribuição do Servidor Civil para o Plano de Seguridade Social - CPSSS - Específico de EST/DF/MUN",
+    "valor": 3337874.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.8.01.1.0",
+    "conta": "1.2.1.8.01.1.0 - CPSSS do Servidor Civil Ativo",
+    "valor": 3295203.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.8.01.2.0",
+    "conta": "1.2.1.8.01.2.0 - CPSSS do Servidor Civil Inativo",
+    "valor": 42671.93
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.4.0.00.0.0",
+    "conta": "1.2.4.0.00.0.0 - Contribuição para o Custeio do Serviço de Iluminação Pública",
+    "valor": 2265068.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.0.0.00.0.0",
+    "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+    "valor": 2285449.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.0.0.00.0.0",
+    "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+    "valor": 830162.89
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.0.00.0.0",
+    "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+    "valor": 2285449.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.0.00.0.0",
+    "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+    "valor": 830162.89
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.00.0.0",
+    "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+    "valor": 2285449.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.1.00.0.0",
+    "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+    "valor": 830162.89
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.00.1.0",
+    "conta": "1.3.2.1.00.1.0 - Remuneração de Depósitos Bancários",
+    "valor": 821454.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.00.4.0",
+    "conta": "1.3.2.1.00.4.0 - Remuneração dos Recursos do Regime Próprio de Previdência Social - RPPS",
+    "valor": 1463995.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.1.00.4.0",
+    "conta": "1.3.2.1.00.4.0 - Remuneração dos Recursos do Regime Próprio de Previdência Social - RPPS",
+    "valor": 830162.89
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.4.0.0.00.0.0",
+    "conta": "1.4.0.0.00.0.0 - Receita Agropecuária",
+    "valor": 441.86
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.0.0.00.0.0",
+    "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+    "valor": 116941874.06
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.0.0.00.0.0",
+    "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+    "valor": 12305697.17
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.0.00.0.0",
+    "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 54548626.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.0.00.0.0",
+    "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 4801232.9
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.00.0.0",
+    "conta": "1.7.1.8.00.0.0 - Transferências da União - Específicas de Estados, DF e Municípios",
+    "valor": 54548626.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.8.00.0.0",
+    "conta": "1.7.1.8.00.0.0 - Transferências da União - Específicas de Estados, DF e Municípios",
+    "valor": 4801232.9
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.01.0.0",
+    "conta": "1.7.1.8.01.0.0 - Participação na Receita da União",
+    "valor": 25981615.59
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.8.01.0.0",
+    "conta": "1.7.1.8.01.0.0 - Participação na Receita da União",
+    "valor": 4801232.9
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.01.2.0",
+    "conta": "1.7.1.8.01.2.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+    "valor": 23941630.85
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.8.01.2.0",
+    "conta": "1.7.1.8.01.2.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+    "valor": 4788325.86
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.01.3.0",
+    "conta": "1.7.1.8.01.3.0 - Cota-Parte do Fundo de Participação do Municípios ¿ 1% Cota entregue no mês de dezembro",
+    "valor": 1048903.03
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.01.4.0",
+    "conta": "1.7.1.8.01.4.0 - Cota-Parte do Fundo de Participação dos Municípios - 1% Cota entregue no mês de julho",
+    "valor": 926545.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.01.5.0",
+    "conta": "1.7.1.8.01.5.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+    "valor": 64535.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.8.01.5.0",
+    "conta": "1.7.1.8.01.5.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+    "valor": 12907.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.02.0.0",
+    "conta": "1.7.1.8.02.0.0 - Transferência da Compensação Financeira pela Exploração de Recursos Naturais",
+    "valor": 467689.34
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.02.2.0",
+    "conta": "1.7.1.8.02.2.0 - Cota-parte da Compensação Financeira de Recursos Minerais - CFEM",
+    "valor": 5100.24
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.02.6.0",
+    "conta": "1.7.1.8.02.6.0 - Cota-Parte do Fundo Especial do Petróleo ¿ FEP",
+    "valor": 462589.1
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.0.0",
+    "conta": "1.7.1.8.03.0.0 - Transferência de Recursos do Sistema Único de Saúde ¿ SUS ¿ Repasses Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+    "valor": 26297267.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.1.0",
+    "conta": "1.7.1.8.03.1.0 - Transferência de Recursos do SUS ¿ Atenção Primária",
+    "valor": 7173950.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.2.0",
+    "conta": "1.7.1.8.03.2.0 - Transferência de Recursos do SUS ¿ Atenção Especializada",
+    "valor": 16799916.87
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.3.0",
+    "conta": "1.7.1.8.03.3.0 - Transferência de Recursos do SUS ¿ Vigilância em Saúde",
+    "valor": 446179.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.4.0",
+    "conta": "1.7.1.8.03.4.0 - Transferência de Recursos do SUS ¿ Assistência Farmacêutica",
+    "valor": 176115
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.03.9.0",
+    "conta": "1.7.1.8.03.9.0 - Transferência de Recursos do SUS ¿ Outros Programas Financiados por Transferências Fundo a Fundo",
+    "valor": 1701105.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.05.0.0",
+    "conta": "1.7.1.8.05.0.0 - Transferências de Recursos do Fundo Nacional do Desenvolvimento da Educação ¿ FNDE",
+    "valor": 1029234.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.05.1.0",
+    "conta": "1.7.1.8.05.1.0 - Transferências do Salário-Educação",
+    "valor": 690821.44
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.05.3.0",
+    "conta": "1.7.1.8.05.3.0 - Transferências Diretas do FNDE referentes ao Programa Nacional de Alimentação Escolar ¿ PNAE",
+    "valor": 312710.2
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.05.4.0",
+    "conta": "1.7.1.8.05.4.0 - Transferências Diretas do FNDE referentes ao Programa Nacional de Apoio ao Transporte do Escolar ¿ PNATE",
+    "valor": 25702.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.10.0.0",
+    "conta": "1.7.1.8.10.0.0 - Transferências de Convênios da União e de Suas Entidades",
+    "valor": 511388
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.10.9.0",
+    "conta": "1.7.1.8.10.9.0 - Outras Transferências de Convênios da União",
+    "valor": 511388
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.12.0.0",
+    "conta": "1.7.1.8.12.0.0 - Transferências de Recursos do Fundo Nacional de Assistência Social ¿ FNAS",
+    "valor": 233317.19
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.8.99.0.0",
+    "conta": "1.7.1.8.99.0.0 - Outras Transferências da União",
+    "valor": 28114.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.0.00.0.0",
+    "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 47123592.29
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.0.00.0.0",
+    "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 7504464.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.00.0.0",
+    "conta": "1.7.2.8.00.0.0 - Transferências dos Estados - Específicas de Estados, DF e Municípios",
+    "valor": 47123592.29
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.8.00.0.0",
+    "conta": "1.7.2.8.00.0.0 - Transferências dos Estados - Específicas de Estados, DF e Municípios",
+    "valor": 7504464.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.01.0.0",
+    "conta": "1.7.2.8.01.0.0 - Participação na Receita dos Estados",
+    "valor": 37548887.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.8.01.0.0",
+    "conta": "1.7.2.8.01.0.0 - Participação na Receita dos Estados",
+    "valor": 7504464.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.01.1.0",
+    "conta": "1.7.2.8.01.1.0 - Cota-Parte do ICMS",
+    "valor": 34280684.24
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.8.01.1.0",
+    "conta": "1.7.2.8.01.1.0 - Cota-Parte do ICMS",
+    "valor": 6856136.86
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.01.2.0",
+    "conta": "1.7.2.8.01.2.0 - Cota-Parte do IPVA",
+    "valor": 2981474.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.8.01.2.0",
+    "conta": "1.7.2.8.01.2.0 - Cota-Parte do IPVA",
+    "valor": 596295
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.01.3.0",
+    "conta": "1.7.2.8.01.3.0 - Cota-Parte do IPI - Municípios",
+    "valor": 260161.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.8.01.3.0",
+    "conta": "1.7.2.8.01.3.0 - Cota-Parte do IPI - Municípios",
+    "valor": 52032.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.01.4.0",
+    "conta": "1.7.2.8.01.4.0 - Cota-Parte da Contribuição de Intervenção no Domínio Econômico",
+    "valor": 26566.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.03.0.0",
+    "conta": "1.7.2.8.03.0.0 - Transferência de Recursos do Estado para Programas de Saúde ¿ Repasse Fundo a Fundo",
+    "valor": 8034524.22
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.10.0.0",
+    "conta": "1.7.2.8.10.0.0 - Transferência de Convênios dos Estados e do Distrito Federal e de Suas Entidades",
+    "valor": 796068
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.10.2.0",
+    "conta": "1.7.2.8.10.2.0 - Transferências de Convênio dos Estados Destinadas a Programas de Educação",
+    "valor": 796068
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.8.99.0.0",
+    "conta": "1.7.2.8.99.0.0 - Outras Transferências dos Estados",
+    "valor": 744112.52
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.5.0.00.0.0",
+    "conta": "1.7.5.0.00.0.0 - Transferências de Outras Instituições Públicas",
+    "valor": 15262110.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.5.8.00.0.0",
+    "conta": "1.7.5.8.00.0.0 - Transferências de Outras Instituições Públicas - Específicas de Estados, DF e Municípios",
+    "valor": 15262110.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.5.8.01.0.0",
+    "conta": "1.7.5.8.01.0.0 - Transferências de Recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação ¿ FUNDEB",
+    "valor": 15262110.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.7.0.00.0.0",
+    "conta": "1.7.7.0.00.0.0 - Transferências de Pessoas Físicas",
+    "valor": 7545
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.7.0.00.1.0",
+    "conta": "1.7.7.0.00.1.0 - Transferências de Pessoas Físicas",
+    "valor": 7545
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.0.0.00.0.0",
+    "conta": "1.9.0.0.00.0.0 - Outras Receitas Correntes",
+    "valor": 107002.54
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.0.00.0.0",
+    "conta": "1.9.1.0.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+    "valor": 53553.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.0.01.0.0",
+    "conta": "1.9.1.0.01.0.0 - Multas Previstas em Legislação Específica",
+    "valor": 37158.52
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.0.06.0.0",
+    "conta": "1.9.1.0.06.0.0 - Multas por Danos Ambientais",
+    "valor": 16394.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.0.06.1.0",
+    "conta": "1.9.1.0.06.1.0 - Multas Administrativas por Danos Ambientais",
+    "valor": 16394.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.0.00.0.0",
+    "conta": "1.9.2.0.00.0.0 - Indenizações, Restituições e Ressarcimentos",
+    "valor": 2101.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.2.00.0.0",
+    "conta": "1.9.2.2.00.0.0 - Restituições",
+    "valor": 2101.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.2.99.0.0",
+    "conta": "1.9.2.2.99.0.0 - Outras Restituições",
+    "valor": 2101.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.0.00.0.0",
+    "conta": "1.9.9.0.00.0.0 - Demais Receitas Correntes",
+    "valor": 51347.59
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.0.03.0.0",
+    "conta": "1.9.9.0.03.0.0 - Compensações Financeiras entre o Regime Geral e os Regimes Próprios de Previdência dos Servidores",
+    "valor": 30827.96
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.0.12.0.0",
+    "conta": "1.9.9.0.12.0.0 - Encargos Legais pela Inscrição em Dívida Ativa e Receitas de Ônus de Sucumbência",
+    "valor": 20519.63
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.0.12.2.0",
+    "conta": "1.9.9.0.12.2.0 - Ônus de Sucumbência",
+    "valor": 20519.63
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.0.0.0.00.0.0",
+    "conta": "2.0.0.0.00.0.0 - Receitas de Capital",
+    "valor": 1528232.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.0.0.00.0.0",
+    "conta": "2.4.0.0.00.0.0 - Transferências de Capital",
+    "valor": 1528232.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.0.00.0.0",
+    "conta": "2.4.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 708232.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.00.0.0",
+    "conta": "2.4.1.8.00.0.0 - Transferências da União - Específicas de Estados, DF e Municípios",
+    "valor": 708232.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.04.0.0",
+    "conta": "2.4.1.8.04.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS - Fundo a Fundo - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+    "valor": 610598
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.04.1.0",
+    "conta": "2.4.1.8.04.1.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS Destinados à Atenção Primária",
+    "valor": 59835
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.04.2.0",
+    "conta": "2.4.1.8.04.2.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS destinados à Atenção Especializada",
+    "valor": 550763
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.10.0.0",
+    "conta": "2.4.1.8.10.0.0 - Transferência de Convênios da União e de suas Entidades",
+    "valor": 97634.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.8.10.2.0",
+    "conta": "2.4.1.8.10.2.0 - Transferências de Convênio da União destinadas a Programas de Educação",
+    "valor": 97634.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.0.00.0.0",
+    "conta": "2.4.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 820000
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.8.00.0.0",
+    "conta": "2.4.2.8.00.0.0 - Transferências dos Estados, Distrito Federal, e de suas Entidades",
+    "valor": 820000
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.8.05.0.0",
+    "conta": "2.4.2.8.05.0.0 - Transferências de Recursos Destinados a Programas de Educação",
+    "valor": 300000
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.8.10.0.0",
+    "conta": "2.4.2.8.10.0.0 - Transferências de Convênios dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 520000
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.8.10.1.0",
+    "conta": "2.4.2.8.10.1.0 - Transferências de Convênios dos Estados para o Sistema Único de Saúde ¿ SUS",
+    "valor": 520000
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "ReceitasIntraOrcamentarias",
+    "conta": "RECEITAS (INTRA-ORÇAMENTÁRIAS) (II)",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.0.0.0.00.0.0",
+    "conta": "7.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.2.0.0.00.0.0",
+    "conta": "7.2.0.0.00.0.0 - Contribuições",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.2.1.0.00.0.0",
+    "conta": "7.2.1.0.00.0.0 - Contribuições Sociais",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.2.1.8.00.0.0",
+    "conta": "7.2.1.8.00.0.0 - Contribuições Sociais Específicas de Estados, DF e   Municípios",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.2.1.8.03.0.0",
+    "conta": "7.2.1.8.03.0.0 - CPSSS Patronal - Servidor Civil - Específico de EST/DF/MUN",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RI7.2.1.8.03.1.0",
+    "conta": "7.2.1.8.03.1.0 - CPSSS Patronal - Servidor Civil Ativo",
+    "valor": 4770472.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 151148135.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 12305697.17
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 833085.1
+   }
+  ],
+  "expenses": [
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 125709387.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 4481454.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 4481454.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 584548.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 209813.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 374734.67
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 9120092.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 5265110.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 103135.52
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 236037.74
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 3403081.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 112726.39
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 403812.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 200992.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 202820.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 2409065.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência ao Idoso",
+    "valor": 132124.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 1000265.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 1276675.76
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 11236574.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1163051.91
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 8975291.32
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 305959.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 53822875.31
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 8514436.74
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 31591227.47
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 365188.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 79158.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1950249.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 10949927.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 372687.56
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 21514034.08
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 19699321.85
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.364 - Ensino Superior",
+    "valor": 20188.99
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 1434281.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 532.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.367 - Educação Especial",
+    "valor": 4760.02
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 354949.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 252780.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 31045.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 221734.73
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 11578155.99
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 224497.88
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 8840057.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 2513600.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 2231820.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 2231820.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 194540.73
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 2966.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 191573.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 457837.87
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 457837.87
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1136988.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 65786.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1071201.23
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 404195.19
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 19547.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 109156.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 275491
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "28 - Encargos Especiais",
+    "valor": 5258011.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU28 - Demais Subfunções",
+    "valor": 5258011.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 120840306.2
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 4383474.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 4383474.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 584548.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 209813.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 374734.67
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 8763122.6
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 4908140.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 103135.52
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 236037.74
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 3403081.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 112726.39
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 403812.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 200992.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 202820.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 2405459.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência ao Idoso",
+    "valor": 132124.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 997149.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 1276184.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 11232649.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1163051.91
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 8975291.32
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 302034.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 51824364.31
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 8352394.62
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 30098707.31
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 365188.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 79158.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1950249.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 10605978.44
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 372687.56
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 21360293.06
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 19604883.08
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.364 - Ensino Superior",
+    "valor": 597.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 1401885.37
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 532.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.367 - Educação Especial",
+    "valor": 1810.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 350584.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 252780.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 31045.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 221734.73
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 10379822.54
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 192243.93
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 7688363.76
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 2499214.85
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 1751543.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 1751543.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 191903.07
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 2966.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 188936.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 374182.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 374182.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1134475.31
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 64422.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1070052.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 404195.19
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 19547.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 109156.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 275491
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "28 - Encargos Especiais",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU28 - Demais Subfunções",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 120378385.7
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 4383474.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 4383474.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 584548.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 209813.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 374734.67
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 8745496.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 4895241.56
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 103135.52
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 236037.74
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 3398354.93
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 112726.39
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 147862.69
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 403812.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 200992.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 202820.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 2399250.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência ao Idoso",
+    "valor": 132124.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 992965.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 1274160.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 11230803.29
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1163051.91
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 8975291.32
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 300187.76
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 51654615.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 8322780.2
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 30098707.31
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 365188.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 79158.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1949832.36
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 10495080.2
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 343867.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 21354546.42
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 19599137.25
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.364 - Ensino Superior",
+    "valor": 597.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 1401885.36
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 532.58
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.367 - Educação Especial",
+    "valor": 1810.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 350583.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133351.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 252780.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 31045.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 221734.73
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 10167978.24
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 190233.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 7533602.93
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 2444141.86
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 1738780.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 1738780.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 174590.09
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 2966.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 171623.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 341385.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 374182.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 374182.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1115651.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 51570.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1064081.1
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 404195.19
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 19547.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 109156.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 275491
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "28 - Encargos Especiais",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU28 - Demais Subfunções",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 4869081.75
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 97980
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 97980
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 356969.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 356969.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 3606.21
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 3115.24
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 490.97
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 3925
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 3925
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 1998511
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 162042.12
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 1492520.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 343948.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 153741.02
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 94438.77
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.364 - Ensino Superior",
+    "valor": 19591.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 32395.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.367 - Educação Especial",
+    "valor": 2949.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 4365.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 1198333.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 32253.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 1151693.37
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 14386.13
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 480277.05
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 480277.05
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 2637.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 2637.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 83655.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 83655.72
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 2512.7
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 1364.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1148.43
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "28 - Encargos Especiais",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU28 - Demais Subfunções",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 461920.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 17626.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 12899.42
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 4727.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 6208.86
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 4184.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 2024.07
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 1846.37
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 1846.37
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 169749.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 29614.42
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 416.79
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 110898.24
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 28819.59
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 5746.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 5745.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 0.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 0.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 211844.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 2010.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 154760.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 55072.99
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 12762.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 12762.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 17312.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 17312.98
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 18823.37
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 12851.67
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 5971.7
+   }
+  ]
+ },
+ "2025": {
+  "revenues": [
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 255744626.53
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 19393939.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "ReceitasExcetoIntraOrcamentarias",
+    "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+    "valor": 63396.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 254476380.27
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 19393939.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.0.0.0.00.0.0",
+    "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+    "valor": 63396.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.0.0.00.0.0",
+    "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+    "valor": 34775553.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.0.0.00.0.0",
+    "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+    "valor": 35688.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.0.00.0.0",
+    "conta": "1.1.1.0.00.0.0 - Impostos",
+    "valor": 32718318.15
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.0.00.0.0",
+    "conta": "1.1.1.0.00.0.0 - Impostos",
+    "valor": 35006.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.2.00.0.0",
+    "conta": "1.1.1.2.00.0.0 - Impostos sobre o Patrimônio",
+    "valor": 10884753.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.2.00.0.0",
+    "conta": "1.1.1.2.00.0.0 - Impostos sobre o Patrimônio",
+    "valor": 11149.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.2.50.0.0",
+    "conta": "1.1.1.2.50.0.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+    "valor": 8067536.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.2.50.0.0",
+    "conta": "1.1.1.2.50.0.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+    "valor": 1990.41
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.2.53.0.0",
+    "conta": "1.1.1.2.53.0.0 - Impostos sobre Transmissão \"Inter Vivos\" de Bens Imóveis e de Direitos Reais sobre Imóveis",
+    "valor": 2817217.04
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.2.53.0.0",
+    "conta": "1.1.1.2.53.0.0 - Impostos sobre Transmissão \"Inter Vivos\" de Bens Imóveis e de Direitos Reais sobre Imóveis",
+    "valor": 9159.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.00.0.0",
+    "conta": "1.1.1.3.00.0.0 - Impostos sobre a Renda e Proventos de Qualquer Natureza",
+    "valor": 7657475.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.3.00.0.0",
+    "conta": "1.1.1.3.00.0.0 - Impostos sobre a Renda e Proventos de Qualquer Natureza",
+    "valor": 2160
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.03.0.0",
+    "conta": "1.1.1.3.03.0.0 - Imposto sobre a Renda - Retido na Fonte",
+    "valor": 7657475.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.3.03.0.0",
+    "conta": "1.1.1.3.03.0.0 - Imposto sobre a Renda - Retido na Fonte",
+    "valor": 2160
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.3.03.1.0",
+    "conta": "1.1.1.3.03.1.0 - Imposto sobre a Renda - Retido na Fonte - Trabalho",
+    "valor": 7657475.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.3.03.1.0",
+    "conta": "1.1.1.3.03.1.0 - Imposto sobre a Renda - Retido na Fonte - Trabalho",
+    "valor": 2160
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.4.00.0.0",
+    "conta": "1.1.1.4.00.0.0 - Impostos sobre a Produção e Circulação de Mercadorias e Serviços",
+    "valor": 14176089.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.4.00.0.0",
+    "conta": "1.1.1.4.00.0.0 - Impostos sobre a Produção e Circulação de Mercadorias e Serviços",
+    "valor": 21697.21
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.4.51.0.0",
+    "conta": "1.1.1.4.51.0.0 - Impostos sobre Serviços",
+    "valor": 14176089.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.4.51.0.0",
+    "conta": "1.1.1.4.51.0.0 - Impostos sobre Serviços",
+    "valor": 21697.21
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.1.4.51.1.0",
+    "conta": "1.1.1.4.51.1.0 - Imposto sobre Serviços de Qualquer Natureza - ISSQN",
+    "valor": 14176089.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.1.4.51.1.0",
+    "conta": "1.1.1.4.51.1.0 - Imposto sobre Serviços de Qualquer Natureza - ISSQN",
+    "valor": 21697.21
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.0.00.0.0",
+    "conta": "1.1.2.0.00.0.0 - Taxas",
+    "valor": 2057235.59
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.0.00.0.0",
+    "conta": "1.1.2.0.00.0.0 - Taxas",
+    "valor": 682.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.00.0.0",
+    "conta": "1.1.2.1.00.0.0 - Taxas pelo Exercício do Poder de Polícia",
+    "valor": 978908.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.01.0.0",
+    "conta": "1.1.2.1.01.0.0 - Taxas de Inspeção, Controle e Fiscalização",
+    "valor": 840392.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.04.0.0",
+    "conta": "1.1.2.1.04.0.0 - Taxa de Controle e Fiscalização Ambiental",
+    "valor": 93469.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.1.50.0.0",
+    "conta": "1.1.2.1.50.0.0 - Taxa de Fiscalização de Vigilância Sanitária",
+    "valor": 45045.86
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.2.00.0.0",
+    "conta": "1.1.2.2.00.0.0 - Taxas pela Prestação de Serviços",
+    "valor": 1078327.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.2.00.0.0",
+    "conta": "1.1.2.2.00.0.0 - Taxas pela Prestação de Serviços",
+    "valor": 682.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.1.2.2.01.0.0",
+    "conta": "1.1.2.2.01.0.0 - Taxas pela Prestação de Serviços em Geral",
+    "valor": 1078327.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.1.2.2.01.0.0",
+    "conta": "1.1.2.2.01.0.0 - Taxas pela Prestação de Serviços em Geral",
+    "valor": 682.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.0.0.00.0.0",
+    "conta": "1.2.0.0.00.0.0 - Contribuições",
+    "valor": 18981147.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.0.00.0.0",
+    "conta": "1.2.1.0.00.0.0 - Contribuições Sociais",
+    "valor": 16366479.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.00.0.0",
+    "conta": "1.2.1.5.00.0.0 - Contribuições para Regimes Próprios de Previdência e Sistema de Proteção Social",
+    "valor": 16366479.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.01.0.0",
+    "conta": "1.2.1.5.01.0.0 - Contribuição do Servidor Civil",
+    "valor": 5637868.13
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.01.1.0",
+    "conta": "1.2.1.5.01.1.0 - Contribuição do Servidor Civil Ativo",
+    "valor": 5544116.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.01.2.0",
+    "conta": "1.2.1.5.01.2.0 - Contribuição do Servidor Civil Inativo",
+    "valor": 93751.84
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.02.0.0",
+    "conta": "1.2.1.5.02.0.0 - Contribuição Patronal - Servidor Civil",
+    "valor": 10728611.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.1.5.02.1.0",
+    "conta": "1.2.1.5.02.1.0 - Contribuição Patronal - Servidor Civil Ativo",
+    "valor": 10728611.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.2.4.0.00.0.0",
+    "conta": "1.2.4.0.00.0.0 - Contribuição para o Custeio do Serviço de Iluminação Pública",
+    "valor": 2614667.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.0.0.00.0.0",
+    "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+    "valor": 9925846.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.0.0.00.0.0",
+    "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+    "valor": 27707.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.0.00.0.0",
+    "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+    "valor": 9925846.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.0.00.0.0",
+    "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+    "valor": 27707.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.00.0.0",
+    "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+    "valor": 9925846.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.1.00.0.0",
+    "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+    "valor": 27707.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.01.0.0",
+    "conta": "1.3.2.1.01.0.0 - Remuneração de Depósitos Bancários",
+    "valor": 2661918.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.3.2.1.04.0.0",
+    "conta": "1.3.2.1.04.0.0 - Remuneração dos Recursos do Regime Próprio de Previdência Social - RPPS",
+    "valor": 7263928.11
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "RO1.3.2.1.04.0.0",
+    "conta": "1.3.2.1.04.0.0 - Remuneração dos Recursos do Regime Próprio de Previdência Social - RPPS",
+    "valor": 27707.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.0.0.00.0.0",
+    "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+    "valor": 190285268.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.0.0.00.0.0",
+    "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+    "valor": 19393939.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.0.00.0.0",
+    "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 90104984.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.0.00.0.0",
+    "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 8683676.78
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.1.00.0.0",
+    "conta": "1.7.1.1.00.0.0 - Transferências Decorrentes de Participação na Receita da União",
+    "valor": 48761534.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.1.00.0.0",
+    "conta": "1.7.1.1.00.0.0 - Transferências Decorrentes de Participação na Receita da União",
+    "valor": 8683676.78
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.1.51.0.0",
+    "conta": "1.7.1.1.51.0.0 -Cota-Parte do Fundo de Participação dos Municípios - FPM",
+    "valor": 48684022.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.1.51.0.0",
+    "conta": "1.7.1.1.51.0.0 -Cota-Parte do Fundo de Participação dos Municípios - FPM",
+    "valor": 8668174.58
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.1.51.1.0",
+    "conta": "1.7.1.1.51.1.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+    "valor": 43340875.27
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.1.51.1.0",
+    "conta": "1.7.1.1.51.1.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+    "valor": 8668174.58
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.1.51.2.0",
+    "conta": "1.7.1.1.51.2.0 - Cota-Parte do Fundo de Participação dos Municípios - Cotas Extraordinárias",
+    "valor": 5343147.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.1.52.0.0",
+    "conta": "1.7.1.1.52.0.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+    "valor": 77511.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.1.1.52.0.0",
+    "conta": "1.7.1.1.52.0.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+    "valor": 15502.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.2.00.0.0",
+    "conta": "1.7.1.2.00.0.0 -Transferências das Compensações Financeiras pela Exploração de Recursos Naturais",
+    "valor": 885085.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.2.51.0.0",
+    "conta": "1.7.1.2.51.0.0 -Cota-parte da Compensação Financeira pela Exploração de Recursos Minerais - CFEM",
+    "valor": 49192.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.2.52.0.0",
+    "conta": "1.7.1.2.52.0.0 - Cota-parte da Compensação Financeira pela Produção de Petróleo",
+    "valor": 835892.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.2.52.4.0",
+    "conta": "1.7.1.2.52.4.0 - Cota-Parte do Fundo Especial do Petróleo ¿ FEP",
+    "valor": 835892.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.00.0.0",
+    "conta": "1.7.1.3.00.0.0 -Transferências de Recursos do Sistema Único de Saúde ¿ SUS ",
+    "valor": 33395013.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.0.0",
+    "conta": "1.7.1.3.50.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS ¿ Repasses Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+    "valor": 33395013.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.1.0",
+    "conta": "1.7.1.3.50.1.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Atenção Primária",
+    "valor": 7236090.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.2.0",
+    "conta": "1.7.1.3.50.2.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Atenção Especializada",
+    "valor": 19308293.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.3.0",
+    "conta": "1.7.1.3.50.3.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Vigilância em Saúde",
+    "valor": 851191.04
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.4.0",
+    "conta": "1.7.1.3.50.4.0 -Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Assistência Farmacêutica",
+    "valor": 289035.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.3.50.5.0",
+    "conta": "1.7.1.3.50.5.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Gestão do SUS",
+    "valor": 5710402.06
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.4.00.0.0",
+    "conta": "1.7.1.4.00.0.0 -Transferências de Recursos do Fundo Nacional do Desenvolvimento da Educação ¿ FNDE¿ ",
+    "valor": 2431362.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.4.50.0.0",
+    "conta": "1.7.1.4.50.0.0 - Transferências do Salário-Educação",
+    "valor": 1960702.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.4.52.0.0",
+    "conta": "1.7.1.4.52.0.0 - Transferências referentes ao Programa Nacional de Alimentação Escolar ¿ PNAE",
+    "valor": 470660
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.5.00.0.0",
+    "conta": "1.7.1.5.00.0.0 - Transferências de Recursos de Complementação da União ao Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação ¿ FUNDEB ",
+    "valor": 2093628.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.6.00.0.0",
+    "conta": "1.7.1.6.00.0.0 - Transferências de Recursos do Fundo Nacional de Assistência Social ¿ FNAS",
+    "valor": 415756.66
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.9.00.0.0",
+    "conta": "1.7.1.9.00.0.0 - Outras Transferências de Recursos da União e de suas Entidades",
+    "valor": 2122604.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.9.57.0.0",
+    "conta": "1.7.1.9.57.0.0 - Transferência Especial da União",
+    "valor": 500000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.9.58.0.0",
+    "conta": "1.7.1.9.58.0.0 - Transferência Obrigatória Decorrente da Lei Complementar nº 176/2020",
+    "valor": 372604.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.1.9.99.0.0",
+    "conta": "1.7.1.9.99.0.0 - Outras Transferências de Recursos da União e de suas Entidades",
+    "valor": 1250000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.0.00.0.0",
+    "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 75256847.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.0.00.0.0",
+    "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 10710262.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.1.00.0.0",
+    "conta": "1.7.2.1.00.0.0 - Participação na Receita dos Estados e Distrito Federal",
+    "valor": 53610997.87
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.1.00.0.0",
+    "conta": "1.7.2.1.00.0.0 - Participação na Receita dos Estados e Distrito Federal",
+    "valor": 10710262.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.1.50.0.0",
+    "conta": "1.7.2.1.50.0.0 - Cota-Parte do ICMS",
+    "valor": 47714578.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.1.50.0.0",
+    "conta": "1.7.2.1.50.0.0 - Cota-Parte do ICMS",
+    "valor": 9542915.62
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.1.51.0.0",
+    "conta": "1.7.2.1.51.0.0 - Cota-Parte do IPVA",
+    "valor": 5513545.97
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.1.51.0.0",
+    "conta": "1.7.2.1.51.0.0 - Cota-Parte do IPVA",
+    "valor": 1102709.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.1.52.0.0",
+    "conta": "1.7.2.1.52.0.0 - Cota-Parte do IPI - Municípios",
+    "valor": 323188.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "RO1.7.2.1.52.0.0",
+    "conta": "1.7.2.1.52.0.0 - Cota-Parte do IPI - Municípios",
+    "valor": 64637.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.1.53.0.0",
+    "conta": "1.7.2.1.53.0.0 - Cota-Parte da Contribuição de Intervenção no Domínio Econômico",
+    "valor": 59684.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.3.00.0.0",
+    "conta": "1.7.2.3.00.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS",
+    "valor": 19442193.66
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.4.00.0.0",
+    "conta": "1.7.2.4.00.0.0 - Transferências de Convênios dos Estados e DF e de Suas Entidades",
+    "valor": 1389145.54
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.4.51.0.0",
+    "conta": "1.7.2.4.51.0.0 -Transferências de Convênios dos Estados Destinadas a Programas de Educação",
+    "valor": 1238240
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.4.99.0.0",
+    "conta": "1.7.2.4.99.0.0 - Outras Transferências de Convênios dos Estados e DF e de Suas Entidades",
+    "valor": 150905.54
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.9.00.0.0",
+    "conta": "1.7.2.9.00.0.0 - Outras Transferências dos Estados e Distrito Federal",
+    "valor": 814510.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.9.51.0.0",
+    "conta": "1.7.2.9.51.0.0 - Transferências de Estados destinadas à Assistência Social",
+    "valor": 177721
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.2.9.99.0.0",
+    "conta": "1.7.2.9.99.0.0 - Outras Transferências dos Estados e DF",
+    "valor": 636789.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.4.0.00.0.0",
+    "conta": "1.7.4.0.00.0.0 - Transferências de Instituições Privadas",
+    "valor": 32029.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.4.1.00.0.0",
+    "conta": "1.7.4.1.00.0.0 - Transferências de Instituições Privadas",
+    "valor": 32029.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.4.1.01.0.0",
+    "conta": "1.7.4.1.01.0.0 - Transferências de Instituições Privadas para Órgãos e Entidades da União",
+    "valor": 32029.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.5.0.00.0.0",
+    "conta": "1.7.5.0.00.0.0 - Transferências de Outras Instituições Públicas",
+    "valor": 24866490.41
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.5.1.00.0.0",
+    "conta": "1.7.5.1.00.0.0 - Transferências de Recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação - FUNDEB",
+    "valor": 24866490.41
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.9.0.00.0.0",
+    "conta": "1.7.9.0.00.0.0 - Demais Transferências Correntes",
+    "valor": 24916.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.9.1.00.0.0",
+    "conta": "1.7.9.1.00.0.0 - Transferências de Pessoas Físicas",
+    "valor": 24916.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.9.1.01.0.0",
+    "conta": "1.7.9.1.01.0.0 - Transferências de Pessoas Físicas para Órgãos e Entidades da União",
+    "valor": 22904.37
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.7.9.1.99.0.0",
+    "conta": "1.7.9.1.99.0.0 - Outras Transferências de Pessoas Físicas",
+    "valor": 2012.15
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.0.0.00.0.0",
+    "conta": "1.9.0.0.00.0.0 - Outras Receitas Correntes",
+    "valor": 508564.23
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.0.00.0.0",
+    "conta": "1.9.1.0.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+    "valor": 39643.59
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.1.00.0.0",
+    "conta": "1.9.1.1.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+    "valor": 39643.59
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.1.01.0.0",
+    "conta": "1.9.1.1.01.0.0 - Multas Previstas em Legislação Específica",
+    "valor": 20468.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.1.06.0.0",
+    "conta": "1.9.1.1.06.0.0 - Multas por Danos Ambientais",
+    "valor": 19175.3
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.1.1.06.1.0",
+    "conta": "1.9.1.1.06.1.0 - Multas Administrativas por Danos Ambientais",
+    "valor": 19175.3
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.0.00.0.0",
+    "conta": "1.9.2.0.00.0.0 - Indenizações, Restituições e Ressarcimentos",
+    "valor": 274014.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.1.00.0.0",
+    "conta": "1.9.2.1.00.0.0 - Indenizações",
+    "valor": 1050
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.1.99.0.0",
+    "conta": "1.9.2.1.99.0.0 - Outras Indenizações",
+    "valor": 1050
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.2.00.0.0",
+    "conta": "1.9.2.2.00.0.0 - Restituições",
+    "valor": 272964.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.2.2.99.0.0",
+    "conta": "1.9.2.2.99.0.0 - Outras Restituições",
+    "valor": 272964.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.0.00.0.0",
+    "conta": "1.9.9.0.00.0.0 - Demais Receitas Correntes",
+    "valor": 194906.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.9.00.0.0",
+    "conta": "1.9.9.9.00.0.0 - Outras Receitas Correntes",
+    "valor": 194906.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.9.03.0.0",
+    "conta": "1.9.9.9.03.0.0 - Compensações Financeiras entre os Regimes de Previdência",
+    "valor": 172406.05
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.9.12.0.0",
+    "conta": "1.9.9.9.12.0.0 - Encargos Legais pela Inscrição em Dívida Ativa e Receitas de Ônus de Sucumbência",
+    "valor": 22500.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO1.9.9.9.12.2.0",
+    "conta": "1.9.9.9.12.2.0 - Ônus de Sucumbência",
+    "valor": 22500.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.0.0.0.00.0.0",
+    "conta": "2.0.0.0.00.0.0 - Receitas de Capital",
+    "valor": 1268246.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.0.0.00.0.0",
+    "conta": "2.4.0.0.00.0.0 - Transferências de Capital",
+    "valor": 1268246.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.0.00.0.0",
+    "conta": "2.4.1.0.00.0.0 - Transferências da União e de suas Entidades",
+    "valor": 243246.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.1.00.0.0",
+    "conta": "2.4.1.1.00.0.0 - Transferências de Recursos do Sistema Único de Saúde - SUS",
+    "valor": 45654.23
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.1.51.0.0",
+    "conta": "2.4.1.1.51.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS - Fundo a Fundo - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+    "valor": 45654.23
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.1.51.3.0",
+    "conta": "2.4.1.1.51.3.0 - Transferências de Recursos do Bloco de Estruturação da Rede de Serviços Públicos de Saúde - Assistência Farmacêutica",
+    "valor": 45654.23
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.4.00.0.0",
+    "conta": "2.4.1.4.00.0.0 - Transferências de Convênios da União e de suas Entidades ",
+    "valor": 97635.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.4.51.0.0",
+    "conta": "2.4.1.4.51.0.0 - Transferências de Convênios da União destinadas a Programas de Educação",
+    "valor": 97635.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.9.00.0.0",
+    "conta": "2.4.1.9.00.0.0 - Outras Transferências de Recursos da União e de suas Entidades",
+    "valor": 99957
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.1.9.99.0.0",
+    "conta": "2.4.1.9.99.0.0 - Outras Transferências De Recursos da União e de suas Entidades",
+    "valor": 99957
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.0.00.0.0",
+    "conta": "2.4.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+    "valor": 1025000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.2.00.0.0",
+    "conta": "2.4.2.2.00.0.0 - Transferências de Convênios dos Estados e DF e de Suas Entidades ",
+    "valor": 425000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.2.99.0.0",
+    "conta": "2.4.2.2.99.0.0 - Outras Transferências de Convênios dos Estados e DF e de Suas Entidades",
+    "valor": 425000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.9.00.0.0",
+    "conta": "2.4.2.9.00.0.0 - Outras Transferências de Recursos dos Estados",
+    "valor": 600000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "RO2.4.2.9.99.0.0",
+    "conta": "2.4.2.9.99.0.0 - Outras Transferências de Recursos dos Estados",
+    "valor": 600000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Receitas Brutas Realizadas",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 255744626.53
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Deduções - FUNDEB",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 19393939.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Outras Deduções da Receita",
+    "cod_conta": "TotalReceitas",
+    "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+    "valor": 63396.42
+   }
+  ],
+  "expenses": [
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 215722450.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 1206715.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 260369.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 946346.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 14253129.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 8138413.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 12247.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 540024.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.128 - Formação de Recursos Humanos",
+    "valor": 26925.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 2210549.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 3324967.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 109924.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 109924.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 1838892.49
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 1353899.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 484992.67
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 5079127.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência à Pessoa Idosa",
+    "valor": 559251
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.243 - Assistência à Criança e ao Adolescente",
+    "valor": 37967.32
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 2138286.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 2333691.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU08 - Demais Subfunções",
+    "valor": 9931.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 17279860.23
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1159593.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 14342086.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 671118.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 94221550.85
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 18634123.54
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 57955278.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 920520.3
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 182622.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1555689.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 14408237.87
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 565078.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11 - Trabalho",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11.331 - Proteção e Benefícios ao Trabalhador",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 41445423.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 35275623.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 4792143.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 87.36
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 1377569.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133795.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133795.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 110153.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 81276.73
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 28876.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 15490360.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 2314184.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 7021176.67
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 6154998.64
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16 - Habitação",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16.482 - Habitação Urbana",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 5158990.59
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 4801968.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.542 - Controle Ambiental",
+    "valor": 357021.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 1650957.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 355071.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 1295886.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 1491019.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 1491019.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1604031.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 109531.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1494500.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 4292543.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 2520390.58
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 98678.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 1673473.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Intraorçamentárias",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 208645494.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 1166215.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 260369.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 905846.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 13619065.09
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 7522776.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 2247.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 531660.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.128 - Formação de Recursos Humanos",
+    "valor": 26925.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 2210485.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 3324967.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 106756.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 106756.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 1672960.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 1353899.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 319060.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 4992991.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência à Pessoa Idosa",
+    "valor": 559251
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.243 - Assistência à Criança e ao Adolescente",
+    "valor": 37967.32
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 2122764.89
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 2263076.64
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU08 - Demais Subfunções",
+    "valor": 9931.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 17241754.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1159593.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 14342086.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 633012.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 91381082.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 18066506.21
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 55969132.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 920404.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 182622.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1555189.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 14122149.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 565078.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11 - Trabalho",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11.331 - Proteção e Benefícios ao Trabalhador",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 40903374.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 34906792.46
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 4618925.54
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 87.36
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 1377569.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133795.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133795.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 110153.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 81276.73
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 28876.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 13806068.33
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 1168498.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 6708312.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 5929257.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16 - Habitação",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16.482 - Habitação Urbana",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 4850776.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 4493754.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.542 - Controle Ambiental",
+    "valor": 357021.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 1356333.55
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 60447.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 1295886.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 1483188
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 1483188
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1593939.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 108531.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1485407.7
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 3871063.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 2184020.36
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 98678.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 1588364.62
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Intraorçamentárias",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 205566859.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01 - Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "01.031 - Ação Legislativa",
+    "valor": 8674561.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 1166215.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.061 - Ação Judiciária",
+    "valor": 260369.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 905846.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 13436474.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 7373749.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 2015.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 515513.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.128 - Formação de Recursos Humanos",
+    "valor": 26925.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 2193301.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU04 - Demais Subfunções",
+    "valor": 3324967.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 106627.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 106627.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 1552328.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 1238752.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 313575.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 4984191.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.241 - Assistência à Pessoa Idosa",
+    "valor": 559251
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.243 - Assistência à Criança e ao Adolescente",
+    "valor": 37967.32
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 2119264.89
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 2257776.64
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU08 - Demais Subfunções",
+    "valor": 9931.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 17161569.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 1090510.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.272 - Previdência do Regime Estatutário",
+    "valor": 14342086.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.274 - Previdência Especial",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 621910.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 90291220.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 17979588.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 55046477.59
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 920404.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 182475.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 1554897.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 14042297.76
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU10 - Demais Subfunções",
+    "valor": 565078.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11 - Trabalho",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "11.331 - Proteção e Benefícios ao Trabalhador",
+    "valor": 1427375.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 40853377.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 34859806.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 4615913.53
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.366 - Educação de Jovens e Adultos",
+    "valor": 87.36
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU12 - Demais Subfunções",
+    "valor": 1377569.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 133723.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 133723.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 110069.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 81192.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "FU14 - Demais Subfunções",
+    "valor": 28876.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 13184128.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 869612.96
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 6587456.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 5727058.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16 - Habitação",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "16.482 - Habitação Urbana",
+    "valor": 4286.43
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 4089665.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 3753305.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.542 - Controle Ambiental",
+    "valor": 336360.05
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 1356333.55
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 60447.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.122 - Administração Geral",
+    "valor": 1295886.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22 - Indústria",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "22.122 - Administração Geral",
+    "valor": 249751.28
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 1334013.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 1334013.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 1585955.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 108531.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 1477423.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 3864991.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 2178020.36
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.813 - Lazer",
+    "valor": 98678.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 1588292.24
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Intraorçamentárias",
+    "valor": 10893416.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 7076956
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "02 - Judiciária",
+    "valor": 40500
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "02.122 - Administração Geral",
+    "valor": 40500
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 634064.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 615636.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 10000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 8364
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 64
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 3168.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 3168.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 165931.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 165931.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 86136.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 15521.82
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 70614.62
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 38106.06
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 38106.06
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 2840468.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 567617.33
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 1986146.05
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 116.08
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 500
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 286088.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 542048.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 368830.73
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 173217.66
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 1684291.79
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 1145686.29
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 312863.87
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 225741.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 308214.11
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 308214.11
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20 - Agricultura",
+    "valor": 294623.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "20.606 - Extensão Rural",
+    "valor": 294623.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 7831.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 7831.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 10092.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.782 - Transporte Rodoviário",
+    "valor": 1000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 9092.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 421479.41
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 336370.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 85109.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Exceto Intraorçamentárias",
+    "valor": 3078635.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04 - Administração",
+    "valor": 182591.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.122 - Administração Geral",
+    "valor": 149027.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.123 - Administração Financeira",
+    "valor": 231.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.124 - Controle Interno",
+    "valor": 16147.17
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "04.129 - Administração de Receitas",
+    "valor": 17184.55
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "05 - Defesa Nacional",
+    "valor": 129.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "05.153 - Defesa Terrestre",
+    "valor": 129.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "06 - Segurança Pública",
+    "valor": 120631.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.181 - Policiamento",
+    "valor": 115146.83
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "06.122 - Administração Geral",
+    "valor": 5485
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08 - Assistência Social",
+    "valor": 8800
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.244 - Assistência Comunitária",
+    "valor": 3500
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "08.122 - Administração Geral",
+    "valor": 5300
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09 - Previdência Social",
+    "valor": 80184.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.271 - Previdência Básica",
+    "valor": 69083
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "09.122 - Administração Geral",
+    "valor": 11101.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10 - Saúde",
+    "valor": 1089862.3
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.301 - Atenção Básica",
+    "valor": 86917.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+    "valor": 922654.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.303 - Suporte Profilático e Terapêutico",
+    "valor": 0.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.304 - Vigilância Sanitária",
+    "valor": 147.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.305 - Vigilância Epidemiológica",
+    "valor": 291.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "10.122 - Administração Geral",
+    "valor": 79851.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12 - Educação",
+    "valor": 49997.68
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.361 - Ensino Fundamental",
+    "valor": 46985.67
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "12.365 - Educação Infantil",
+    "valor": 3012.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "13 - Cultura",
+    "valor": 72.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "13.392 - Difusão Cultural",
+    "valor": 72.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "14 - Direitos da Cidadania",
+    "valor": 83.94
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "14.422 - Direitos Individuais, Coletivos e Difusos",
+    "valor": 83.94
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15 - Urbanismo",
+    "valor": 621939.91
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.451 - Infraestrutura Urbana",
+    "valor": 298885.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.452 - Serviços Urbanos",
+    "valor": 120855.9
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "15.122 - Administração Geral",
+    "valor": 202198.45
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18 - Gestão Ambiental",
+    "valor": 761110.71
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.541 - Preservação e Conservação Ambiental",
+    "valor": 740449.05
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "18.542 - Controle Ambiental",
+    "valor": 20661.66
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24 - Comunicações",
+    "valor": 149174.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "24.122 - Administração Geral",
+    "valor": 149174.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26 - Transporte",
+    "valor": 7984.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "26.122 - Administração Geral",
+    "valor": 7984.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27 - Desporto e Lazer",
+    "valor": 6072.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.812 - Desporto Comunitário",
+    "valor": 6000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "27.122 - Administração Geral",
+    "valor": 72.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Despesas Intraorçamentárias",
+    "valor": 696255.1
+   }
+  ]
+ }
+}
