@@ -8,7 +8,7 @@ const EMPTY: Summary = { municipality: { name: 'Nerópolis', state: 'GO', ibgeCo
 
 @Component({
   selector: 'app-root', standalone: true, imports: [CommonModule],
-  templateUrl: './app.component.html', styleUrl: './app.component.scss'
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   private readonly data = inject(DataService);
