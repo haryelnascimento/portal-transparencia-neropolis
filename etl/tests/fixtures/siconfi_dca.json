@@ -3299,6 +3299,1344 @@
     "conta": "26.122 - Administração Geral",
     "valor": 5971.7
    }
+  ],
+  "natures": [
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 125709387.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 120840306.2
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 120378385.7
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 4869081.75
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 461920.5
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 123042397.18
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 118476620.27
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 118016189.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 4565776.91
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 460430.49
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 56365777.15
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 55878845.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 55878845.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 51107765.23
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 51107765.23
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 51107765.23
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 7476541.54
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 7476541.54
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 7476541.54
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 1498749.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 1498749.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 1498749.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 110738.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 110738.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 110738.82
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 39185063.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 39185063.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 39185063.81
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 2219376.35
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 4134.22
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 4134.22
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 4134.22
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 581759.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 581759.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 581759.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 31401.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 31401.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 31401.55
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 5258011.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 5258011.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.13.02.00",
+    "conta": "3.1.91.13.02 - Contribuições previdenciárias - INSS",
+    "valor": 5258011.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.13.02.00",
+    "conta": "3.1.91.13.02 - Contribuições previdenciárias - INSS",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.13.02.00",
+    "conta": "3.1.91.13.02 - Contribuições previdenciárias - INSS",
+    "valor": 4771079.78
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DI3.1.91.13.02.00",
+    "conta": "3.1.91.13.02 - Contribuições previdenciárias - INSS",
+    "valor": 486932.14
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 66676620.03
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 62597775.26
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 62137344.77
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 4078844.77
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 460430.49
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 174621.6
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 174621.6
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 174621.6
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 74235.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 74235.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 74235.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.71.00.00.00",
+    "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+    "valor": 772808.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.71.00.00.00",
+    "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+    "valor": 772808.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.71.00.00.00",
+    "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+    "valor": 772808.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 65654954.09
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 61576109.32
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 61115678.83
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 4078844.77
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 460430.49
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 6080
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 6080
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 6080
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 6348799.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 5850425.28
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 5479080.02
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 498374.17
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 371345.26
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 1596840.16
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 1455620.21
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 1410583
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 141219.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 45037.21
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 3724578.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 3724578.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 3724578.65
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 326200
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 326200
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 326200
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 489179.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 489179.94
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 487688.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 1491.9
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 49568789.48
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 46172935.08
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 46165685.59
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 3395854.4
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 7249.49
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação (TIC) - Pessoa Jurídica",
+    "valor": 491269.1
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação (TIC) - Pessoa Jurídica",
+    "valor": 447872.85
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação (TIC) - Pessoa Jurídica",
+    "valor": 446112.85
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação (TIC) - Pessoa Jurídica",
+    "valor": 43396.25
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação (TIC) - Pessoa Jurídica",
+    "valor": 1760
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 792272.3
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 1132781.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 1132781.66
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 1103962.07
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 28819.59
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 279333.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 279333.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 279333.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 44056.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 44056.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 44056.71
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.92.00.00",
+    "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 3978.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.92.00.00",
+    "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 3978.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.92.00.00",
+    "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 3978.45
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 850794.68
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 850794.68
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 846067.64
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 4727.04
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 2666990.77
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 2363685.93
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 2362195.92
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 303304.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 1490.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 2153846.26
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 1850541.42
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 1849051.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 303304.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 1490.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 2153846.26
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 1850541.42
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 1849051.41
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 303304.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 1490.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 1592794.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 1324733.96
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 1324733.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 268060.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 0.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Demais Obras e Instalações",
+    "valor": 1592794.8
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Demais Obras e Instalações",
+    "valor": 1324733.96
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Demais Obras e Instalações",
+    "valor": 1324733.95
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Demais Obras e Instalações",
+    "valor": 268060.84
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Demais Obras e Instalações",
+    "valor": 0.01
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 561051.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 525807.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 524317.46
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 35244
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 1490
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 513144.51
+   },
+   {
+    "exercicio": 2021,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 513144.51
+   }
   ]
  },
  "2025": {
@@ -6960,6 +8298,1488 @@
     "cod_conta": "TotalDespesas",
     "conta": "Despesas Intraorçamentárias",
     "valor": 696255.1
+   }
+  ],
+  "natures": [
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 227312121.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 220235165.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 216460275.03
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 7076956
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "TotalDespesas",
+    "conta": "Total Geral da Despesa",
+    "valor": 3774890.57
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 223026073.16
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 217051071.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 214076397.85
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 5975001.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.0.00.00.00.00",
+    "conta": "3.0.00.00.00 - Despesas Correntes",
+    "valor": 2974673.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 100100361.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 100100361.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 99335023.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.1.00.00.00.00",
+    "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+    "valor": 765338.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 88510690.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 88510690.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 88441607.48
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.1.90.00.00.00",
+    "conta": "3.1.90.00.00 - Aplicações Diretas",
+    "valor": 69083
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 12172035.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 12172035.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.01.00.00",
+    "conta": "3.1.90.01.00 - Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares",
+    "valor": 12172035.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 2335460.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 2335460.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.03.00.00",
+    "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+    "valor": 2335460.99
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 4246090.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 4246090.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.04.00.00",
+    "conta": "3.1.90.04.00 - Contratação por Tempo Determinado",
+    "valor": 4246090.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 66144656.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 66144656.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.11.00.00",
+    "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+    "valor": 66144656.72
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 3376575.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 3376575.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 3307492.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.1.90.13.00.00",
+    "conta": "3.1.90.13.00 - Obrigações Patronais",
+    "valor": 69083
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 3376575.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 3376575.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 3307492.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.1.90.13.02.00",
+    "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+    "valor": 69083
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 47085.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 47085.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.16.00.00",
+    "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+    "valor": 47085.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 62074.95
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 62074.95
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.91.00.00",
+    "conta": "3.1.90.91.00 - Sentenças Judiciais",
+    "valor": 62074.95
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.92.00.00",
+    "conta": "3.1.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 31139.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.92.00.00",
+    "conta": "3.1.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 31139.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.92.00.00",
+    "conta": "3.1.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 31139.8
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 95571.92
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 95571.92
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.1.90.94.00.00",
+    "conta": "3.1.90.94.00 - Indenizações e Restituições Trabalhistas",
+    "valor": 95571.92
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 10893416.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DI3.1.91.00.00.00",
+    "conta": "3.1.91.00.00 - Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social",
+    "valor": 696255.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 10893416.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DI3.1.91.13.00.00",
+    "conta": "3.1.91.13.00 - Contribuições Patronais",
+    "valor": 696255.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DI3.1.91.13.08.00",
+    "conta": "3.1.91.13.08 - Contribuições previdenciárias - RPPS - pessoal ativo - plano previdenciário",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DI3.1.91.13.08.00",
+    "conta": "3.1.91.13.08 - Contribuições previdenciárias - RPPS - pessoal ativo - plano previdenciário",
+    "valor": 11589671.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DI3.1.91.13.08.00",
+    "conta": "3.1.91.13.08 - Contribuições previdenciárias - RPPS - pessoal ativo - plano previdenciário",
+    "valor": 10893416.02
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DI3.1.91.13.08.00",
+    "conta": "3.1.91.13.08 - Contribuições previdenciárias - RPPS - pessoal ativo - plano previdenciário",
+    "valor": 696255.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 122925711.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 116950709.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 114741374.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 5975001.81
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.00.00.00.00",
+    "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+    "valor": 2209335.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 3841632.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 3247114
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 3247114
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.50.00.00.00",
+    "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+    "valor": 594518.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 108395.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 108395.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.70.00.00.00",
+    "conta": "3.3.70.00.00 - Transferências a Instituições Multigovernamentais",
+    "valor": 108395.42
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 118975683.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 113595200.33
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 111385864.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 5380483.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.00.00.00",
+    "conta": "3.3.90.00.00 - Aplicações Diretas",
+    "valor": 2209335.4
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.08.00.00",
+    "conta": "3.3.90.08.00 - Outros Benefícios Assistenciais do servidor e do militar",
+    "valor": 225000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.08.00.00",
+    "conta": "3.3.90.08.00 - Outros Benefícios Assistenciais do servidor e do militar",
+    "valor": 225000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.08.00.00",
+    "conta": "3.3.90.08.00 - Outros Benefícios Assistenciais do servidor e do militar",
+    "valor": 225000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 150435
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 150435
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.14.00.00",
+    "conta": "3.3.90.14.00 - Diárias - Civil",
+    "valor": 150435
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.15.00.00",
+    "conta": "3.3.90.15.00 - Diárias - Militar",
+    "valor": 3600
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.15.00.00",
+    "conta": "3.3.90.15.00 - Diárias - Militar",
+    "valor": 3600
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.15.00.00",
+    "conta": "3.3.90.15.00 - Diárias - Militar",
+    "valor": 3600
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 9593737.87
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 9177094.61
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 9142134.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 416643.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.30.00.00",
+    "conta": "3.3.90.30.00 - Material de Consumo",
+    "valor": 34960.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 4595465.55
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 4578982.35
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 4523730.39
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 16483.2
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.32.00.00",
+    "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+    "valor": 55251.96
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 6310414.38
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 5985482.88
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 5846312.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 324931.5
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.34.00.00",
+    "conta": "3.3.90.34.00 - Outras Despesas de Pessoal decorrentes de Contratos de Terceirização",
+    "valor": 139170.14
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 1001325.96
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 862375.96
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 788045.96
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 138950
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.35.00.00",
+    "conta": "3.3.90.35.00 - Serviços de Consultoria",
+    "valor": 74330
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 1734545.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 1733357.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 1730598.1
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 1188
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.36.00.00",
+    "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+    "valor": 2759.09
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 85623485.77
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 81900256.3
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 80153830.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 3723229.47
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.39.00.00",
+    "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+    "valor": 1746425.78
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+    "valor": 1493346.51
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+    "valor": 888245.6
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+    "valor": 848852.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+    "valor": 605100.91
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.40.00.00",
+    "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+    "valor": 39392.67
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.41.00.00",
+    "conta": "3.3.90.41.00 - Contribuições",
+    "valor": 1107061.52
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.46.00.00",
+    "conta": "3.3.90.46.00 - Auxílio-Alimentação",
+    "valor": 502000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.46.00.00",
+    "conta": "3.3.90.46.00 - Auxílio-Alimentação",
+    "valor": 502000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.46.00.00",
+    "conta": "3.3.90.46.00 - Auxílio-Alimentação",
+    "valor": 502000
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 2310750.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 2310750.98
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 2306593.31
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.47.00.00",
+    "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+    "valor": 4157.67
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 525421.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 525421.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 524921.93
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.48.00.00",
+    "conta": "3.3.90.48.00 - Outros Auxílios Financeiros a Pessoas Físicas",
+    "valor": 500
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 548242.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 548242.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.91.00.00",
+    "conta": "3.3.90.91.00 - Sentenças Judiciais",
+    "valor": 548242.26
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.92.00.00",
+    "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 153956.73
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO3.3.90.92.00.00",
+    "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+    "valor": 153956.73
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 3096893.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 3096893.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 2984506.01
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO3.3.90.93.00.00",
+    "conta": "3.3.90.93.00 - Indenizações e Restituições",
+    "valor": 112387.74
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 4286048.44
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 3184094.25
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 2383877.18
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 1101954.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.0.00.00.00.00",
+    "conta": "4.0.00.00.00 - Despesas de Capital",
+    "valor": 800217.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 3924309.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 2822355.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 2022138.49
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 1101954.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.00.00.00.00",
+    "conta": "4.4.00.00.00 - Investimentos",
+    "valor": 800217.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 3924309.75
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 2822355.56
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 2022138.49
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 1101954.19
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.00.00.00",
+    "conta": "4.4.90.00.00 - Aplicações Diretas",
+    "valor": 800217.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 2221303.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 1842145.34
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 1057706.27
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 379157.78
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.51.00.00",
+    "conta": "4.4.90.51.00 - Obras e Instalações",
+    "valor": 784439.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+    "valor": 2221303.12
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+    "valor": 1842145.34
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+    "valor": 1057706.27
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+    "valor": 379157.78
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.51.99.00",
+    "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+    "valor": 784439.07
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 1703006.63
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 980210.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 964432.22
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Não Processados",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 722796.41
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Inscrição de Restos a Pagar Processados",
+    "cod_conta": "DO4.4.90.52.00.00",
+    "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+    "valor": 15778
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.00.00.00.00",
+    "conta": "4.6.00.00.00 - Amortização da Dívida",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.90.00.00.00",
+    "conta": "4.6.90.00.00 - Aplicações Diretas",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Empenhadas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Liquidadas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 361738.69
+   },
+   {
+    "exercicio": 2025,
+    "cod_ibge": 5214507,
+    "coluna": "Despesas Pagas",
+    "cod_conta": "DO4.6.90.71.00.00",
+    "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+    "valor": 361738.69
    }
   ]
  }

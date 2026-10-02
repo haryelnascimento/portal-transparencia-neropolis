@@ -1,0 +1,98 @@
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow"><i></i> DADOS PÚBLICOS, ACESSÍVEIS A TODOS</span>
+    <h1>O dinheiro público de<br><em>Nerópolis, às claras.</em></h1>
+    <p>Comece pelo panorama e clique para descer de nível: da origem do dinheiro até a área, o tipo de gasto e cada emenda parlamentar.</p>
+    <div class="hero-actions"><a class="primary" routerLink="/receitas">Seguir o dinheiro <b>→</b></a><a class="secondary" routerLink="/glossario">Entenda os termos <b>↗</b></a></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orb"><div class="city">Nerópolis<small>Goiás · Brasil</small></div><div class="pin">●</div></div>
+    <span class="tag tag-one">5214507 <small>Código IBGE</small></span>
+    @if (summary()?.years?.length) {
+      <span class="tag tag-two">{{ summary()!.years[0] }}–{{ summary()!.latestYear }} <small>Exercícios publicados</small></span>
+    }
+  </div>
+</section>
+
+@if (summary() === null) {
+  <section><p class="empty">Não foi possível carregar os dados agora. Tente novamente em instantes.</p></section>
+}
+
+@if (finance(); as f) {
+  <section class="snapshot">
+    <div class="section-title">
+      <div><span class="eyebrow">1 · DE ONDE VEIO · EXERCÍCIO {{ f.year }} <app-info term="exercicio" /></span><h2>Quanto Nerópolis arrecadou?</h2></div>
+      <a class="more" [routerLink]="['/receitas', f.year]">Ver todas as receitas →</a>
+    </div>
+    <div class="cards five">
+      <a class="metric featured" [routerLink]="['/receitas', f.year]">
+        <small>RECEITA TOTAL</small><strong>{{ f.revenues.gross | money }}</strong>
+        <footer><span>Receita bruta realizada no ano</span></footer>
+      </a>
+      @for (o of originCards(); track o.key) {
+        <a class="metric" [routerLink]="['/receitas', f.year]" [queryParams]="{ origem: o.key }">
+          <small>{{ o.label.toUpperCase() }}</small>
+          <strong>{{ o.value | money }}</strong>
+          <footer><span>{{ o.value | pct: f.revenues.gross }} da receita · detalhar ›</span><div class="bar"><i [style.width.%]="(o.value / f.revenues.gross) * 100"></i></div></footer>
+        </a>
+      }
+    </div>
+    <div class="panels">
+      <article class="panel">
+        <h3>Principais receitas <app-info term="transferencias" /></h3>
+        <p class="hint">Impostos e repasses de maior valor em {{ f.year }}. Clique para ver a composição.</p>
+        <app-bar-list [rows]="highlightRows()" />
+      </article>
+      <article class="panel">
+        <h3>Receita ano a ano <app-info term="valores-nominais" /></h3>
+        <p class="hint">Valores nominais, sem correção pela inflação. Clique em um ano para explorá-lo.</p>
+        <app-bar-list [rows]="yearRows()" />
+      </article>
+    </div>
+  </section>
+
+  <section class="flow">
+    <div class="section-title">
+      <div><span class="eyebrow">2 · COMO FOI GASTO · EXERCÍCIO {{ f.year }}</span><h2>Para onde foi o dinheiro?</h2></div>
+      <a class="more" [routerLink]="['/despesas', f.year]">Ver todas as despesas →</a>
+    </div>
+    <app-stages [value]="f.expenses" />
+    <div class="panels">
+      <article class="panel wide">
+        <h3>Valor pago por área de governo <app-info term="funcao" /></h3>
+        <p class="hint">As 8 áreas com maior despesa paga. Clique para ver subáreas e emendas ligadas.</p>
+        <app-bar-list [rows]="functionRows()" />
+      </article>
+    </div>
+  </section>
+}
+
+@if (topAmendments().length) {
+  <section class="latest">
+    <div class="section-title">
+      <div><span class="eyebrow">3 · RECURSOS COM DESTINO CERTO</span><h2>Emendas parlamentares <app-info term="emenda-parlamentar" /></h2></div>
+      <a class="more" routerLink="/emendas">Ver as {{ summary()?.amendments?.count }} emendas →</a>
+    </div>
+    <ul class="link-list cards-list">
+      @for (a of topAmendments(); track a.id) {
+        <li><a [routerLink]="['/emendas', a.id]"><strong>{{ a.purpose }}</strong><span>{{ a.parliamentarian }} · {{ a.area }}</span><span class="amounts"><em>{{ a.values.transferred | money }}</em> repassados</span><b aria-hidden="true">›</b></a></li>
+      }
+    </ul>
+  </section>
+}
+
+<section class="trust" id="sobre">
+  <div><span class="eyebrow light">SOBRE OS DADOS</span><h2>Dados com origem.<br>Informação com contexto.</h2></div>
+  <p>Os números são coletados diariamente das bases oficiais por um processo automatizado e aberto. Cada tela traz o link para os dados originais. Valores declarados pela Prefeitura ao Tesouro podem ser retificados posteriormente.</p>
+  <ul>
+    @for (s of sourceList(); track s.key) {
+      <li>
+        <b [class.warn]="s.status !== 'SUCCESS'">{{ s.status === 'SUCCESS' ? '✓' : s.status === 'FAILED' ? '!' : '…' }}</b>
+        <span>
+          <strong><a [href]="s.url" target="_blank" rel="noopener">{{ s.label }}</a></strong>
+          <small>{{ statusLabel[s.status] }}@if (s.lastSuccessAt) { · coletado em {{ s.lastSuccessAt | date: 'dd/MM/yyyy HH:mm' }} }</small>
+        </span>
+      </li>
+    }
+  </ul>
+</section>

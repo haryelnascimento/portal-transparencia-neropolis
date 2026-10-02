@@ -22,6 +22,8 @@ def collect() -> list[dict]:
         plan["executores"] = _get("executor_especial", id_plano_acao=plan_id)
         plan["empenhos"] = _get("empenho_especial", id_plano_acao=plan_id)
         plan["relatorios_gestao"] = _get("relatorio_gestao_novo_especial", id_plano_acao=plan_id)
+        plan["planos_trabalho"] = _get("plano_trabalho_especial", id_plano_acao=plan_id)
+        plan["metas"] = _in("meta_especial", "id_executor", [e["id_executor"] for e in plan["executores"]])
         documents = _in("documento_habil_especial", "id_empenho", [e["id_empenho"] for e in plan["empenhos"]])
         orders = _in("ordem_pagamento_ordem_bancaria_especial", "id_dh", [d["id_dh"] for d in documents])
         for document in documents:

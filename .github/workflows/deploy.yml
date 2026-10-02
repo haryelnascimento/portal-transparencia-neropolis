@@ -31,6 +31,8 @@ jobs:
         working-directory: frontend
       - run: npm run build -- --base-href /${{ github.event.repository.name }}/
         working-directory: frontend
+      # GitHub Pages não tem fallback de SPA: o 404.html carrega o app e o roteador abre a URL pedida.
+      - run: cp frontend/dist/portal/browser/index.html frontend/dist/portal/browser/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: frontend/dist/portal/browser }

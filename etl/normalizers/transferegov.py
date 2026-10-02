@@ -1,9 +1,50 @@
+import re
+
 from etl.config import MUNICIPALITY, TRANSFEREGOV_URL
 
 PAID_ORDER = "OB Enviada à instituição bancária para pagamento"
 REPORT_STATUS = {"EM_ELABORACAO": "Em elaboração", "DISPONIBILIZADO": "Disponibilizado", "ENVIADO": "Enviado"}
 # Só relatórios entregues têm valor executado declarado; em elaboração o valor 0 é provisório.
 DELIVERED_REPORTS = {"DISPONIBILIZADO", "ENVIADO"}
+
+
+BUDGET_FIELDS = {
+    "Órgão": "organ", "Unidade": "unit", "Função": "function", "Sub-Função": "subfunction",
+    "Programa": "program", "Projeto/Atividade": "action", "Elemento": "element", "Fonte de Recurso": "fundingSource",
+}
+BUDGET_LINE = re.compile(r"^\s*([^.:]+?)\.*:\s*(.+?)\s*$")
+WORK_PLAN_STATUS = {"CONCLUIDO_NT_TCU": "Concluído", "APROVADO": "Aprovado", "EM_ELABORACAO": "Em elaboração"}
+
+
+def parse_budget(text: str | None) -> list[dict]:
+    """Converte a classificação orçamentária em texto livre do plano de trabalho em blocos estruturados.
+
+    Exemplo de linha: "Função.......................: 000027 - Desporto e Lazer".
+    Um plano pode ter blocos separados para investimento e custeio.
+    """
+    blocks, current = [], {}
+    for line in (text or "").splitlines():
+        match = BUDGET_LINE.match(line)
+        if not match:
+            if line.strip().rstrip(":") in ("Investimento", "Custeio") and current:
+                blocks.append(current)
+                current = {}
+            continue
+        key = BUDGET_FIELDS.get(match.group(1).strip())
+        if not key:
+            continue
+        code, _, name = match.group(2).partition(" - ")
+        if key in current:
+            blocks.append(current)
+            current = {}
+        current[key] = {"code": code.strip(), "name": re.sub(r"\s+", " ", name).strip() or code.strip()}
+    if current:
+        blocks.append(current)
+    unique = []
+    for block in blocks:
+        if block not in unique:
+            unique.append(block)
+    return unique
 
 
 def _area(raw: str | None) -> str:
@@ -40,6 +81,19 @@ def normalize_amendment(plan: dict) -> dict:
 
     executors = plan.get("executores", [])
     program = plan.get("programa") or {}
+    work_plans = plan.get("planos_trabalho", [])
+    work_plan = work_plans[0] if work_plans else None
+    commitment_list = [{"number": e["numero_empenho"], "date": e["data_emissao_empenho"], "amount": float(e["valor_empenho"]), "category": (e.get("categoria_despesa_empenho") or "").capitalize() or None, "status": e.get("descricao_situacao_empenho")} for e in commitments]
+    payments = [
+        {"order": o["numero_ordem_bancaria"], "document": d["numero_documento_habil"], "date": o["data_emissao_ob"], "amount": float(d["valor_dh"]), "status": o.get("descricao_situacao_op")}
+        for d in plan.get("documentos_habeis", []) for o in d.get("ordens_pagamento", [])
+    ]
+    goals = [
+        {"name": g.get("nome_meta"), "description": (g.get("desc_meta") or "").strip(), "unit": g.get("un_medida_meta"), "quantity": float(g.get("qt_uniade_meta") or 0), "months": g.get("qt_meses_meta"),
+         "amount": round(sum(float(g.get(k) or 0) for k in ("vl_custeio_emenda_especial_meta", "vl_investimento_emenda_especial_meta")), 2),
+         "ownResources": round(sum(float(g.get(k) or 0) for k in ("vl_custeio_recursos_proprios_meta", "vl_investimento_recursos_proprios_meta")), 2)}
+        for g in sorted(plan.get("metas", []), key=lambda g: g.get("sequencial_meta") or 0)
+    ]
     return {
         "id": f"transferegov-especial-{plan_id}",
         "code": plan.get("codigo_plano_acao"),
@@ -53,6 +107,19 @@ def normalize_amendment(plan: dict) -> dict:
         "status": plan.get("situacao_plano_acao"),
         "values": {"planned": round(planned, 2), "committed": round(committed, 2), "transferred": round(transferred, 2), "reportedExecuted": float(report["valor_executado_relatorio_gestao_novo"]) if report and report["situacao_relatorio_gestao_novo"] in DELIVERED_REPORTS else None},
         "managementReport": {"type": report["tipo_relatorio_gestao_novo"], "status": REPORT_STATUS.get(report["situacao_relatorio_gestao_novo"], report["situacao_relatorio_gestao_novo"]), "date": report["data_e_hora_relatorio_gestao_novo"][:10]} if report else None,
+        "costing": round(float(plan.get("valor_custeio_plano_acao") or 0), 2),
+        "investment": round(float(plan.get("valor_investimento_plano_acao") or 0), 2),
+        "workPlan": {
+            "status": WORK_PLAN_STATUS.get(work_plan["situacao_plano_trabalho"], work_plan["situacao_plano_trabalho"]),
+            "start": (work_plan.get("data_inicio_execucao_plano_trabalho") or "")[:10] or None,
+            "end": (work_plan.get("data_fim_execucao_plano_trabalho") or "")[:10] or None,
+            "months": work_plan.get("prazo_execucao_meses_plano_trabalho"),
+            "budget": parse_budget(work_plan.get("classificacao_orcamentaria_pt")),
+        } if work_plan else None,
+        "goals": goals,
+        "commitments": commitment_list,
+        "payments": payments,
+        "links": {"function": None},
         "timeline": sorted(events, key=lambda e: e["date"]),
         "sourceUrl": f"{TRANSFEREGOV_URL}/plano_acao_especial?id_plano_acao=eq.{plan_id}",
         "municipality": MUNICIPALITY,
