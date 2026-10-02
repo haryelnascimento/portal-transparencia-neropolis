@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from etl.config import FIRST_YEAR, IBGE_CODE, SICONFI_URL
 from etl.http import get_json
 
-ANNEXES = {"revenues": "DCA-Anexo I-C", "expenses": "DCA-Anexo I-E"}
+ANNEXES = {"revenues": "DCA-Anexo I-C", "expenses": "DCA-Anexo I-E", "natures": "DCA-Anexo I-D"}
 
 
 def _items(annex: str, year: int) -> list[dict]:
@@ -17,7 +17,7 @@ def _items(annex: str, year: int) -> list[dict]:
 
 
 def collect() -> dict:
-    """Coleta a Declaração de Contas Anuais (receitas e despesas por função) de cada exercício publicado."""
+    """Coleta a Declaração de Contas Anuais (receitas, despesas por função e por natureza) de cada exercício publicado."""
     years = {}
     for year in range(FIRST_YEAR, datetime.now(timezone.utc).year + 1):
         data = {key: _items(annex, year) for key, annex in ANNEXES.items()}
