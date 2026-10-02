@@ -7,6 +7,7 @@ from typing import Callable
 
 from etl.collectors import siconfi, transferegov, transparencia
 from etl.config import ROOT
+from etl.correlators import link_amendments_to_functions
 from etl.exporters import export_public, write_json
 from etl.normalizers import normalize_amendment, normalize_finances, normalize_transfer
 from etl.validators import validate_amendments, validate_finances, validate_transfers
@@ -74,6 +75,8 @@ def run() -> None:
         datasets[source.dataset], sources[source.name] = _run_source(source, previous.get(source.name) if isinstance(previous.get(source.name), dict) else {})
     if not any(s["status"] == "SUCCESS" for s in sources.values()) and not any(datasets.values()):
         raise SystemExit("Nenhuma fonte disponível e não há dados anteriores para publicar")
+    if datasets.get("amendments") and datasets.get("finances"):
+        link_amendments_to_functions(datasets["amendments"], datasets["finances"])
     statuses = {s["status"] for s in sources.values() if s["status"] != "SKIPPED"}
     metadata = {"startedAt": started, "finishedAt": _now(), "status": "SUCCESS" if statuses == {"SUCCESS"} else "PARTIAL", "sources": sources}
     export_public(PUBLIC, datasets, metadata)
