@@ -1,0 +1,4501 @@
+{
+  "year": 2024,
+  "lastMonth": 12,
+  "months": [
+    {
+      "month": 1,
+      "committed": 91489981.67,
+      "liquidated": 9174325.53,
+      "paid": 8396985.55
+    },
+    {
+      "month": 2,
+      "committed": 104702010.78,
+      "liquidated": 23350814.46,
+      "paid": 23157237.81
+    },
+    {
+      "month": 3,
+      "committed": 144570510.3,
+      "liquidated": 47365537.14,
+      "paid": 46432295.2
+    },
+    {
+      "month": 4,
+      "committed": 156737822.59,
+      "liquidated": 63382472.19,
+      "paid": 62531267.37
+    },
+    {
+      "month": 5,
+      "committed": 167590894.89,
+      "liquidated": 81139762.24,
+      "paid": 80621288.29
+    },
+    {
+      "month": 6,
+      "committed": 180343235.72,
+      "liquidated": 99551723.17,
+      "paid": 99245878.34
+    },
+    {
+      "month": 7,
+      "committed": 190264135.99,
+      "liquidated": 116744771.86,
+      "paid": 116109586.05
+    },
+    {
+      "month": 8,
+      "committed": 199826619.71,
+      "liquidated": 136526721.87,
+      "paid": 136328619.3
+    },
+    {
+      "month": 9,
+      "committed": 211092005.6,
+      "liquidated": 151620425.53,
+      "paid": 150772251.26
+    },
+    {
+      "month": 10,
+      "committed": 225400759.66,
+      "liquidated": 167945960.6,
+      "paid": 167538546.93
+    },
+    {
+      "month": 11,
+      "committed": 234739762.82,
+      "liquidated": 185347559.16,
+      "paid": 184865773.34
+    },
+    {
+      "month": 12,
+      "committed": 240365617.27,
+      "liquidated": 220490285.54,
+      "paid": 219265306.12
+    }
+  ],
+  "committed": 240365617.27,
+  "liquidated": 220490285.54,
+  "paid": 219265306.12,
+  "functions": [
+    {
+      "code": "10",
+      "months": [
+        {
+          "month": 1,
+          "committed": 46305589.9,
+          "liquidated": 2361250.67,
+          "paid": 1810457.82
+        },
+        {
+          "month": 2,
+          "committed": 48646951.42,
+          "liquidated": 6763517.81,
+          "paid": 6671919.51
+        },
+        {
+          "month": 3,
+          "committed": 74339567.48,
+          "liquidated": 14949133.43,
+          "paid": 14637170.34
+        },
+        {
+          "month": 4,
+          "committed": 76977402.86,
+          "liquidated": 22567750.68,
+          "paid": 22019445.93
+        },
+        {
+          "month": 5,
+          "committed": 80424888.21,
+          "liquidated": 30919801.49,
+          "paid": 30571338.35
+        },
+        {
+          "month": 6,
+          "committed": 82472970.14,
+          "liquidated": 38731916.79,
+          "paid": 38669740.86
+        },
+        {
+          "month": 7,
+          "committed": 84251731.35,
+          "liquidated": 46176883.12,
+          "paid": 46098596.13
+        },
+        {
+          "month": 8,
+          "committed": 87396137.19,
+          "liquidated": 55235602.87,
+          "paid": 55180445.38
+        },
+        {
+          "month": 9,
+          "committed": 90724972.28,
+          "liquidated": 61471148.72,
+          "paid": 60799979.81
+        },
+        {
+          "month": 10,
+          "committed": 95158903.16,
+          "liquidated": 69339494.24,
+          "paid": 69125082.75
+        },
+        {
+          "month": 11,
+          "committed": 97575311.38,
+          "liquidated": 76873765.77,
+          "paid": 76505772.31
+        },
+        {
+          "month": 12,
+          "committed": 95120029.32,
+          "liquidated": 88181687.51,
+          "paid": 88166415.66
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 66615742.67,
+          "liquidated": 59868946.22,
+          "paid": 59858073.27,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 12349950.99,
+          "liquidated": 12349950.99,
+          "paid": 12349950.99,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 3965289.32,
+          "liquidated": 3964380.32,
+          "paid": 3964380.32,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 3210504.36,
+          "liquidated": 3082163.22,
+          "paid": 3077764.32,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 2748518.69,
+          "liquidated": 2748518.69,
+          "paid": 2748518.69,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "committed": 2545380.35,
+          "liquidated": 2483085.13,
+          "paid": 2483085.13,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 1595197.44,
+          "liquidated": 1595197.44,
+          "paid": 1595197.44,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 571031.78,
+          "liquidated": 571031.78,
+          "paid": 571031.78,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 374640.0,
+          "liquidated": 374640.0,
+          "paid": 374640.0,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 345850.0,
+          "liquidated": 345850.0,
+          "paid": 345850.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "committed": 326008.95,
+          "liquidated": 326008.95,
+          "paid": 326008.95,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 278406.36,
+          "liquidated": 278406.36,
+          "paid": 278406.36,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.48.00.00",
+          "committed": 98980.0,
+          "liquidated": 98980.0,
+          "paid": 98980.0,
+          "name": "Outros Auxílios Financeiros a Pessoas Físicas"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 68178.41,
+          "liquidated": 68178.41,
+          "paid": 68178.41,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.16.00.00",
+          "committed": 21600.0,
+          "liquidated": 21600.0,
+          "paid": 21600.0,
+          "name": "Outras Despesas Variáveis - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "committed": 4750.0,
+          "liquidated": 4750.0,
+          "paid": 4750.0,
+          "name": "Diárias - Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 32906626.61
+        },
+        {
+          "code": "600",
+          "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+          "shortName": "SUS federal – manutenção",
+          "paid": 29034174.94
+        },
+        {
+          "code": "621",
+          "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual",
+          "shortName": "SUS estadual",
+          "paid": 20802491.1
+        },
+        {
+          "code": "605",
+          "name": "Assistência financeira da União destinada à complementação ao pagamento dos pisos salariais para profissionais da enfermagem.",
+          "shortName": "União – piso da enfermagem",
+          "paid": 4728399.07
+        },
+        {
+          "code": "601",
+          "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+          "shortName": "SUS federal – estruturação da rede",
+          "paid": 300662.06
+        },
+        {
+          "code": "602",
+          "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Recursos destinados ao enfrentamento da COVID-19 no bojo da ação 21C0.",
+          "shortName": "SUS federal – manutenção (COVID-19)",
+          "paid": 132405.15
+        },
+        {
+          "code": "632",
+          "name": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde",
+          "shortName": "Convênios estaduais – saúde",
+          "paid": 128304.92
+        },
+        {
+          "code": "753",
+          "name": "Recursos Provenientes de Taxas, Contribuições e Preços Públicos",
+          "shortName": "Taxas, contribuições e preços públicos",
+          "paid": 80896.46
+        },
+        {
+          "code": "710",
+          "name": "Transferência Especial dos Estados",
+          "shortName": "Transferência especial do Estado",
+          "paid": 52455.35
+        }
+      ],
+      "committed": 95120029.32,
+      "liquidated": 88181687.51,
+      "paid": 88166415.66,
+      "name": "Saúde"
+    },
+    {
+      "code": "12",
+      "months": [
+        {
+          "month": 1,
+          "committed": 8580098.53,
+          "liquidated": 2276770.25,
+          "paid": 2253410.48
+        },
+        {
+          "month": 2,
+          "committed": 15156803.32,
+          "liquidated": 5149580.22,
+          "paid": 5138627.95
+        },
+        {
+          "month": 3,
+          "committed": 23959155.71,
+          "liquidated": 16091190.16,
+          "paid": 15575946.14
+        },
+        {
+          "month": 4,
+          "committed": 29125949.93,
+          "liquidated": 18849323.96,
+          "paid": 18810292.37
+        },
+        {
+          "month": 5,
+          "committed": 31790748.87,
+          "liquidated": 22419012.96,
+          "paid": 22313435.08
+        },
+        {
+          "month": 6,
+          "committed": 37766589.63,
+          "liquidated": 26427788.24,
+          "paid": 26408051.06
+        },
+        {
+          "month": 7,
+          "committed": 40368748.66,
+          "liquidated": 28888851.72,
+          "paid": 28875775.91
+        },
+        {
+          "month": 8,
+          "committed": 43069129.28,
+          "liquidated": 34444644.41,
+          "paid": 34395234.48
+        },
+        {
+          "month": 9,
+          "committed": 45593492.54,
+          "liquidated": 37547559.28,
+          "paid": 37531821.85
+        },
+        {
+          "month": 10,
+          "committed": 48294154.01,
+          "liquidated": 40615318.08,
+          "paid": 40561041.35
+        },
+        {
+          "month": 11,
+          "committed": 50272982.65,
+          "liquidated": 43607001.24,
+          "paid": 43591975.43
+        },
+        {
+          "month": 12,
+          "committed": 53607209.54,
+          "liquidated": 53465312.99,
+          "paid": 52271676.53
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 28254554.82,
+          "liquidated": 28254554.82,
+          "paid": 28254554.82,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 11525074.5,
+          "liquidated": 11378437.92,
+          "paid": 11378437.92,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 6085604.55,
+          "liquidated": 6085604.55,
+          "paid": 6085604.55,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 1624535.56,
+          "liquidated": 1601232.36,
+          "paid": 1601232.36,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.50.00.00.00",
+          "committed": 2471188.96,
+          "liquidated": 2471188.96,
+          "paid": 1277552.5,
+          "name": "Transferências a Instituições Privadas sem Fins Lucrativos"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 1197975.9,
+          "liquidated": 1197975.9,
+          "paid": 1197975.9,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.50.43.00.00",
+          "committed": 989122.76,
+          "liquidated": 989122.76,
+          "paid": 989122.76,
+          "name": "Subvenções Sociais"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "committed": 452945.76,
+          "liquidated": 452945.76,
+          "paid": 452945.76,
+          "name": "A Classificar"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 372608.91,
+          "liquidated": 439048.91,
+          "paid": 439048.91,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 178530.21,
+          "liquidated": 178530.21,
+          "paid": 178530.21,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 157468.59,
+          "liquidated": 157468.59,
+          "paid": 157468.59,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 126444.0,
+          "liquidated": 126444.0,
+          "paid": 126444.0,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 99526.72,
+          "liquidated": 61129.95,
+          "paid": 61129.95,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "committed": 49385.0,
+          "liquidated": 49385.0,
+          "paid": 49385.0,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 19607.62,
+          "liquidated": 19607.62,
+          "paid": 19607.62,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.1.90.99.00.00",
+          "committed": 1395.68,
+          "liquidated": 1395.68,
+          "paid": 1395.68,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "committed": 1240.0,
+          "liquidated": 1240.0,
+          "paid": 1240.0,
+          "name": "Diárias - Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 28429207.43
+        },
+        {
+          "code": "540",
+          "name": "Transferências do FUNDEB - Impostos e Transferências de Impostos",
+          "shortName": "FUNDEB – impostos e transferências",
+          "paid": 19435603.01
+        },
+        {
+          "code": "550",
+          "name": "Transferência do Salário-Educação",
+          "shortName": "Salário-Educação",
+          "paid": 2330812.03
+        },
+        {
+          "code": "571",
+          "name": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+          "shortName": "Convênios estaduais – educação",
+          "paid": 679137.25
+        },
+        {
+          "code": "710",
+          "name": "Transferência Especial dos Estados",
+          "shortName": "Transferência especial do Estado",
+          "paid": 486227.72
+        },
+        {
+          "code": "552",
+          "name": "Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)",
+          "shortName": "FNDE – alimentação escolar (PNAE)",
+          "paid": 478511.56
+        },
+        {
+          "code": "541",
+          "name": "Transferências do FUNDEB - Complementação da União - VAAF",
+          "shortName": "FUNDEB – complementação da União (VAAF)",
+          "paid": 348670.08
+        },
+        {
+          "code": "706",
+          "name": "Transferência Especial da União",
+          "shortName": "Transferência especial da União (emendas Pix)",
+          "paid": 45805.45
+        },
+        {
+          "code": "553",
+          "name": "Transferências de Recursos do FNDE Referentes ao Programa Nacional de Apoio ao Transporte Escolar (PNATE)",
+          "shortName": "FNDE – transporte escolar (PNATE)",
+          "paid": 33180.0
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 4522.0
+        }
+      ],
+      "committed": 53607209.54,
+      "liquidated": 53465312.99,
+      "paid": 52271676.53,
+      "name": "Educação"
+    },
+    {
+      "code": "15",
+      "months": [
+        {
+          "month": 1,
+          "committed": 15117554.36,
+          "liquidated": 1174569.12,
+          "paid": 1157438.5
+        },
+        {
+          "month": 2,
+          "committed": 15616643.82,
+          "liquidated": 4115333.35,
+          "paid": 4115333.35
+        },
+        {
+          "month": 3,
+          "committed": 16085078.18,
+          "liquidated": 5455375.37,
+          "paid": 5440383.77
+        },
+        {
+          "month": 4,
+          "committed": 16498511.15,
+          "liquidated": 6384937.0,
+          "paid": 6378037.0
+        },
+        {
+          "month": 5,
+          "committed": 16894478.99,
+          "liquidated": 8238097.44,
+          "paid": 8226142.29
+        },
+        {
+          "month": 6,
+          "committed": 17364396.03,
+          "liquidated": 9397186.01,
+          "paid": 9397186.01
+        },
+        {
+          "month": 7,
+          "committed": 18453820.0,
+          "liquidated": 10657940.36,
+          "paid": 10329688.57
+        },
+        {
+          "month": 8,
+          "committed": 19138754.38,
+          "liquidated": 11722981.19,
+          "paid": 11714049.4
+        },
+        {
+          "month": 9,
+          "committed": 20017163.4,
+          "liquidated": 12668133.62,
+          "paid": 12628540.9
+        },
+        {
+          "month": 10,
+          "committed": 23187446.92,
+          "liquidated": 14063118.8,
+          "paid": 14014387.23
+        },
+        {
+          "month": 11,
+          "committed": 23713559.98,
+          "liquidated": 15048957.7,
+          "paid": 15040025.91
+        },
+        {
+          "month": 12,
+          "committed": 23242499.61,
+          "liquidated": 17831772.6,
+          "paid": 17822840.81
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 6820832.31,
+          "liquidated": 6633049.92,
+          "paid": 6624118.13,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 9261583.06,
+          "liquidated": 5117409.37,
+          "paid": 5117409.37,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 3922221.17,
+          "liquidated": 3922221.17,
+          "paid": 3922221.17,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 2216124.16,
+          "liquidated": 1840900.72,
+          "paid": 1840900.72,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "committed": 940483.59,
+          "liquidated": 236936.1,
+          "paid": 236936.1,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 38199.16,
+          "liquidated": 38199.16,
+          "paid": 38199.16,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 36784.0,
+          "liquidated": 36784.0,
+          "paid": 36784.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 5729.78,
+          "liquidated": 5729.78,
+          "paid": 5729.78,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.1.90.16.00.00",
+          "committed": 542.38,
+          "liquidated": 542.38,
+          "paid": 542.38,
+          "name": "Outras Despesas Variáveis - Pessoal Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 13953584.86
+        },
+        {
+          "code": "751",
+          "name": "Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP",
+          "shortName": "Iluminação pública (COSIP)",
+          "paid": 3154636.7
+        },
+        {
+          "code": "752",
+          "name": "Recursos Vinculados ao Trânsito",
+          "shortName": "Trânsito",
+          "paid": 336469.15
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 288681.8
+        },
+        {
+          "code": "899",
+          "name": "Outros Recursos Vinculados",
+          "shortName": "Outros recursos vinculados",
+          "paid": 89468.3
+        }
+      ],
+      "committed": 23242499.61,
+      "liquidated": 17831772.6,
+      "paid": 17822840.81,
+      "name": "Urbanismo"
+    },
+    {
+      "code": "04",
+      "months": [
+        {
+          "month": 1,
+          "committed": 3594463.63,
+          "liquidated": 642064.34,
+          "paid": 582048.87
+        },
+        {
+          "month": 2,
+          "committed": 4552622.97,
+          "liquidated": 1798999.94,
+          "paid": 1792471.47
+        },
+        {
+          "month": 3,
+          "committed": 6982093.71,
+          "liquidated": 2431706.18,
+          "paid": 2425110.5
+        },
+        {
+          "month": 4,
+          "committed": 8225004.21,
+          "liquidated": 3945079.03,
+          "paid": 3923735.97
+        },
+        {
+          "month": 5,
+          "committed": 9109809.18,
+          "liquidated": 4884269.98,
+          "paid": 4864474.3
+        },
+        {
+          "month": 6,
+          "committed": 10045550.46,
+          "liquidated": 5920712.67,
+          "paid": 5913117.01
+        },
+        {
+          "month": 7,
+          "committed": 11513363.06,
+          "liquidated": 7961954.19,
+          "paid": 7853290.3
+        },
+        {
+          "month": 8,
+          "committed": 12339448.54,
+          "liquidated": 9266068.17,
+          "paid": 9265036.53
+        },
+        {
+          "month": 9,
+          "committed": 12832014.78,
+          "liquidated": 10000106.48,
+          "paid": 9987442.59
+        },
+        {
+          "month": 10,
+          "committed": 13292202.57,
+          "liquidated": 10687007.45,
+          "paid": 10689343.56
+        },
+        {
+          "month": 11,
+          "committed": 14719328.57,
+          "liquidated": 11928029.51,
+          "paid": 11918365.62
+        },
+        {
+          "month": 12,
+          "committed": 16633732.42,
+          "liquidated": 16146667.42,
+          "paid": 16140528.53
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 6536179.9,
+          "liquidated": 6094114.9,
+          "paid": 6102979.48,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 5737520.8,
+          "liquidated": 5737520.8,
+          "paid": 5737520.8,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 1138660.64,
+          "liquidated": 1138660.64,
+          "paid": 1138660.64,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.20.99.00.00",
+          "committed": 703796.91,
+          "liquidated": 703796.91,
+          "paid": 703796.91,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.91.00.00",
+          "committed": 621819.59,
+          "liquidated": 621819.59,
+          "paid": 621819.59,
+          "name": "Sentenças Judiciais"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 501484.04,
+          "liquidated": 501484.04,
+          "paid": 501484.04,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "committed": 315706.02,
+          "liquidated": 315706.02,
+          "paid": 315706.02,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 310378.75,
+          "liquidated": 302578.75,
+          "paid": 302578.75,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 163635.08,
+          "liquidated": 163635.08,
+          "paid": 163635.08,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.1.90.03.00.00",
+          "committed": 146468.27,
+          "liquidated": 146468.27,
+          "paid": 146468.27,
+          "name": "Pensões do RPPS e do Militar"
+        },
+        {
+          "code": "4.6.90.71.00.00",
+          "committed": 106447.16,
+          "liquidated": 106447.16,
+          "paid": 106447.16,
+          "name": "Principal da Dívida Contratual Resgatado"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "committed": 103000.0,
+          "liquidated": 103000.0,
+          "paid": 103000.0,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "3.3.70.41.00.00",
+          "committed": 101784.43,
+          "liquidated": 101784.43,
+          "paid": 101784.43,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 23905.48,
+          "liquidated": 23905.48,
+          "paid": 23905.48,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 27226.59,
+          "liquidated": 27226.59,
+          "paid": 20698.12,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "committed": 17158.68,
+          "liquidated": 17158.68,
+          "paid": 17158.68,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.3.71.00.00.00",
+          "committed": 14012.8,
+          "liquidated": 14012.8,
+          "paid": 14012.8,
+          "name": "Transferências a Consórcios Públicos mediante contrato de rateio"
+        },
+        {
+          "code": "3.1.90.16.00.00",
+          "committed": 10395.0,
+          "liquidated": 10395.0,
+          "paid": 10395.0,
+          "name": "Outras Despesas Variáveis - Pessoal Civil"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 54112.28,
+          "liquidated": 16912.28,
+          "paid": 8437.28,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "committed": 40.0,
+          "liquidated": 40.0,
+          "paid": 40.0,
+          "name": "Diárias - Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 15191607.17
+        },
+        {
+          "code": "700",
+          "name": "Outras Transferências de Convênios ou Instrumentos Congêneres da União",
+          "shortName": "Convênios com a União",
+          "paid": 482469.57
+        },
+        {
+          "code": "715",
+          "name": "Transferências Destinadas ao Setor Cultural - LC nº 195/2022 – Art. 5º - Audiovisual",
+          "shortName": "Lei Paulo Gustavo – audiovisual",
+          "paid": 224687.97
+        },
+        {
+          "code": "706",
+          "name": "Transferência Especial da União",
+          "shortName": "Transferência especial da União (emendas Pix)",
+          "paid": 150105.43
+        },
+        {
+          "code": "716",
+          "name": "Transferências Destinadas ao Setor cultural - LC nº 195/2022 – Art. 8º - Demais Setores da Cultura",
+          "shortName": "Lei Paulo Gustavo – demais setores culturais",
+          "paid": 91018.05
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 561.34
+        },
+        {
+          "code": "710",
+          "name": "Transferência Especial dos Estados",
+          "shortName": "Transferência especial do Estado",
+          "paid": 55.0
+        },
+        {
+          "code": "755",
+          "name": "Recursos de Alienação de Bens/Ativos - Administração Direta",
+          "shortName": "Venda de bens (alienação)",
+          "paid": 12.0
+        },
+        {
+          "code": "749",
+          "name": "Outras vinculações de transferências",
+          "shortName": "Outras transferências vinculadas",
+          "paid": 12.0
+        }
+      ],
+      "committed": 16633732.42,
+      "liquidated": 16146667.42,
+      "paid": 16140528.53,
+      "name": "Administração"
+    },
+    {
+      "code": "09",
+      "months": [
+        {
+          "month": 1,
+          "committed": 3851426.44,
+          "liquidated": 1228719.44,
+          "paid": 1153361.8
+        },
+        {
+          "month": 2,
+          "committed": 4912010.81,
+          "liquidated": 2464755.41,
+          "paid": 2398940.47
+        },
+        {
+          "month": 3,
+          "committed": 5962825.92,
+          "liquidated": 3689370.71,
+          "paid": 3623642.73
+        },
+        {
+          "month": 4,
+          "committed": 7027484.85,
+          "liquidated": 4995034.5,
+          "paid": 4862041.73
+        },
+        {
+          "month": 5,
+          "committed": 8072896.86,
+          "liquidated": 6150314.02,
+          "paid": 6150314.02
+        },
+        {
+          "month": 6,
+          "committed": 9123119.15,
+          "liquidated": 7379771.28,
+          "paid": 7312754.73
+        },
+        {
+          "month": 7,
+          "committed": 10174593.02,
+          "liquidated": 8602510.86,
+          "paid": 8537478.84
+        },
+        {
+          "month": 8,
+          "committed": 11230564.65,
+          "liquidated": 9831995.79,
+          "paid": 9769476.12
+        },
+        {
+          "month": 9,
+          "committed": 12296621.63,
+          "liquidated": 11065711.64,
+          "paid": 11000080.45
+        },
+        {
+          "month": 10,
+          "committed": 13351761.94,
+          "liquidated": 12290463.9,
+          "paid": 12226205.52
+        },
+        {
+          "month": 11,
+          "committed": 14392325.22,
+          "liquidated": 13509555.19,
+          "paid": 13446869.88
+        },
+        {
+          "month": 12,
+          "committed": 15927912.1,
+          "liquidated": 15927912.1,
+          "paid": 15927912.1
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.01.00.00",
+          "committed": 11108509.13,
+          "liquidated": 11108509.13,
+          "paid": 11108509.13,
+          "name": "Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares"
+        },
+        {
+          "code": "3.1.90.03.00.00",
+          "committed": 2022388.74,
+          "liquidated": 2022388.74,
+          "paid": 2022388.74,
+          "name": "Pensões do RPPS e do Militar"
+        },
+        {
+          "code": "3.3.90.41.00.00",
+          "committed": 1209039.64,
+          "liquidated": 1209039.64,
+          "paid": 1209039.64,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 836675.91,
+          "liquidated": 836675.91,
+          "paid": 836675.91,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 319410.27,
+          "liquidated": 319049.08,
+          "paid": 319410.27,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "4.6.90.71.00.00",
+          "committed": 186758.72,
+          "liquidated": 186758.72,
+          "paid": 186758.72,
+          "name": "Principal da Dívida Contratual Resgatado"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 113428.2,
+          "liquidated": 113428.2,
+          "paid": 113428.2,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 96314.53,
+          "liquidated": 96314.53,
+          "paid": 96314.53,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 17297.84,
+          "liquidated": 17659.03,
+          "paid": 17297.84,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "committed": 11160.0,
+          "liquidated": 11160.0,
+          "paid": 11160.0,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 4665.56,
+          "liquidated": 4665.56,
+          "paid": 4665.56,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 2263.56,
+          "liquidated": 2263.56,
+          "paid": 2263.56,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "800",
+          "name": "Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenciário)",
+          "shortName": "Previdência própria (RPPS) – capitalização",
+          "paid": 13746170.0
+        },
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 2181742.1
+        }
+      ],
+      "committed": 15927912.1,
+      "liquidated": 15927912.1,
+      "paid": 15927912.1,
+      "name": "Previdência Social"
+    },
+    {
+      "code": "01",
+      "months": [
+        {
+          "month": 1,
+          "committed": 1107550.04,
+          "liquidated": 467724.76,
+          "paid": 445599.81
+        },
+        {
+          "month": 2,
+          "committed": 1655462.19,
+          "liquidated": 1048380.48,
+          "paid": 1047972.63
+        },
+        {
+          "month": 3,
+          "committed": 2186564.48,
+          "liquidated": 1595722.34,
+          "paid": 1595520.34
+        },
+        {
+          "month": 4,
+          "committed": 2822474.1,
+          "liquidated": 2292402.43,
+          "paid": 2233420.97
+        },
+        {
+          "month": 5,
+          "committed": 3305143.13,
+          "liquidated": 2789664.47,
+          "paid": 2788844.3
+        },
+        {
+          "month": 6,
+          "committed": 3796937.39,
+          "liquidated": 3404758.29,
+          "paid": 3404758.29
+        },
+        {
+          "month": 7,
+          "committed": 4516937.97,
+          "liquidated": 4015433.32,
+          "paid": 4015433.32
+        },
+        {
+          "month": 8,
+          "committed": 4886950.01,
+          "liquidated": 4480053.88,
+          "paid": 4479204.68
+        },
+        {
+          "month": 9,
+          "committed": 5452854.03,
+          "liquidated": 5190264.34,
+          "paid": 5188401.25
+        },
+        {
+          "month": 10,
+          "committed": 5951430.68,
+          "liquidated": 5798899.4,
+          "paid": 5797351.11
+        },
+        {
+          "month": 11,
+          "committed": 6586308.06,
+          "liquidated": 6482555.16,
+          "paid": 6481487.52
+        },
+        {
+          "month": 12,
+          "committed": 7683104.77,
+          "liquidated": 7635223.39,
+          "paid": 7634155.75
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 5164516.64,
+          "liquidated": 4954870.92,
+          "paid": 4954870.92,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 797163.72,
+          "liquidated": 781282.34,
+          "paid": 781282.34,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 466509.58,
+          "liquidated": 466509.58,
+          "paid": 466509.58,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 390000.0,
+          "liquidated": 390000.0,
+          "paid": 390000.0,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.1.90.94.00.00",
+          "committed": 41079.69,
+          "liquidated": 250725.41,
+          "paid": 250725.41,
+          "name": "Indenizações e Restituições Trabalhistas"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 235042.0,
+          "liquidated": 203042.0,
+          "paid": 203042.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 185667.81,
+          "liquidated": 185667.81,
+          "paid": 184600.17,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 178209.33,
+          "liquidated": 178209.33,
+          "paid": 178209.33,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "committed": 138836.0,
+          "liquidated": 138836.0,
+          "paid": 138836.0,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 47050.0,
+          "liquidated": 47050.0,
+          "paid": 47050.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "committed": 39030.0,
+          "liquidated": 39030.0,
+          "paid": 39030.0,
+          "name": "Diárias - Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 7634155.75
+        }
+      ],
+      "committed": 7683104.77,
+      "liquidated": 7635223.39,
+      "paid": 7634155.75,
+      "name": "Legislativa"
+    },
+    {
+      "code": "18",
+      "months": [
+        {
+          "month": 1,
+          "committed": 8570404.33,
+          "liquidated": 131499.23,
+          "paid": 119416.86
+        },
+        {
+          "month": 2,
+          "committed": 8647130.26,
+          "liquidated": 261293.92,
+          "paid": 258543.72
+        },
+        {
+          "month": 3,
+          "committed": 8731007.62,
+          "liquidated": 412706.72,
+          "paid": 409782.29
+        },
+        {
+          "month": 4,
+          "committed": 8806308.12,
+          "liquidated": 550684.5,
+          "paid": 544100.39
+        },
+        {
+          "month": 5,
+          "committed": 8886683.53,
+          "liquidated": 683196.49,
+          "paid": 683196.49
+        },
+        {
+          "month": 6,
+          "committed": 8971393.22,
+          "liquidated": 1816672.78,
+          "paid": 1813608.34
+        },
+        {
+          "month": 7,
+          "committed": 9393350.46,
+          "liquidated": 2564297.65,
+          "paid": 2561547.45
+        },
+        {
+          "month": 8,
+          "committed": 9513171.83,
+          "liquidated": 2710728.71,
+          "paid": 2708132.2
+        },
+        {
+          "month": 9,
+          "committed": 9593010.34,
+          "liquidated": 3880702.91,
+          "paid": 3878438.08
+        },
+        {
+          "month": 10,
+          "committed": 10805291.57,
+          "liquidated": 4065842.22,
+          "paid": 4063412.8
+        },
+        {
+          "month": 11,
+          "committed": 10954782.33,
+          "liquidated": 5467387.52,
+          "paid": 5464908.0
+        },
+        {
+          "month": 12,
+          "committed": 10305653.81,
+          "liquidated": 6226677.38,
+          "paid": 6226677.38
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 7882428.12,
+          "liquidated": 4031240.81,
+          "paid": 4031240.81,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 1023200.81,
+          "liquidated": 1023200.81,
+          "paid": 1023200.81,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 1020634.98,
+          "liquidated": 792845.86,
+          "paid": 792845.86,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 106586.72,
+          "liquidated": 106586.72,
+          "paid": 106586.72,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "committed": 105845.64,
+          "liquidated": 105845.64,
+          "paid": 105845.64,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 63600.0,
+          "liquidated": 63600.0,
+          "paid": 63600.0,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 35391.89,
+          "liquidated": 35391.89,
+          "paid": 35391.89,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 33840.0,
+          "liquidated": 33840.0,
+          "paid": 33840.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 24776.5,
+          "liquidated": 24776.5,
+          "paid": 24776.5,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 5630.95,
+          "liquidated": 5630.95,
+          "paid": 5630.95,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 3718.2,
+          "liquidated": 3718.2,
+          "paid": 3718.2,
+          "name": "Obrigações Tributárias e Contributivas"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 5314903.06
+        },
+        {
+          "code": "899",
+          "name": "Outros Recursos Vinculados",
+          "shortName": "Outros recursos vinculados",
+          "paid": 558383.0
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 261179.78
+        },
+        {
+          "code": "710",
+          "name": "Transferência Especial dos Estados",
+          "shortName": "Transferência especial do Estado",
+          "paid": 48000.0
+        },
+        {
+          "code": "708",
+          "name": "Transferência da União Referente à Compensação Financeira de Recursos Minerais",
+          "shortName": "Compensação mineral (CFEM)",
+          "paid": 44211.54
+        }
+      ],
+      "committed": 10305653.81,
+      "liquidated": 6226677.38,
+      "paid": 6226677.38,
+      "name": "Gestão Ambiental"
+    },
+    {
+      "code": "08",
+      "months": [
+        {
+          "month": 1,
+          "committed": 1579335.34,
+          "liquidated": 409842.03,
+          "paid": 396749.98
+        },
+        {
+          "month": 2,
+          "committed": 1983791.85,
+          "liquidated": 696565.49,
+          "paid": 683618.95
+        },
+        {
+          "month": 3,
+          "committed": 2276441.08,
+          "liquidated": 1130399.78,
+          "paid": 1118493.59
+        },
+        {
+          "month": 4,
+          "committed": 2666379.2,
+          "liquidated": 1518972.19,
+          "paid": 1484444.54
+        },
+        {
+          "month": 5,
+          "committed": 2965106.45,
+          "liquidated": 1911004.23,
+          "paid": 1884703.17
+        },
+        {
+          "month": 6,
+          "committed": 3273183.98,
+          "liquidated": 2264373.64,
+          "paid": 2251764.44
+        },
+        {
+          "month": 7,
+          "committed": 3516113.98,
+          "liquidated": 2608123.17,
+          "paid": 2591363.4
+        },
+        {
+          "month": 8,
+          "committed": 3745938.68,
+          "liquidated": 2913667.51,
+          "paid": 2902359.86
+        },
+        {
+          "month": 9,
+          "committed": 4088922.6,
+          "liquidated": 3300185.87,
+          "paid": 3270535.75
+        },
+        {
+          "month": 10,
+          "committed": 4394425.4,
+          "liquidated": 3727895.89,
+          "paid": 3703734.78
+        },
+        {
+          "month": 11,
+          "committed": 4727867.44,
+          "liquidated": 4101709.28,
+          "paid": 4087703.67
+        },
+        {
+          "month": 12,
+          "committed": 5116917.47,
+          "liquidated": 5030348.77,
+          "paid": 5030348.77
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 1834046.86,
+          "liquidated": 1834046.86,
+          "paid": 1834046.86,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.48.00.00",
+          "committed": 890070.66,
+          "liquidated": 890070.66,
+          "paid": 890070.66,
+          "name": "Outros Auxílios Financeiros a Pessoas Físicas"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "committed": 565856.34,
+          "liquidated": 509681.34,
+          "paid": 509681.34,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.3.50.43.00.00",
+          "committed": 483881.38,
+          "liquidated": 483881.38,
+          "paid": 483881.38,
+          "name": "Subvenções Sociais"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 392388.49,
+          "liquidated": 362072.31,
+          "paid": 362072.31,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 334551.17,
+          "liquidated": 334473.65,
+          "paid": 334473.65,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.04.00.00",
+          "committed": 236491.86,
+          "liquidated": 236491.86,
+          "paid": 236491.86,
+          "name": "Contratação por Tempo Determinado"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 149818.0,
+          "liquidated": 149818.0,
+          "paid": 149818.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "committed": 147703.27,
+          "liquidated": 147703.27,
+          "paid": 147703.27,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 63600.0,
+          "liquidated": 63600.0,
+          "paid": 63600.0,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 7406.63,
+          "liquidated": 7406.63,
+          "paid": 7406.63,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 6401.38,
+          "liquidated": 6401.38,
+          "paid": 6401.38,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 3906.43,
+          "liquidated": 3906.43,
+          "paid": 3906.43,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "committed": 795.0,
+          "liquidated": 795.0,
+          "paid": 795.0,
+          "name": "Diárias - Civil"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 4371337.93
+        },
+        {
+          "code": "660",
+          "name": "Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS",
+          "shortName": "Assistência social – fundo nacional (FNAS)",
+          "paid": 525036.95
+        },
+        {
+          "code": "706",
+          "name": "Transferência Especial da União",
+          "shortName": "Transferência especial da União (emendas Pix)",
+          "paid": 90406.43
+        },
+        {
+          "code": "661",
+          "name": "Transferência de Recursos dos Fundos Estaduais de Assistência Social",
+          "shortName": "Assistência social – fundo estadual",
+          "paid": 39043.46
+        },
+        {
+          "code": "899",
+          "name": "Outros Recursos Vinculados",
+          "shortName": "Outros recursos vinculados",
+          "paid": 4524.0
+        }
+      ],
+      "committed": 5116917.47,
+      "liquidated": 5030348.77,
+      "paid": 5030348.77,
+      "name": "Assistência Social"
+    },
+    {
+      "code": "26",
+      "months": [
+        {
+          "month": 1,
+          "committed": 749651.86,
+          "liquidated": 137097.58,
+          "paid": 136947.58
+        },
+        {
+          "month": 2,
+          "committed": 877351.73,
+          "liquidated": 282850.6,
+          "paid": 282850.6
+        },
+        {
+          "month": 3,
+          "committed": 999599.84,
+          "liquidated": 425827.17,
+          "paid": 425827.17
+        },
+        {
+          "month": 4,
+          "committed": 1148328.03,
+          "liquidated": 574570.11,
+          "paid": 574570.11
+        },
+        {
+          "month": 5,
+          "committed": 1519579.45,
+          "liquidated": 746175.64,
+          "paid": 746175.64
+        },
+        {
+          "month": 6,
+          "committed": 1644153.42,
+          "liquidated": 890653.06,
+          "paid": 890653.06
+        },
+        {
+          "month": 7,
+          "committed": 1778280.64,
+          "liquidated": 1042297.23,
+          "paid": 1042297.23
+        },
+        {
+          "month": 8,
+          "committed": 1916650.42,
+          "liquidated": 1205744.06,
+          "paid": 1201956.24
+        },
+        {
+          "month": 9,
+          "committed": 2064912.4,
+          "liquidated": 1340498.81,
+          "paid": 1340498.81
+        },
+        {
+          "month": 10,
+          "committed": 2189676.16,
+          "liquidated": 1766052.75,
+          "paid": 1766052.75
+        },
+        {
+          "month": 11,
+          "committed": 2314427.76,
+          "liquidated": 1900707.47,
+          "paid": 1900707.47
+        },
+        {
+          "month": 12,
+          "committed": 2296449.4,
+          "liquidated": 2296449.4,
+          "paid": 2296449.4
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 1665509.2,
+          "liquidated": 1665509.2,
+          "paid": 1665509.2,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 397336.38,
+          "liquidated": 397336.38,
+          "paid": 397336.38,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 132919.51,
+          "liquidated": 132919.51,
+          "paid": 132919.51,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 95268.59,
+          "liquidated": 95268.59,
+          "paid": 95268.59,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 5415.72,
+          "liquidated": 5415.72,
+          "paid": 5415.72,
+          "name": "Equipamentos e Material Permanente"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 1906371.25
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 319616.38
+        },
+        {
+          "code": "750",
+          "name": "Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE",
+          "shortName": "CIDE",
+          "paid": 70461.77
+        }
+      ],
+      "committed": 2296449.4,
+      "liquidated": 2296449.4,
+      "paid": 2296449.4,
+      "name": "Transporte"
+    },
+    {
+      "code": "06",
+      "months": [
+        {
+          "month": 1,
+          "committed": 88952.5,
+          "liquidated": 17257.11,
+          "paid": 14022.85
+        },
+        {
+          "month": 2,
+          "committed": 212849.5,
+          "liquidated": 137135.81,
+          "paid": 134557.73
+        },
+        {
+          "month": 3,
+          "committed": 335040.73,
+          "liquidated": 273147.13,
+          "paid": 269392.97
+        },
+        {
+          "month": 4,
+          "committed": 497884.87,
+          "liquidated": 403906.54,
+          "paid": 401299.9
+        },
+        {
+          "month": 5,
+          "committed": 667897.93,
+          "liquidated": 548916.22,
+          "paid": 543288.14
+        },
+        {
+          "month": 6,
+          "committed": 764630.73,
+          "liquidated": 675658.73,
+          "paid": 673080.65
+        },
+        {
+          "month": 7,
+          "committed": 942220.75,
+          "liquidated": 877778.17,
+          "paid": 859921.36
+        },
+        {
+          "month": 8,
+          "committed": 1058137.85,
+          "liquidated": 1015465.38,
+          "paid": 1012887.3
+        },
+        {
+          "month": 9,
+          "committed": 1180004.22,
+          "liquidated": 1120851.98,
+          "paid": 1118273.9
+        },
+        {
+          "month": 10,
+          "committed": 1339471.97,
+          "liquidated": 1252632.87,
+          "paid": 1252632.87
+        },
+        {
+          "month": 11,
+          "committed": 1521031.14,
+          "liquidated": 1418670.34,
+          "paid": 1418670.34
+        },
+        {
+          "month": 12,
+          "committed": 1706336.46,
+          "liquidated": 1706336.46,
+          "paid": 1706336.46
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.93.00.00",
+          "committed": 1288094.17,
+          "liquidated": 1288094.17,
+          "paid": 1288094.17,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 154696.99,
+          "liquidated": 154696.99,
+          "paid": 154696.99,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 123355.64,
+          "liquidated": 123355.64,
+          "paid": 123355.64,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "committed": 80866.12,
+          "liquidated": 80866.12,
+          "paid": 80866.12,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 30936.96,
+          "liquidated": 30936.96,
+          "paid": 30936.96,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "committed": 12397.52,
+          "liquidated": 12397.52,
+          "paid": 12397.52,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "committed": 12000.0,
+          "liquidated": 12000.0,
+          "paid": 12000.0,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 3989.06,
+          "liquidated": 3989.06,
+          "paid": 3989.06,
+          "name": "Obrigações Tributárias e Contributivas"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 1706336.46
+        }
+      ],
+      "committed": 1706336.46,
+      "liquidated": 1706336.46,
+      "paid": 1706336.46,
+      "name": "Segurança Pública"
+    },
+    {
+      "code": "27",
+      "months": [
+        {
+          "month": 1,
+          "committed": 148726.27,
+          "liquidated": 44083.32,
+          "paid": 44083.32
+        },
+        {
+          "month": 2,
+          "committed": 521130.13,
+          "liquidated": 79352.28,
+          "paid": 79352.28
+        },
+        {
+          "month": 3,
+          "committed": 560101.57,
+          "liquidated": 128143.72,
+          "paid": 128210.93
+        },
+        {
+          "month": 4,
+          "committed": 631247.53,
+          "liquidated": 215109.68,
+          "paid": 215176.89
+        },
+        {
+          "month": 5,
+          "committed": 1508242.25,
+          "liquidated": 500634.4,
+          "paid": 500701.61
+        },
+        {
+          "month": 6,
+          "committed": 1602551.83,
+          "liquidated": 846053.98,
+          "paid": 846121.19
+        },
+        {
+          "month": 7,
+          "committed": 1691625.59,
+          "liquidated": 1269947.74,
+          "paid": 1270014.95
+        },
+        {
+          "month": 8,
+          "committed": 1746981.05,
+          "liquidated": 1370123.2,
+          "paid": 1370190.41
+        },
+        {
+          "month": 9,
+          "committed": 3328719.11,
+          "liquidated": 1410493.26,
+          "paid": 1410560.47
+        },
+        {
+          "month": 10,
+          "committed": 3359714.35,
+          "liquidated": 1449988.5,
+          "paid": 1450055.71
+        },
+        {
+          "month": 11,
+          "committed": 3760026.61,
+          "liquidated": 1489293.82,
+          "paid": 1489361.03
+        },
+        {
+          "month": 12,
+          "committed": 3864741.85,
+          "liquidated": 1556510.01,
+          "paid": 1556577.22
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.32.00.00",
+          "committed": 840000.0,
+          "liquidated": 840000.0,
+          "paid": 840000.0,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 398085.58,
+          "liquidated": 398085.58,
+          "paid": 398085.58,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 178299.19,
+          "liquidated": 178299.19,
+          "paid": 178366.4,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.48.00.00",
+          "committed": 75033.24,
+          "liquidated": 75033.24,
+          "paid": 75033.24,
+          "name": "Outros Auxílios Financeiros a Pessoas Físicas"
+        },
+        {
+          "code": "3.3.50.41.00.00",
+          "committed": 47210.0,
+          "liquidated": 47210.0,
+          "paid": 47210.0,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 10692.0,
+          "liquidated": 10692.0,
+          "paid": 10692.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 7190.0,
+          "liquidated": 7190.0,
+          "paid": 7190.0,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 2308231.84,
+          "liquidated": 0.0,
+          "paid": 0.0,
+          "name": "Obras e Instalações"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 1556577.22
+        }
+      ],
+      "committed": 3864741.85,
+      "liquidated": 1556510.01,
+      "paid": 1556577.22,
+      "name": "Desporto e Lazer"
+    },
+    {
+      "code": "11",
+      "months": [
+        {
+          "month": 1,
+          "committed": 1315300.0,
+          "liquidated": 112587.88,
+          "paid": 112587.88
+        },
+        {
+          "month": 2,
+          "committed": 1315300.0,
+          "liquidated": 230968.92,
+          "paid": 230968.92
+        },
+        {
+          "month": 3,
+          "committed": 1315300.0,
+          "liquidated": 315715.84,
+          "paid": 315715.84
+        },
+        {
+          "month": 4,
+          "committed": 1315300.0,
+          "liquidated": 426131.34,
+          "paid": 426131.34
+        },
+        {
+          "month": 5,
+          "committed": 1315300.0,
+          "liquidated": 535776.39,
+          "paid": 535776.39
+        },
+        {
+          "month": 6,
+          "committed": 1315300.0,
+          "liquidated": 661613.14,
+          "paid": 661613.14
+        },
+        {
+          "month": 7,
+          "committed": 1315300.0,
+          "liquidated": 777991.97,
+          "paid": 777991.97
+        },
+        {
+          "month": 8,
+          "committed": 1315300.0,
+          "liquidated": 878660.06,
+          "paid": 878660.06
+        },
+        {
+          "month": 9,
+          "committed": 1315300.0,
+          "liquidated": 991480.65,
+          "paid": 991480.65
+        },
+        {
+          "month": 10,
+          "committed": 1315300.0,
+          "liquidated": 1021176.51,
+          "paid": 1021176.51
+        },
+        {
+          "month": 11,
+          "committed": 1315300.0,
+          "liquidated": 1213141.51,
+          "paid": 1213141.51
+        },
+        {
+          "month": 12,
+          "committed": 1334532.81,
+          "liquidated": 1334532.81,
+          "paid": 1334532.81
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.47.00.00",
+          "committed": 1334532.81,
+          "liquidated": 1334532.81,
+          "paid": 1334532.81,
+          "name": "Obrigações Tributárias e Contributivas"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 1323001.74
+        },
+        {
+          "code": "705",
+          "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+          "shortName": "Royalties – Estado",
+          "paid": 7502.55
+        },
+        {
+          "code": "749",
+          "name": "Outras vinculações de transferências",
+          "shortName": "Outras transferências vinculadas",
+          "paid": 3728.52
+        },
+        {
+          "code": "750",
+          "name": "Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE",
+          "shortName": "CIDE",
+          "paid": 300.0
+        }
+      ],
+      "committed": 1334532.81,
+      "liquidated": 1334532.81,
+      "paid": 1334532.81,
+      "name": "Trabalho"
+    },
+    {
+      "code": "22",
+      "months": [
+        {
+          "month": 1,
+          "committed": 30206.89,
+          "liquidated": 30206.89,
+          "paid": 30206.89
+        },
+        {
+          "month": 2,
+          "committed": 61505.69,
+          "liquidated": 61505.69,
+          "paid": 61505.69
+        },
+        {
+          "month": 3,
+          "committed": 193821.64,
+          "liquidated": 92854.33,
+          "paid": 92854.33
+        },
+        {
+          "month": 4,
+          "committed": 240739.77,
+          "liquidated": 139772.46,
+          "paid": 139772.46
+        },
+        {
+          "month": 5,
+          "committed": 269811.67,
+          "liquidated": 168844.36,
+          "paid": 168844.36
+        },
+        {
+          "month": 6,
+          "committed": 297383.94,
+          "liquidated": 196416.63,
+          "paid": 196416.63
+        },
+        {
+          "month": 7,
+          "committed": 324399.44,
+          "liquidated": 223432.13,
+          "paid": 223432.13
+        },
+        {
+          "month": 8,
+          "committed": 355546.23,
+          "liquidated": 254578.92,
+          "paid": 254578.92
+        },
+        {
+          "month": 9,
+          "committed": 381327.78,
+          "liquidated": 304218.61,
+          "paid": 297127.39
+        },
+        {
+          "month": 10,
+          "committed": 419375.64,
+          "liquidated": 383402.37,
+          "paid": 383402.37
+        },
+        {
+          "month": 11,
+          "committed": 446391.14,
+          "liquidated": 410417.87,
+          "paid": 410417.87
+        },
+        {
+          "month": 12,
+          "committed": 1263712.74,
+          "liquidated": 888069.73,
+          "paid": 888069.73
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "committed": 758437.32,
+          "liquidated": 418767.58,
+          "paid": 418767.58,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 403331.42,
+          "liquidated": 403331.42,
+          "paid": 403331.42,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 100967.31,
+          "liquidated": 64994.04,
+          "paid": 64994.04,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 976.69,
+          "liquidated": 976.69,
+          "paid": 976.69,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 469302.15
+        },
+        {
+          "code": "755",
+          "name": "Recursos de Alienação de Bens/Ativos - Administração Direta",
+          "shortName": "Venda de bens (alienação)",
+          "paid": 418767.58
+        }
+      ],
+      "committed": 1263712.74,
+      "liquidated": 888069.73,
+      "paid": 888069.73,
+      "name": "Indústria"
+    },
+    {
+      "code": "24",
+      "months": [
+        {
+          "month": 1,
+          "committed": 23541.46,
+          "liquidated": 19491.46,
+          "paid": 19491.46
+        },
+        {
+          "month": 2,
+          "committed": 41920.72,
+          "liquidated": 38770.72,
+          "paid": 38770.72
+        },
+        {
+          "month": 3,
+          "committed": 60298.95,
+          "liquidated": 58048.95,
+          "paid": 58048.95
+        },
+        {
+          "month": 4,
+          "committed": 95061.08,
+          "liquidated": 93711.08,
+          "paid": 93711.08
+        },
+        {
+          "month": 5,
+          "committed": 114372.4,
+          "liquidated": 113922.4,
+          "paid": 113922.4
+        },
+        {
+          "month": 6,
+          "committed": 1083604.19,
+          "liquidated": 301789.19,
+          "paid": 170654.19
+        },
+        {
+          "month": 7,
+          "committed": 1104755.72,
+          "liquidated": 322940.72,
+          "paid": 322940.72
+        },
+        {
+          "month": 8,
+          "committed": 1122946.25,
+          "liquidated": 341131.25,
+          "paid": 341131.25
+        },
+        {
+          "month": 9,
+          "committed": 1141209.85,
+          "liquidated": 359394.85,
+          "paid": 359394.85
+        },
+        {
+          "month": 10,
+          "committed": 1161103.76,
+          "liquidated": 395538.76,
+          "paid": 395538.76
+        },
+        {
+          "month": 11,
+          "committed": 1179646.6,
+          "liquidated": 699031.6,
+          "paid": 699031.6
+        },
+        {
+          "month": 12,
+          "committed": 788833.53,
+          "liquidated": 788833.53,
+          "paid": 788833.53
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 522910.99,
+          "liquidated": 522910.99,
+          "paid": 522910.99,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 260972.54,
+          "liquidated": 260972.54,
+          "paid": 260972.54,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 4950.0,
+          "liquidated": 4950.0,
+          "paid": 4950.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 788833.53
+        }
+      ],
+      "committed": 788833.53,
+      "liquidated": 788833.53,
+      "paid": 788833.53,
+      "name": "Comunicações"
+    },
+    {
+      "code": "02",
+      "months": [
+        {
+          "month": 1,
+          "committed": 46611.07,
+          "liquidated": 46611.07,
+          "paid": 46611.07
+        },
+        {
+          "month": 2,
+          "committed": 92006.21,
+          "liquidated": 92006.21,
+          "paid": 92006.21
+        },
+        {
+          "month": 3,
+          "committed": 138277.92,
+          "liquidated": 138277.92,
+          "paid": 138277.92
+        },
+        {
+          "month": 4,
+          "committed": 184899.64,
+          "liquidated": 184899.64,
+          "paid": 184899.64
+        },
+        {
+          "month": 5,
+          "committed": 234475.18,
+          "liquidated": 234475.18,
+          "paid": 234475.18
+        },
+        {
+          "month": 6,
+          "committed": 281209.46,
+          "liquidated": 281209.46,
+          "paid": 281209.46
+        },
+        {
+          "month": 7,
+          "committed": 334315.04,
+          "liquidated": 334045.04,
+          "paid": 329469.3
+        },
+        {
+          "month": 8,
+          "committed": 382047.9,
+          "liquidated": 381777.9,
+          "paid": 381777.9
+        },
+        {
+          "month": 9,
+          "committed": 428878.84,
+          "liquidated": 428662.84,
+          "paid": 428662.84
+        },
+        {
+          "month": 10,
+          "committed": 496023.03,
+          "liquidated": 495861.03,
+          "paid": 495861.03
+        },
+        {
+          "month": 11,
+          "committed": 543689.31,
+          "liquidated": 543581.31,
+          "paid": 543581.31
+        },
+        {
+          "month": 12,
+          "committed": 692516.1,
+          "liquidated": 692516.1,
+          "paid": 692516.1
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 658039.96,
+          "liquidated": 658039.96,
+          "paid": 658039.96,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.1.90.99.00.00",
+          "committed": 28756.14,
+          "liquidated": 28756.14,
+          "paid": 28756.14,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 4400.0,
+          "liquidated": 4400.0,
+          "paid": 4400.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 1320.0,
+          "liquidated": 1320.0,
+          "paid": 1320.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 663759.96
+        },
+        {
+          "code": "501",
+          "name": "Outros Recursos não Vinculados",
+          "shortName": "Outros recursos livres",
+          "paid": 28756.14
+        }
+      ],
+      "committed": 692516.1,
+      "liquidated": 692516.1,
+      "paid": 692516.1,
+      "name": "Judiciária"
+    },
+    {
+      "code": "20",
+      "months": [
+        {
+          "month": 1,
+          "committed": 335509.29,
+          "liquidated": 53790.62,
+          "paid": 53790.62
+        },
+        {
+          "month": 2,
+          "committed": 347488.64,
+          "liquidated": 91276.59,
+          "paid": 91276.59
+        },
+        {
+          "month": 3,
+          "committed": 367462.97,
+          "liquidated": 120945.79,
+          "paid": 120945.79
+        },
+        {
+          "month": 4,
+          "committed": 380971.77,
+          "liquidated": 165424.52,
+          "paid": 165424.52
+        },
+        {
+          "month": 5,
+          "committed": 400685.31,
+          "liquidated": 202331.54,
+          "paid": 202331.54
+        },
+        {
+          "month": 6,
+          "committed": 412667.67,
+          "liquidated": 243092.5,
+          "paid": 243092.5
+        },
+        {
+          "month": 7,
+          "committed": 437682.81,
+          "liquidated": 287222.72,
+          "paid": 287222.72
+        },
+        {
+          "month": 8,
+          "committed": 449666.16,
+          "liquidated": 326380.73,
+          "paid": 326380.73
+        },
+        {
+          "month": 9,
+          "committed": 477296.32,
+          "liquidated": 375935.94,
+          "paid": 375935.94
+        },
+        {
+          "month": 10,
+          "committed": 493107.94,
+          "liquidated": 410134.97,
+          "paid": 410134.97
+        },
+        {
+          "month": 11,
+          "committed": 509280.93,
+          "liquidated": 452782.47,
+          "paid": 452782.47
+        },
+        {
+          "month": 12,
+          "committed": 535395.34,
+          "liquidated": 535395.34,
+          "paid": 535395.34
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "committed": 292233.22,
+          "liquidated": 292233.22,
+          "paid": 292233.22,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 186278.06,
+          "liquidated": 186278.06,
+          "paid": 186278.06,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 42000.0,
+          "liquidated": 42000.0,
+          "paid": 42000.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 14884.06,
+          "liquidated": 14884.06,
+          "paid": 14884.06,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 535395.34
+        }
+      ],
+      "committed": 535395.34,
+      "liquidated": 535395.34,
+      "paid": 535395.34,
+      "name": "Agricultura"
+    },
+    {
+      "code": "05",
+      "months": [
+        {
+          "month": 1,
+          "committed": 20521.75,
+          "liquidated": 12721.75,
+          "paid": 12721.75
+        },
+        {
+          "month": 2,
+          "committed": 30063.07,
+          "liquidated": 22542.57,
+          "paid": 22542.57
+        },
+        {
+          "month": 3,
+          "committed": 40399.49,
+          "liquidated": 32998.59,
+          "paid": 32998.59
+        },
+        {
+          "month": 4,
+          "committed": 49940.81,
+          "liquidated": 42827.86,
+          "paid": 42827.86
+        },
+        {
+          "month": 5,
+          "committed": 60277.23,
+          "liquidated": 53326.78,
+          "paid": 53326.78
+        },
+        {
+          "month": 6,
+          "committed": 70613.65,
+          "liquidated": 64075.95,
+          "paid": 64075.95
+        },
+        {
+          "month": 7,
+          "committed": 80154.97,
+          "liquidated": 73879.22,
+          "paid": 73879.22
+        },
+        {
+          "month": 8,
+          "committed": 89696.29,
+          "liquidated": 83564.84,
+          "paid": 83564.84
+        },
+        {
+          "month": 9,
+          "committed": 99237.61,
+          "liquidated": 93507.86,
+          "paid": 93507.86
+        },
+        {
+          "month": 10,
+          "committed": 108778.93,
+          "liquidated": 103541.23,
+          "paid": 103541.23
+        },
+        {
+          "month": 11,
+          "committed": 118320.25,
+          "liquidated": 113287.95,
+          "paid": 113287.95
+        },
+        {
+          "month": 12,
+          "committed": 145830.55,
+          "liquidated": 145830.55,
+          "paid": 145830.55
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 142589.65,
+          "liquidated": 142589.65,
+          "paid": 142589.65,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 3240.9,
+          "liquidated": 3240.9,
+          "paid": 3240.9,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 145830.55
+        }
+      ],
+      "committed": 145830.55,
+      "liquidated": 145830.55,
+      "paid": 145830.55,
+      "name": "Defesa Nacional"
+    },
+    {
+      "code": "14",
+      "months": [
+        {
+          "month": 1,
+          "committed": 6353.49,
+          "liquidated": 6353.49,
+          "paid": 6353.49
+        },
+        {
+          "month": 2,
+          "committed": 12673.48,
+          "liquidated": 12673.48,
+          "paid": 12673.48
+        },
+        {
+          "month": 3,
+          "committed": 18991.86,
+          "liquidated": 18991.86,
+          "paid": 18991.86
+        },
+        {
+          "month": 4,
+          "committed": 25322.66,
+          "liquidated": 25322.66,
+          "paid": 25322.66
+        },
+        {
+          "month": 5,
+          "committed": 31663.58,
+          "liquidated": 31663.58,
+          "paid": 31663.58
+        },
+        {
+          "month": 6,
+          "committed": 37949.57,
+          "liquidated": 37949.57,
+          "paid": 37949.57
+        },
+        {
+          "month": 7,
+          "committed": 47507.36,
+          "liquidated": 47507.36,
+          "paid": 47507.36
+        },
+        {
+          "month": 8,
+          "committed": 50195.93,
+          "liquidated": 50195.93,
+          "paid": 50195.93
+        },
+        {
+          "month": 9,
+          "committed": 56586.94,
+          "liquidated": 56586.94,
+          "paid": 56586.94
+        },
+        {
+          "month": 10,
+          "committed": 62931.32,
+          "liquidated": 62931.32,
+          "paid": 62931.32
+        },
+        {
+          "month": 11,
+          "committed": 69379.34,
+          "liquidated": 69379.34,
+          "paid": 69379.34
+        },
+        {
+          "month": 12,
+          "committed": 80230.4,
+          "liquidated": 80230.4,
+          "paid": 80230.4
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "committed": 72441.45,
+          "liquidated": 72441.45,
+          "paid": 72441.45,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 7788.95,
+          "liquidated": 7788.95,
+          "paid": 7788.95,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 80230.4
+        }
+      ],
+      "committed": 80230.4,
+      "liquidated": 80230.4,
+      "paid": 80230.4,
+      "name": "Direitos da Cidadania"
+    },
+    {
+      "code": "13",
+      "months": [
+        {
+          "month": 1,
+          "committed": 18184.52,
+          "liquidated": 1684.52,
+          "paid": 1684.52
+        },
+        {
+          "month": 2,
+          "committed": 18304.97,
+          "liquidated": 3304.97,
+          "paid": 3304.97
+        },
+        {
+          "month": 3,
+          "committed": 18481.15,
+          "liquidated": 4981.15,
+          "paid": 4981.15
+        },
+        {
+          "month": 4,
+          "committed": 18612.01,
+          "liquidated": 6612.01,
+          "paid": 6612.01
+        },
+        {
+          "month": 5,
+          "committed": 18834.67,
+          "liquidated": 8334.67,
+          "paid": 8334.67
+        },
+        {
+          "month": 6,
+          "committed": 19031.26,
+          "liquidated": 10031.26,
+          "paid": 10031.26
+        },
+        {
+          "month": 7,
+          "committed": 19235.17,
+          "liquidated": 11735.17,
+          "paid": 11735.17
+        },
+        {
+          "month": 8,
+          "committed": 19357.07,
+          "liquidated": 13357.07,
+          "paid": 13357.07
+        },
+        {
+          "month": 9,
+          "committed": 19480.93,
+          "liquidated": 14980.93,
+          "paid": 14980.93
+        },
+        {
+          "month": 10,
+          "committed": 19660.31,
+          "liquidated": 16660.31,
+          "paid": 16660.31
+        },
+        {
+          "month": 11,
+          "committed": 19804.11,
+          "liquidated": 18304.11,
+          "paid": 18304.11
+        },
+        {
+          "month": 12,
+          "committed": 19979.05,
+          "liquidated": 19979.05,
+          "paid": 19979.05
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.36.00.00",
+          "committed": 18000.0,
+          "liquidated": 18000.0,
+          "paid": 18000.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "committed": 1979.05,
+          "liquidated": 1979.05,
+          "paid": 1979.05,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ],
+      "sources": [
+        {
+          "code": "500",
+          "name": "Recursos não Vinculados de Impostos",
+          "shortName": "Impostos e recursos livres",
+          "paid": 19979.05
+        }
+      ],
+      "committed": 19979.05,
+      "liquidated": 19979.05,
+      "paid": 19979.05,
+      "name": "Cultura"
+    }
+  ],
+  "sources": [
+    {
+      "code": "500",
+      "name": "Recursos não Vinculados de Impostos",
+      "shortName": "Impostos e recursos livres",
+      "received": 111019166.55,
+      "paid": 119178782.56,
+      "paidFromPreviousYears": 18770059.83,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 32906626.61,
+          "name": "Saúde"
+        },
+        {
+          "code": "12",
+          "paid": 28429207.43,
+          "name": "Educação"
+        },
+        {
+          "code": "04",
+          "paid": 15191607.17,
+          "name": "Administração"
+        },
+        {
+          "code": "15",
+          "paid": 13953584.86,
+          "name": "Urbanismo"
+        },
+        {
+          "code": "01",
+          "paid": 7634155.75,
+          "name": "Legislativa"
+        },
+        {
+          "code": "18",
+          "paid": 5314903.06,
+          "name": "Gestão Ambiental"
+        },
+        {
+          "code": "08",
+          "paid": 4371337.93,
+          "name": "Assistência Social"
+        },
+        {
+          "code": "09",
+          "paid": 2181742.1,
+          "name": "Previdência Social"
+        },
+        {
+          "code": "26",
+          "paid": 1906371.25,
+          "name": "Transporte"
+        },
+        {
+          "code": "06",
+          "paid": 1706336.46,
+          "name": "Segurança Pública"
+        },
+        {
+          "code": "27",
+          "paid": 1556577.22,
+          "name": "Desporto e Lazer"
+        },
+        {
+          "code": "11",
+          "paid": 1323001.74,
+          "name": "Trabalho"
+        },
+        {
+          "code": "24",
+          "paid": 788833.53,
+          "name": "Comunicações"
+        },
+        {
+          "code": "02",
+          "paid": 663759.96,
+          "name": "Judiciária"
+        },
+        {
+          "code": "20",
+          "paid": 535395.34,
+          "name": "Agricultura"
+        },
+        {
+          "code": "22",
+          "paid": 469302.15,
+          "name": "Indústria"
+        },
+        {
+          "code": "05",
+          "paid": 145830.55,
+          "name": "Defesa Nacional"
+        },
+        {
+          "code": "14",
+          "paid": 80230.4,
+          "name": "Direitos da Cidadania"
+        },
+        {
+          "code": "13",
+          "paid": 19979.05,
+          "name": "Cultura"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 36248197.01,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 33655735.74,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 13210304.86,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 5867512.63,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 5538258.13,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "paid": 5501902.42,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "paid": 3608575.48,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 2480526.27,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 2001699.86,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "paid": 1847037.94,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        },
+        {
+          "code": "3.3.50.43.00.00",
+          "paid": 1473004.14,
+          "name": "Subvenções Sociais"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 1441534.9,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.50.00.00.00",
+          "paid": 1277552.5,
+          "name": "Transferências a Instituições Privadas sem Fins Lucrativos"
+        },
+        {
+          "code": "3.3.90.41.00.00",
+          "paid": 1209039.64,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.3.90.48.00.00",
+          "paid": 1064083.9,
+          "name": "Outros Auxílios Financeiros a Pessoas Físicas"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "paid": 631460.45,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.91.00.00",
+          "paid": 621819.59,
+          "name": "Sentenças Judiciais"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "paid": 347681.64,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "4.6.90.71.00.00",
+          "paid": 293205.88,
+          "name": "Principal da Dívida Contratual Resgatado"
+        },
+        {
+          "code": "3.1.90.94.00.00",
+          "paid": 250725.41,
+          "name": "Indenizações e Restituições Trabalhistas"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "paid": 148438.7,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.1.90.03.00.00",
+          "paid": 146468.27,
+          "name": "Pensões do RPPS e do Militar"
+        },
+        {
+          "code": "3.3.70.41.00.00",
+          "paid": 101784.43,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.3.20.99.00.00",
+          "paid": 71221.91,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.50.41.00.00",
+          "paid": 47210.0,
+          "name": "Contribuições"
+        },
+        {
+          "code": "3.3.90.14.00.00",
+          "paid": 45855.0,
+          "name": "Diárias - Civil"
+        },
+        {
+          "code": "3.1.90.16.00.00",
+          "paid": 32537.38,
+          "name": "Outras Despesas Variáveis - Pessoal Civil"
+        },
+        {
+          "code": "3.3.71.00.00.00",
+          "paid": 14012.8,
+          "name": "Transferências a Consórcios Públicos mediante contrato de rateio"
+        },
+        {
+          "code": "3.1.90.99.00.00",
+          "paid": 1395.68,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "600",
+      "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+      "shortName": "SUS federal – manutenção",
+      "received": 29418326.43,
+      "paid": 29034174.94,
+      "paidFromPreviousYears": 563187.5,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 29034174.94,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 17092248.05,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 7938492.92,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 1845406.33,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 1190997.41,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 504773.76,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "paid": 256782.54,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "paid": 192816.33,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "paid": 8877.6,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 3780.0,
+          "name": "Equipamentos e Material Permanente"
+        }
+      ]
+    },
+    {
+      "code": "621",
+      "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual",
+      "shortName": "SUS estadual",
+      "received": 20326610.1,
+      "paid": 20802491.1,
+      "paidFromPreviousYears": 852557.0,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 20802491.1,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 18130587.48,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 966745.72,
+          "name": "Indenizações e Restituições"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 882683.13,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 595097.98,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 184474.8,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 24349.63,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.36.00.00",
+          "paid": 18552.36,
+          "name": "Outros Serviços de Terceiros - Pessoa Física"
+        }
+      ]
+    },
+    {
+      "code": "540",
+      "name": "Transferências do FUNDEB - Impostos e Transferências de Impostos",
+      "shortName": "FUNDEB – impostos e transferências",
+      "received": 24122228.54,
+      "paid": 19435603.01,
+      "paidFromPreviousYears": 1054283.14,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 19435603.01,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 19212056.86,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 130000.0,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 93546.15,
+          "name": "Obrigações Tributárias e Contributivas"
+        }
+      ]
+    },
+    {
+      "code": "800",
+      "name": "Recursos Vinculados ao RPPS - Fundo em Capitalização (Plano Previdenciário)",
+      "shortName": "Previdência própria (RPPS) – capitalização",
+      "received": 21779577.81,
+      "paid": 13746170.0,
+      "paidFromPreviousYears": 18528.54,
+      "functions": [
+        {
+          "code": "09",
+          "paid": 13746170.0,
+          "name": "Previdência Social"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.01.00.00",
+          "paid": 11108509.13,
+          "name": "Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares"
+        },
+        {
+          "code": "3.1.90.03.00.00",
+          "paid": 2022388.74,
+          "name": "Pensões do RPPS e do Militar"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 319410.27,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.3.90.34.00.00",
+          "paid": 113428.2,
+          "name": "Outras Despesas de Pessoal decorrentes de Contratos de Terceirização"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 96314.53,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 50732.17,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 17297.84,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.35.00.00",
+          "paid": 11160.0,
+          "name": "Serviços de Consultoria"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 4665.56,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "paid": 2263.56,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "605",
+      "name": "Assistência financeira da União destinada à complementação ao pagamento dos pisos salariais para profissionais da enfermagem.",
+      "shortName": "União – piso da enfermagem",
+      "received": 4912958.4,
+      "paid": 4728399.07,
+      "paidFromPreviousYears": 17419.24,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 4728399.07,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 4613373.85,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 113497.84,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 1527.38,
+          "name": "Obrigações Patronais"
+        }
+      ]
+    },
+    {
+      "code": "751",
+      "name": "Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP",
+      "shortName": "Iluminação pública (COSIP)",
+      "received": 2822291.03,
+      "paid": 3154636.7,
+      "paidFromPreviousYears": 2672961.33,
+      "functions": [
+        {
+          "code": "15",
+          "paid": 3154636.7,
+          "name": "Urbanismo"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 2908341.47,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 130825.23,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 115470.0,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "550",
+      "name": "Transferência do Salário-Educação",
+      "shortName": "Salário-Educação",
+      "received": 1650229.37,
+      "paid": 2330812.03,
+      "paidFromPreviousYears": 935897.16,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 2330812.03,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 948183.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 937248.61,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 220355.42,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 185230.0,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.40.00.00",
+          "paid": 35035.0,
+          "name": "Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "paid": 4760.0,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "705",
+      "name": "Transferências dos Estados Referentes a Compensações Financeiras pela Exploração de Recursos Naturais",
+      "shortName": "Royalties – Estado",
+      "received": 884131.78,
+      "paid": 882063.85,
+      "paidFromPreviousYears": 63191.1,
+      "functions": [
+        {
+          "code": "26",
+          "paid": 319616.38,
+          "name": "Transporte"
+        },
+        {
+          "code": "15",
+          "paid": 288681.8,
+          "name": "Urbanismo"
+        },
+        {
+          "code": "18",
+          "paid": 261179.78,
+          "name": "Gestão Ambiental"
+        },
+        {
+          "code": "11",
+          "paid": 7502.55,
+          "name": "Trabalho"
+        },
+        {
+          "code": "12",
+          "paid": 4522.0,
+          "name": "Educação"
+        },
+        {
+          "code": "04",
+          "paid": 561.34,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 784906.16,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "paid": 43654.1,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 26819.7,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 18620.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 7502.55,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 561.34,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "571",
+      "name": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+      "shortName": "Convênios estaduais – educação",
+      "received": 1353528.08,
+      "paid": 679137.25,
+      "paidFromPreviousYears": 637640.33,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 679137.25,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 540975.0,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 86908.66,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 51253.59,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "899",
+      "name": "Outros Recursos Vinculados",
+      "shortName": "Outros recursos vinculados",
+      "received": 115785.18,
+      "paid": 652375.3,
+      "paidFromPreviousYears": 612351.3,
+      "functions": [
+        {
+          "code": "18",
+          "paid": 558383.0,
+          "name": "Gestão Ambiental"
+        },
+        {
+          "code": "15",
+          "paid": 89468.3,
+          "name": "Urbanismo"
+        },
+        {
+          "code": "08",
+          "paid": 4524.0,
+          "name": "Assistência Social"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 558383.0,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "4.4.90.30.00.00",
+          "paid": 89468.3,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 4500.0,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 24.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "710",
+      "name": "Transferência Especial dos Estados",
+      "shortName": "Transferência especial do Estado",
+      "received": 200352.76,
+      "paid": 586738.07,
+      "paidFromPreviousYears": 519420.94,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 486227.72,
+          "name": "Educação"
+        },
+        {
+          "code": "10",
+          "paid": 52455.35,
+          "name": "Saúde"
+        },
+        {
+          "code": "18",
+          "paid": 48000.0,
+          "name": "Gestão Ambiental"
+        },
+        {
+          "code": "04",
+          "paid": 55.0,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 385112.67,
+          "name": "A Classificar"
+        },
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 129500.0,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 49061.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 23064.4,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "660",
+      "name": "Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS",
+      "shortName": "Assistência social – fundo nacional (FNAS)",
+      "received": 381690.37,
+      "paid": 525036.95,
+      "paidFromPreviousYears": 266395.75,
+      "functions": [
+        {
+          "code": "08",
+          "paid": 525036.95,
+          "name": "Assistência Social"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.04.00.00",
+          "paid": 210125.46,
+          "name": "Contratação por Tempo Determinado"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 137371.25,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 104033.9,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.32.00.00",
+          "paid": 48533.34,
+          "name": "Material, Bem ou Serviço para Distribuição Gratuita"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 24973.0,
+          "name": "Equipamentos e Material Permanente"
+        }
+      ]
+    },
+    {
+      "code": "700",
+      "name": "Outras Transferências de Convênios ou Instrumentos Congêneres da União",
+      "shortName": "Convênios com a União",
+      "received": 482469.57,
+      "paid": 482469.57,
+      "paidFromPreviousYears": 0.0,
+      "functions": [
+        {
+          "code": "04",
+          "paid": 482469.57,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.20.99.00.00",
+          "paid": 482469.57,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "552",
+      "name": "Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)",
+      "shortName": "FNDE – alimentação escolar (PNAE)",
+      "received": 454963.59,
+      "paid": 478511.56,
+      "paidFromPreviousYears": 22100.09,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 478511.56,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 478511.56,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "755",
+      "name": "Recursos de Alienação de Bens/Ativos - Administração Direta",
+      "shortName": "Venda de bens (alienação)",
+      "received": 1100035.79,
+      "paid": 418779.58,
+      "paidFromPreviousYears": 0.0,
+      "functions": [
+        {
+          "code": "22",
+          "paid": 418767.58,
+          "name": "Indústria"
+        },
+        {
+          "code": "04",
+          "paid": 12.0,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 418767.58,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 12.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "541",
+      "name": "Transferências do FUNDEB - Complementação da União - VAAF",
+      "shortName": "FUNDEB – complementação da União (VAAF)",
+      "received": 216660.56,
+      "paid": 348670.08,
+      "paidFromPreviousYears": 157580.01,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 348670.08,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 348670.08,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "752",
+      "name": "Recursos Vinculados ao Trânsito",
+      "shortName": "Trânsito",
+      "received": 61463.77,
+      "paid": 336469.15,
+      "paidFromPreviousYears": 277002.15,
+      "functions": [
+        {
+          "code": "15",
+          "paid": 336469.15,
+          "name": "Urbanismo"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 336469.15,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "601",
+      "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Estruturação da Rede de Serviços Públicos de Saúde",
+      "shortName": "SUS federal – estruturação da rede",
+      "received": 92606.7,
+      "paid": 300662.06,
+      "paidFromPreviousYears": 300651.06,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 300662.06,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 296918.7,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 3732.36,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 11.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "706",
+      "name": "Transferência Especial da União",
+      "shortName": "Transferência especial da União (emendas Pix)",
+      "received": 4636819.3,
+      "paid": 286317.31,
+      "paidFromPreviousYears": 166039.74,
+      "functions": [
+        {
+          "code": "04",
+          "paid": 150105.43,
+          "name": "Administração"
+        },
+        {
+          "code": "08",
+          "paid": 90406.43,
+          "name": "Assistência Social"
+        },
+        {
+          "code": "12",
+          "paid": 45805.45,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.20.99.00.00",
+          "paid": 150105.43,
+          "name": "A Classificar"
+        },
+        {
+          "code": "4.4.90.52.00.00",
+          "paid": 86500.0,
+          "name": "Equipamentos e Material Permanente"
+        },
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 45805.45,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 3906.43,
+          "name": "Indenizações e Restituições"
+        }
+      ]
+    },
+    {
+      "code": "715",
+      "name": "Transferências Destinadas ao Setor Cultural - LC nº 195/2022 – Art. 5º - Audiovisual",
+      "shortName": "Lei Paulo Gustavo – audiovisual",
+      "received": 10607.55,
+      "paid": 224687.97,
+      "paidFromPreviousYears": 214080.42,
+      "functions": [
+        {
+          "code": "04",
+          "paid": 224687.97,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 224687.97,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "602",
+      "name": "Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Federal - Bloco de Manutenção das Ações e Serviços Públicos de Saúde – Recursos destinados ao enfrentamento da COVID-19 no bojo da ação 21C0.",
+      "shortName": "SUS federal – manutenção (COVID-19)",
+      "received": 0.0,
+      "paid": 132405.15,
+      "paidFromPreviousYears": 132405.15,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 132405.15,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 132405.15,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "632",
+      "name": "Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde",
+      "shortName": "Convênios estaduais – saúde",
+      "received": 7399.2,
+      "paid": 128304.92,
+      "paidFromPreviousYears": 120905.72,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 128304.92,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 112308.2,
+          "name": "A Classificar"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 15996.72,
+          "name": "Indenizações e Restituições"
+        }
+      ]
+    },
+    {
+      "code": "716",
+      "name": "Transferências Destinadas ao Setor cultural - LC nº 195/2022 – Art. 8º - Demais Setores da Cultura",
+      "shortName": "Lei Paulo Gustavo – demais setores culturais",
+      "received": 4296.98,
+      "paid": 91018.05,
+      "paidFromPreviousYears": 86721.07,
+      "functions": [
+        {
+          "code": "04",
+          "paid": 91018.05,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.30.99.00.00",
+          "paid": 91018.05,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "753",
+      "name": "Recursos Provenientes de Taxas, Contribuições e Preços Públicos",
+      "shortName": "Taxas, contribuições e preços públicos",
+      "received": 67824.92,
+      "paid": 80896.46,
+      "paidFromPreviousYears": 9804.41,
+      "functions": [
+        {
+          "code": "10",
+          "paid": 80896.46,
+          "name": "Saúde"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.11.00.00",
+          "paid": 61147.74,
+          "name": "Vencimentos e Vantagens Fixas - Pessoal Civil"
+        },
+        {
+          "code": "3.1.90.13.00.00",
+          "paid": 10787.77,
+          "name": "Obrigações Patronais"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 8424.83,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 358.92,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        },
+        {
+          "code": "3.3.90.93.00.00",
+          "paid": 177.2,
+          "name": "Indenizações e Restituições"
+        }
+      ]
+    },
+    {
+      "code": "750",
+      "name": "Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE",
+      "shortName": "CIDE",
+      "received": 64823.31,
+      "paid": 70761.77,
+      "paidFromPreviousYears": 2596.22,
+      "functions": [
+        {
+          "code": "26",
+          "paid": 70461.77,
+          "name": "Transporte"
+        },
+        {
+          "code": "11",
+          "paid": 300.0,
+          "name": "Trabalho"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 59800.0,
+          "name": "Obras e Instalações"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 10661.77,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 300.0,
+          "name": "Obrigações Tributárias e Contributivas"
+        }
+      ]
+    },
+    {
+      "code": "708",
+      "name": "Transferência da União Referente à Compensação Financeira de Recursos Minerais",
+      "shortName": "Compensação mineral (CFEM)",
+      "received": 33984.81,
+      "paid": 44211.54,
+      "paidFromPreviousYears": 0.0,
+      "functions": [
+        {
+          "code": "18",
+          "paid": 44211.54,
+          "name": "Gestão Ambiental"
+        }
+      ],
+      "elements": [
+        {
+          "code": "4.4.90.51.00.00",
+          "paid": 44211.54,
+          "name": "Obras e Instalações"
+        }
+      ]
+    },
+    {
+      "code": "661",
+      "name": "Transferência de Recursos dos Fundos Estaduais de Assistência Social",
+      "shortName": "Assistência social – fundo estadual",
+      "received": 2352.18,
+      "paid": 39043.46,
+      "paidFromPreviousYears": 39043.46,
+      "functions": [
+        {
+          "code": "08",
+          "paid": 39043.46,
+          "name": "Assistência Social"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.04.00.00",
+          "paid": 26366.4,
+          "name": "Contratação por Tempo Determinado"
+        },
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 10877.06,
+          "name": "Material de Consumo"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 1800.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "553",
+      "name": "Transferências de Recursos do FNDE Referentes ao Programa Nacional de Apoio ao Transporte Escolar (PNATE)",
+      "shortName": "FNDE – transporte escolar (PNATE)",
+      "received": 55490.46,
+      "paid": 33180.0,
+      "paidFromPreviousYears": 33180.0,
+      "functions": [
+        {
+          "code": "12",
+          "paid": 33180.0,
+          "name": "Educação"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.30.00.00",
+          "paid": 33180.0,
+          "name": "Material de Consumo"
+        }
+      ]
+    },
+    {
+      "code": "501",
+      "name": "Outros Recursos não Vinculados",
+      "shortName": "Outros recursos livres",
+      "received": 41610.44,
+      "paid": 28756.14,
+      "paidFromPreviousYears": 392.52,
+      "functions": [
+        {
+          "code": "02",
+          "paid": 28756.14,
+          "name": "Judiciária"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.1.90.99.00.00",
+          "paid": 28756.14,
+          "name": "A Classificar"
+        }
+      ]
+    },
+    {
+      "code": "749",
+      "name": "Outras vinculações de transferências",
+      "shortName": "Outras transferências vinculadas",
+      "received": 384970.58,
+      "paid": 3740.52,
+      "paidFromPreviousYears": 0.0,
+      "functions": [
+        {
+          "code": "11",
+          "paid": 3728.52,
+          "name": "Trabalho"
+        },
+        {
+          "code": "04",
+          "paid": 12.0,
+          "name": "Administração"
+        }
+      ],
+      "elements": [
+        {
+          "code": "3.3.90.47.00.00",
+          "paid": 3728.52,
+          "name": "Obrigações Tributárias e Contributivas"
+        },
+        {
+          "code": "3.3.90.39.00.00",
+          "paid": 12.0,
+          "name": "Outros Serviços de Terceiros - Pessoa Jurídica"
+        }
+      ]
+    },
+    {
+      "code": "570",
+      "name": "Transferências do Governo Federal referentes a Convênios e Instrumentos Congêneres vinculados à Educação",
+      "shortName": "Convênios federais – educação",
+      "received": 13126.65,
+      "paid": 0.0,
+      "paidFromPreviousYears": 0.0,
+      "functions": [],
+      "elements": []
+    }
+  ],
+  "sourceUrl": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/msc_orcamentaria?id_ente=5214507&an_referencia=2024&me_referencia=12&co_tipo_matriz=MSCC&classe_conta=6&id_tv=ending_balance",
+  "source": {
+    "level": "MUNICIPAL",
+    "system": "SICONFI_MSC"
+  },
+  "reconciliation": {
+    "reference": "DCA",
+    "matches": true,
+    "differences": {
+      "committed": 0.0,
+      "liquidated": 0.0,
+      "paid": 0.0
+    }
+  }
+}
