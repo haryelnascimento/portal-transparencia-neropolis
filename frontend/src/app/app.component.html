@@ -1,0 +1,30 @@
+@if (summary$ | async; as summary) {
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="Início"><span class="brand-mark"><i></i><i></i><i></i></span><span>TRANSPARÊNCIA<small>NERÓPOLIS · GO</small></span></a>
+  <nav [class.open]="menuOpen"><a class="active" href="#inicio">Visão geral</a><a href="#recursos">Recursos</a><a href="#execucao">Execução</a><a href="#obras">Obras</a><a href="#sobre">Sobre os dados</a></nav>
+  <button class="search" aria-label="Pesquisar"><span>⌕</span> Pesquisar</button><button class="menu" (click)="menuOpen = !menuOpen" aria-label="Abrir menu">☰</button>
+</header>
+<main id="inicio">
+  <section class="hero">
+    <div class="hero-copy"><span class="eyebrow"><i></i> DADOS PÚBLICOS, ACESSÍVEIS A TODOS</span><h1>O dinheiro público de<br><em>Nerópolis, às claras.</em></h1><p>Acompanhe de onde vêm os recursos, quanto foi recebido e como cada real está sendo aplicado no município.</p><div class="hero-actions"><a class="primary" href="#recursos">Explorar recursos <b>→</b></a><a class="secondary" href="#sobre">Como funciona <b>↗</b></a></div></div>
+    <div class="hero-art" aria-hidden="true"><div class="orb"><div class="city">Nerópolis<small>Goiás · Brasil</small></div><div class="pin">●</div></div><span class="tag tag-one">5214507 <small>Código IBGE</small></span><span class="tag tag-two">100% <small>Dados rastreáveis</small></span></div>
+  </section>
+
+  <section class="snapshot" id="recursos">
+    <div class="section-title"><div><span class="eyebrow">PANORAMA DOS RECURSOS</span><h2>Quanto chegou a Nerópolis?</h2></div><p>Valores consolidados das fontes federais disponíveis.</p></div>
+    <div class="cards">
+      <article class="metric featured"><span class="icon">↓</span><small>TOTAL RECEBIDO</small><strong>{{ format(summary.totals.received) }}</strong><footer><span>↗ Recursos transferidos</span><i></i></footer></article>
+      <article class="metric"><span class="icon amber">▤</span><small>EMPENHADO</small><strong>{{ format(summary.totals.committed) }}</strong><footer><span>{{ percentage(summary.totals.committed, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.committed, summary.totals.received)"></i></div></footer></article>
+      <article class="metric"><span class="icon blue">◫</span><small>LIQUIDADO</small><strong>{{ format(summary.totals.liquidated) }}</strong><footer><span>{{ percentage(summary.totals.liquidated, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.liquidated, summary.totals.received)"></i></div></footer></article>
+      <article class="metric"><span class="icon purple">✓</span><small>TOTAL PAGO</small><strong>{{ format(summary.totals.paid) }}</strong><footer><span>{{ percentage(summary.totals.paid, summary.totals.received) }}% do recebido</span><div class="bar"><i [style.width.%]="percentage(summary.totals.paid, summary.totals.received)"></i></div></footer></article>
+    </div>
+  </section>
+
+  <section class="flow" id="execucao"><div class="section-title"><div><span class="eyebrow">DO REPASSE À ENTREGA</span><h2>Acompanhe o caminho do recurso</h2></div><p>Conectamos diferentes bases para você entender toda a jornada.</p></div><div class="steps"><div><b>01</b><span>◎</span><strong>Origem</strong><small>Governo Federal</small></div><i>→</i><div><b>02</b><span>↓</span><strong>Transferência</strong><small>Recurso recebido</small></div><i>→</i><div><b>03</b><span>▤</span><strong>Execução</strong><small>Empenho e pagamento</small></div><i>→</i><div><b>04</b><span>⌂</span><strong>Resultado</strong><small>Obra ou serviço</small></div></div></section>
+
+  <section class="latest" id="obras"><div class="section-title"><div><span class="eyebrow">RECURSOS EM DESTAQUE</span><h2>Movimentações recentes</h2></div><a href="#recursos">Ver todos os recursos →</a></div><div class="table-wrap"><table><thead><tr><th>Recurso / finalidade</th><th>Órgão de origem</th><th>Tipo</th><th>Recebido</th><th>Situação</th><th></th></tr></thead><tbody>@for (item of transfers$ | async; track item.id) {<tr><td><strong>{{ item.title }}</strong><small>{{ item.purpose }}</small></td><td>{{ item.agency }}</td><td><span class="pill">{{ item.type }}</span></td><td><strong>{{ format(item.transferred) }}</strong></td><td><span class="status"><i></i>{{ item.status }}</span></td><td><a [href]="item.sourceUrl" target="_blank" aria-label="Abrir fonte">↗</a></td></tr>}</tbody></table></div></section>
+
+  <section class="trust" id="sobre"><div><span class="eyebrow light">TRANSPARÊNCIA DE VERDADE</span><h2>Dados com origem.<br>Informação com contexto.</h2></div><p>Todo número exibido pode ser rastreado até sua fonte pública original. O código, o processo de coleta e as transformações também são abertos.</p><ul><li><b>✓</b><span><strong>Fontes oficiais</strong><small>Dados de portais governamentais</small></span></li><li><b>✓</b><span><strong>Atualização periódica</strong><small>Coleta automatizada e auditável</small></span></li><li><b>✓</b><span><strong>Código aberto</strong><small>Metodologia disponível no GitHub</small></span></li></ul></section>
+</main>
+<footer class="footer"><div class="brand"><span class="brand-mark"><i></i><i></i><i></i></span><span>TRANSPARÊNCIA<small>NERÓPOLIS · GO</small></span></div><p>Um projeto cívico independente. Não possui vínculo oficial com a Prefeitura de Nerópolis.</p><span>Atualizado em {{ summary.updatedAt | date:'dd/MM/yyyy':'UTC' }} · Fontes oficiais ↗</span></footer>
+}
