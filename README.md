@@ -4,6 +4,15 @@ Portal cívico independente para tornar rastreáveis e compreensíveis os recurs
 
 > **Versão de homologação.** Os dados são reais, coletados do SICONFI (Tesouro Nacional) e do Transferegov, mas ainda estão em validação. Não substituem o portal oficial da Prefeitura.
 
+O portal vai do geral ao específico: cada número da visão geral é clicável e leva ao próximo nível, até o menor detalhe publicado pelas fontes. Termos técnicos têm um ícone ⓘ com explicação em linguagem simples e um [glossário](frontend/src/app/core/glossary.ts) completo.
+
+```text
+Visão geral → Receitas por origem → União → SUS → blocos de repasse
+            → Despesas por área → Saúde → Atenção Básica (+ emendas ligadas à área)
+            → Despesas por tipo → Outras Despesas Correntes → Serviços de Terceiros – PJ
+            → Emendas → emenda → indicação, empenho, repasse, orçamento municipal, metas, prestação de contas
+```
+
 O que o portal mostra hoje:
 
 - receitas de 2020 em diante por origem (União, Estado, FUNDEB, arrecadação própria) e principais impostos/repasses;

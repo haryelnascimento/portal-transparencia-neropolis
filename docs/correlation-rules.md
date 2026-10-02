@@ -6,6 +6,12 @@ Correlações indiretas devem registrar estratégia e confiança, nunca sendo ap
 
 - Emenda ↔ empenho ↔ documento hábil ↔ ordem bancária: chaves `id_plano_acao`, `id_empenho`, `id_dh` do próprio Transferegov.
 
+## Emenda → área de governo (estratégia `work-plan-function`, confiança 0.9)
+
+O plano de trabalho do Transferegov traz, em texto livre, a classificação orçamentária declarada pela Prefeitura (órgão, unidade, função, subfunção, programa, ação, elemento e fonte). O ETL extrai a **função** e a liga à função da DCA **pelo nome normalizado** (sem acentos e caixa). O código não é usado porque o texto às vezes traz códigos inconsistentes — ex.: plano 70089 declara `000051 - Urbanismo`, cujo código nacional é `15`.
+
+O portal mostra esse vínculo na página da área ("Emendas destinadas a esta área") e na emenda, com o ícone explicativo de vínculo entre bases. Quando a área indicada pelo parlamentar difere da classificação municipal (ex.: lago municipal indicado como Urbanismo e classificado em Desporto e Lazer), a divergência é exibida.
+
 ## Conciliação SICONFI × Transferegov (em aberto)
 
 A receita "Transferência Especial da União" declarada na DCA deveria bater com as ordens bancárias do Transferegov no mesmo ano:
