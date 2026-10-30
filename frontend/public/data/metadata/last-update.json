@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-29T06:30:17Z",
-  "finishedAt": "2026-10-29T06:30:45Z",
+  "startedAt": "2026-10-30T06:29:50Z",
+  "finishedAt": "2026-10-30T06:30:17Z",
   "status": "SUCCESS",
   "sources": {
     "siconfi": {
@@ -8,14 +8,14 @@
       "records": 6,
       "newRecords": 0,
       "durationSeconds": 15.0,
-      "lastSuccessAt": "2026-10-29T06:30:32Z"
+      "lastSuccessAt": "2026-10-30T06:30:05Z"
     },
     "transferegov": {
       "status": "SUCCESS",
       "records": 5,
       "newRecords": 0,
-      "durationSeconds": 13.4,
-      "lastSuccessAt": "2026-10-29T06:30:45Z"
+      "durationSeconds": 11.7,
+      "lastSuccessAt": "2026-10-30T06:30:17Z"
     },
     "transparencia": {
       "status": "SKIPPED",
