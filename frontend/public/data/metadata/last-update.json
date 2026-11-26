@@ -1,20 +1,18 @@
 {
-  "startedAt": "2026-11-25T06:28:37Z",
-  "finishedAt": "2026-11-25T06:29:09Z",
-  "status": "SUCCESS",
+  "startedAt": "2026-11-26T06:28:17Z",
+  "finishedAt": "2026-11-26T06:29:23Z",
+  "status": "PARTIAL",
   "sources": {
     "siconfi": {
       "status": "SUCCESS",
       "records": 6,
       "newRecords": 0,
-      "durationSeconds": 20.9,
-      "lastSuccessAt": "2026-11-25T06:28:58Z"
+      "durationSeconds": 18.6,
+      "lastSuccessAt": "2026-11-26T06:28:36Z"
     },
     "transferegov": {
-      "status": "SUCCESS",
-      "records": 5,
-      "newRecords": 0,
-      "durationSeconds": 10.6,
+      "status": "FAILED",
+      "message": "HTTP Error 503: Service Unavailable",
       "lastSuccessAt": "2026-11-25T06:29:09Z"
     },
     "transparencia": {
