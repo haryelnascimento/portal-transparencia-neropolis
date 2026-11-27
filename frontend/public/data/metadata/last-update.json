@@ -1,14 +1,14 @@
 {
-  "startedAt": "2026-11-26T06:28:17Z",
-  "finishedAt": "2026-11-26T06:29:23Z",
+  "startedAt": "2026-11-27T06:28:10Z",
+  "finishedAt": "2026-11-27T06:29:15Z",
   "status": "PARTIAL",
   "sources": {
     "siconfi": {
       "status": "SUCCESS",
       "records": 6,
       "newRecords": 0,
-      "durationSeconds": 18.6,
-      "lastSuccessAt": "2026-11-26T06:28:36Z"
+      "durationSeconds": 18.2,
+      "lastSuccessAt": "2026-11-27T06:28:29Z"
     },
     "transferegov": {
       "status": "FAILED",
